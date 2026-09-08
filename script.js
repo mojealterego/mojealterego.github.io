@@ -1,0 +1,7 @@
+const menuToggle=document.getElementById('menuToggle');const mobileMenu=document.getElementById('mobileMenu');const progress=document.getElementById('scrollProgress');
+function closeMenu(){mobileMenu.classList.remove('open');mobileMenu.setAttribute('aria-hidden','true');menuToggle.setAttribute('aria-expanded','false')}
+menuToggle?.addEventListener('click',()=>{const open=!mobileMenu.classList.contains('open');mobileMenu.classList.toggle('open',open);mobileMenu.setAttribute('aria-hidden',String(!open));menuToggle.setAttribute('aria-expanded',String(open))});
+mobileMenu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+window.addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=`${max>0?(window.scrollY/max)*100:0}%`},{passive:true});
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.animate([{opacity:0,transform:'translateY(22px)'},{opacity:1,transform:'translateY(0)'}],{duration:650,easing:'cubic-bezier(.2,.7,.2,1)',fill:'forwards'});revealObserver.unobserve(entry.target)}}),{threshold:.08});
+document.querySelectorAll('.area-card,.project,.statement blockquote,.contact-card').forEach(el=>{el.style.opacity='0';revealObserver.observe(el)});
