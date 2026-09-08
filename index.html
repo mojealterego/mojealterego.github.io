@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07080d" />
+  <meta name="description" content="MojeAlterEgo — nowoczesna przestrzeń cyfrowa dla projektów, technologii, fotografii i eksperymentów." />
+  <meta property="og:title" content="MojeAlterEgo" />
+  <meta property="og:description" content="Technologia, obraz, AI i eksperymenty cyfrowe w jednym miejscu." />
+  <meta property="og:type" content="website" />
+  <title>MojeAlterEgo — Digital Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="MojeAlterEgo — strona główna">
+      <span class="brand-mark">M</span>
+      <span class="brand-word">Moje<span>AlterEgo</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Główna nawigacja">
+      <a href="#o-mnie">Profil</a>
+      <a href="#obszary">Obszary</a>
+      <a href="#projekty">Projekty</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Otwórz menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#o-mnie">Profil</a>
+    <a href="#obszary">Obszary</a>
+    <a href="#projekty">Projekty</a>
+    <a href="#kontakt">Kontakt</a>
+  </div>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> DIGITAL ATELIER / 2026</p>
+        <h1>Tworzę rzeczy,<br><em>które mają charakter.</em></h1>
+        <p class="hero-lead">Technologia, obraz, sztuczna inteligencja i eksperymenty cyfrowe połączone w jeden autorski ekosystem.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projekty">Zobacz projekty <span>↗</span></a>
+          <a class="button button-ghost" href="#kontakt">Porozmawiajmy</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="orb orb-c"></div>
+        <div class="visual-grid"></div>
+        <div class="visual-card">
+          <span class="card-kicker">CURRENT_STATE</span>
+          <strong>BUILD / EXPLORE / ITERATE</strong>
+          <small>Everything starts with a better question.</small>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <span>PL / EU</span>
+        <span>AVAILABLE FOR SELECTED PROJECTS</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+      </div>
+    </section>
+
+    <section class="intro section-shell" id="o-mnie">
+      <div class="section-index">01 / PROFIL</div>
+      <div class="intro-grid">
+        <h2>Nie buduję kolejnych<br><span>„takich samych”</span> rzeczy.</h2>
+        <div class="intro-body">
+          <p>MojeAlterEgo to osobiste laboratorium. Miejsce, w którym wizualność spotyka inżynierię, a pomysł może przejść od szkicu do działającego produktu.</p>
+          <p>Projektuję doświadczenia z myślą o szczegółach: rytmie, typografii, interakcji, wydajności i tym jednym momencie, w którym użytkownik mówi: <strong>„to jest inne”.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="areas section-shell" id="obszary">
+      <div class="section-index">02 / OBSZARY</div>
+      <div class="areas-list">
+        <article class="area-card">
+          <span class="area-no">01</span><h3>Digital<br>Craft</h3>
+          <p>Strony, interfejsy i doświadczenia cyfrowe projektowane od zera.</p>
+          <span class="area-arrow">↗</span>
+        </article>
+        <article class="area-card featured">
+          <span class="area-no">02</span><h3>AI<br>Systems</h3>
+          <p>Agenci, automatyzacje i inteligentne systemy łączące modele z realnymi narzędziami.</p>
+          <span class="area-arrow">↗</span>
+        </article>
+        <article class="area-card">
+          <span class="area-no">03</span><h3>Visual<br>Worlds</h3>
+          <p>Fotografia, kierunek artystyczny i generatywna kreacja obrazu.</p>
+          <span class="area-arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projekty">
+      <div class="section-index">03 / PROJEKTY</div>
+      <div class="projects-head">
+        <h2>Wybrane<br><em>eksperymenty.</em></h2>
+        <p>Nie katalog. Wybrane przykłady sposobu myślenia: od produktu mobilnego po systemy agentowe i eksperymentalne formy wizualne.</p>
+      </div>
+      <div class="project-stack">
+        <a class="project project-one" href="https://github.com/mojealterego" target="_blank" rel="noreferrer">
+          <div class="project-art art-one"><span>01</span><div class="art-lines"></div></div>
+          <div class="project-info"><span>AI / SYSTEMS</span><h3>Agentic<br>Architecture</h3><p>Projektowanie systemów, w których AI nie jest dodatkiem, tylko warstwą operacyjną.</p><b>Explore ↗</b></div>
+        </a>
+        <a class="project project-two" href="https://github.com/mojealterego" target="_blank" rel="noreferrer">
+          <div class="project-art art-two"><span>02</span><div class="art-circle"></div></div>
+          <div class="project-info"><span>MOBILE / PRODUCT</span><h3>Tools that<br>feel alive</h3><p>Mobilne interfejsy z naciskiem na szybkość, hierarchię informacji i detal.</p><b>Explore ↗</b></div>
+        </a>
+        <a class="project project-three" href="https://github.com/mojealterego" target="_blank" rel="noreferrer">
+          <div class="project-art art-three"><span>03</span><div class="art-slice"></div></div>
+          <div class="project-info"><span>VISUAL / IMAGE</span><h3>Light<br>as language</h3><p>Eksperymenty na styku fotografii, światła, materiału i generatywnej estetyki.</p><b>Explore ↗</b></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="statement section-shell">
+      <div class="statement-mark">“</div>
+      <blockquote>Najlepszy interfejs nie walczy o uwagę.<br><em>On prowadzi ją we właściwe miejsce.</em></blockquote>
+      <div class="statement-line"></div>
+    </section>
+
+    <section class="contact section-shell" id="kontakt">
+      <div class="section-index">04 / KONTAKT</div>
+      <div class="contact-grid">
+        <div><p class="eyebrow">START A CONVERSATION</p><h2>Masz pomysł?<br><em>Zróbmy z niego coś realnego.</em></h2></div>
+        <div class="contact-card">
+          <p>Najlepiej zacząć od kilku zdań: co chcesz stworzyć, dla kogo i co ma być inne.</p>
+          <a href="mailto:hello@mojealterego.pl" class="mail-link">hello@mojealterego.pl <span>↗</span></a>
+          <div class="contact-links"><a href="https://github.com/mojealterego" target="_blank" rel="noreferrer">GitHub</a><a href="#top">Back to top ↑</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© 2026 MojeAlterEgo</span><span>BUILT WITH CURIOSITY</span><span>PL / EU</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
