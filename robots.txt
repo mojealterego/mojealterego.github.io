@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mojealterego.github.io/sitemap.xml
