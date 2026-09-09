@@ -1,8 +1,9 @@
 import React,{useEffect,useState} from 'react'
 import {createRoot} from 'react-dom/client'
 import './styles.css'
-import {AboutPage,BooksPage,Section,Cards} from './routes.jsx'
+import {AboutPage,Section,Cards} from './routes.jsx'
 import {RelationshipPage} from './RelationshipPage.jsx'
+import {BooksPage} from './BooksPage.jsx'
 const nav=[['O MNIE','/o-mnie.html'],['RELATIONSHIP','/relationship.html'],['FOTOGRAFIA','/fotografia.html'],['KSIĄŻKI','/ksiazki.html'],['FILM','/zwiastuny.html'],['MASAŻE','/masaze.html'],['APLIKACJE','/aplikacje.html'],['AGENCI','/agenci.html'],['PROJEKTY','/projekty.html']]
 function Menu({open,onClose}){if(!open)return null;return <div className="menu-overlay" role="dialog" aria-modal="true"><button className="menu-close" onClick={onClose}>×</button><div className="menu-grid"><div>{nav.slice(0,4).map(([l,h])=><a key={h} href={h}>{l}</a>)}</div><div>{nav.slice(4).map(([l,h])=><a key={h} href={h}>{l}</a>)}</div></div><div className="menu-foot"><a href="/publikacje.html">PUBLIKACJE</a><a href="/nagrody.html">NAGRODY</a><a href="/kontakt.html">KONTAKT</a></div></div>}
 function Header({onMenu}){const[compact,setCompact]=useState(false);useEffect(()=>{const f=()=>setCompact(scrollY>48);addEventListener('scroll',f,{passive:true});f();return()=>removeEventListener('scroll',f)},[]);return <header className={`site-nav ${compact?'compact':''}`}><a href="/" className="brand"><img src="/assets/logo-master.svg" alt="Andrzej Mikulski — MojeAlterego"/></a><button className="menu-trigger" onClick={onMenu}>MENU <span>↗</span></button></header>}
@@ -18,7 +19,7 @@ const pages={
  '/publikacje.html':['13','MEDIA · DATA · PUBLICATIONS','Publikacje.','Archiwum publikacji, wywiadów i materiałów medialnych.'],
  '/nagrody.html':['14','AWARDS · FIAP · AFRP · ACHIEVEMENTS','Nagrody i osiągnięcia.','Dokumentacja tytułów, medali, konkursów i wyróżnień.'],
  '/kontakt.html':['15','MOJEALTEREGO · KONTAKT','Kontakt.','W jakiej sprawie chcesz się skontaktować?'],
- '/warsztaty-fotograficzne.html':['16','FOTOGRAFIA · EDUKACJA · WARSZTATY','Warsztaty fotograficzne.','Warsztaty i praca nad świadomym patrzeniem, kompozycją oraz językiem obrazu.'],
+ '/warsztaty-fotograficzne.html':['16','FOTOGRAFIA · EDUKACJA · WARSZTATY','Warsztaty fotograficzne.','Warsztaty i praca nad świadomym patrzeniem, kompozycją oraz językiem obrazu'],
 }
 function DataPage({path}){const p=pages[path];const cards={
  '/fotografia.html':[['REPORTAŻ','Dokumentowanie życia codziennego i wydarzeń.'],['PORTRET','Człowiek jako centrum obrazu.'],['STREET PHOTO','Obserwacja przestrzeni i codzienności.'],['DOKUMENT','Obraz jako zapis rzeczywistości.']],
