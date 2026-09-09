@@ -6,7 +6,7 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:19;opa
 .hero-inner{max-width:880px}.hero h1{font-size:clamp(64px,9.5vw,150px);letter-spacing:-.045em}.hero .lead{max-width:680px}
 .hero .actions .btn-gold{display:none}.hero .actions .btn-line{border-color:rgba(213,164,71,.7);padding-inline:22px}.hero .actions .btn-line:after{content:"";width:28px;height:1px;background:currentColor;display:inline-block;transition:width .45s var(--am-ease)}.hero .actions .btn-line:hover:after{width:64px}
 .world-entry{display:inline-flex;align-items:center;gap:16px;margin-top:34px;color:var(--am-white);text-decoration:none;text-transform:uppercase;letter-spacing:.18em;font-size:10px}.world-entry:before{content:"";width:42px;height:1px;background:var(--am-gold);transition:width .45s var(--am-ease)}.world-entry:hover:before{width:82px}
-.world-entry span{opacity:.8}.section{scroll-margin-top:80px}.section,.card,.domain-card,.timeline-item,.media-item,.metric,.project-card{transition:opacity .8s var(--am-ease),transform .8s var(--am-ease)}
+.section{scroll-margin-top:80px}.section,.card,.domain-card,.timeline-item,.media-item,.metric,.project-card{transition:opacity .8s var(--am-ease),transform .8s var(--am-ease)}
 .reveal{opacity:0;transform:translateY(22px)}.reveal.in{opacity:1;transform:none}
 .nav.scrolled{background:rgba(5,5,5,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(213,164,71,.09)}
 .nav-toggle{cursor:pointer}.nav.open{background:#050505}.nav.open nav{display:flex}
@@ -17,3 +17,23 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:19;opa
 @media(max-width:900px){.nav nav{display:none}.nav-toggle{display:block}.hero-side{display:none}.manifest-grid,.editorial{grid-template-columns:1fr}.domains,.cards,.book-grid,.project-grid{grid-template-columns:1fr}.numbers{grid-template-columns:1fr 1fr}.am-menu{grid-template-columns:1fr;padding-top:100px}.am-menu .am-meta{display:none}.am-experience-toggle{bottom:14px;right:14px}.hero-home{padding-inline:22px}.hero h1{font-size:clamp(58px,16vw,92px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.hero-orbit,.hero-aura{transform:none!important}.am-experience-toggle{transition:none}}
 @media(max-width:520px){.numbers{grid-template-columns:1fr}.hero h1{line-height:.86}.world-entry{margin-top:26px}.am-menu a{font-size:36px}}
+
+/* ABSOLUTE MAXIMUM / HERO — material, anonymous, cinematic */
+.hero-home{position:relative;min-height:100svh;overflow:hidden;background:#030303;display:grid;place-items:center;isolation:isolate}
+.hero-home:before{content:"";position:absolute;inset:-12%;z-index:-3;background:radial-gradient(ellipse at 50% 46%,rgba(30,28,24,.55),transparent 38%),radial-gradient(ellipse at var(--hero-light-x,62%) var(--hero-light-y,42%),rgba(213,164,71,.15),transparent 20%),linear-gradient(125deg,#020202 0%,#0b0a09 48%,#020202 100%);transform:scale(1.04);transition:background-position 1.4s ease-out}
+.hero-home:after{content:"";position:absolute;inset:-4%;z-index:-2;opacity:.42;pointer-events:none;background:repeating-linear-gradient(107deg,rgba(255,255,255,.018) 0 1px,transparent 1px 7px),radial-gradient(circle at 50% 50%,transparent 45%,rgba(0,0,0,.58) 100%);mix-blend-mode:soft-light}
+.hero-home .hero-aura{position:absolute;inset:-15%;z-index:-1;pointer-events:none;background:radial-gradient(circle at 48% 48%,transparent 0 20%,rgba(213,164,71,.035) 31%,transparent 49%),radial-gradient(circle at 74% 32%,rgba(255,255,255,.025),transparent 20%);filter:blur(12px);opacity:.9;transform:translate(0,0)}
+.hero-home .hero-orbit{position:absolute;width:min(72vw,920px);aspect-ratio:1;border:1px solid rgba(213,164,71,.075);border-radius:50%;z-index:-1;opacity:.55;box-shadow:0 0 100px rgba(213,164,71,.025) inset;transform:translate(0,0);pointer-events:none}
+.hero-inner{position:relative;z-index:2;max-width:960px;width:min(92vw,960px);text-align:center;display:flex;flex-direction:column;align-items:center;padding:110px 20px 90px}
+.hero-brand{display:block;width:min(34vw,330px);height:auto;aspect-ratio:16/9;object-fit:contain;margin:0 auto 28px;filter:drop-shadow(0 12px 38px rgba(0,0,0,.7));opacity:0;transform:translateY(8px) scale(.985);animation:heroBrandIn 1.2s .65s var(--am-ease) forwards}
+.hero-home .kicker{display:none}
+.hero h1{margin:0;font-size:clamp(30px,5vw,72px);line-height:.94;letter-spacing:.015em;text-transform:uppercase;font-weight:500;color:var(--am-white);text-shadow:0 2px 28px rgba(0,0,0,.65)}
+.hero h1 em{font-style:normal;color:var(--am-white)}
+.hero .lead{margin:26px auto 0;max-width:620px;color:rgba(243,239,231,.72);font-size:clamp(13px,1.2vw,16px);line-height:1.7;letter-spacing:.025em}
+.hero-side{position:absolute;z-index:3;left:clamp(22px,4vw,60px);bottom:34px;display:flex;flex-direction:column;gap:7px;color:rgba(243,239,231,.35);font:8px/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase}.hero-side span:first-child{color:rgba(213,164,71,.6)}
+.world-entry{margin-top:38px;gap:14px;font-size:9px;letter-spacing:.24em;position:relative}.world-entry:before{width:48px;opacity:.9}.world-entry:hover:before,.world-entry:focus-visible:before{width:92px}.world-entry:focus-visible{outline:1px solid rgba(213,164,71,.7);outline-offset:10px}.world-entry span{opacity:.9}
+.hero-home:focus-within:before{background:radial-gradient(ellipse at var(--hero-light-x,62%) var(--hero-light-y,42%),rgba(213,164,71,.16),transparent 21%),linear-gradient(125deg,#020202 0%,#0b0a09 48%,#020202 100%)}
+@keyframes heroBrandIn{to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.hero-brand{animation:none;opacity:1;transform:none}.hero-home:before{transition:none}.hero-home .hero-aura{filter:none}.hero-home .hero-orbit{opacity:.25}}
+@media(max-width:900px){.hero-inner{padding-top:90px}.hero-brand{width:min(62vw,320px);margin-bottom:22px}.hero-home .hero-orbit{width:105vw}.hero-home .hero-aura{filter:blur(18px)}}
+@media(max-width:520px){.hero-inner{padding-inline:10px}.hero-brand{width:min(78vw,300px);margin-bottom:18px}.hero h1{font-size:clamp(28px,8.8vw,44px);line-height:1}.hero .lead{margin-top:20px;font-size:12px;max-width:330px}.world-entry{margin-top:28px}.hero-side{left:16px;bottom:20px;font-size:7px}}
