@@ -10,9 +10,24 @@ const input = Object.fromEntries([
   ...legacyPages.map((name) => [name.replace(/\.html$/, ''), path.resolve(root, name)])
 ])
 
+const staticFiles = ['.nojekyll', 'manifest.webmanifest', 'sitemap.xml', 'robots.txt']
+
+function preserveStaticFiles(){
+  return {
+    name:'preserve-root-static-files',
+    closeBundle(){
+      const outDir=path.resolve(root,'dist')
+      for(const file of staticFiles){
+        const source=path.resolve(root,file)
+        if(fs.existsSync(source)) fs.copyFileSync(source,path.resolve(outDir,file))
+      }
+    },
+  }
+}
+
 export default defineConfig({
   base: '/',
-  plugins: [react()],
+  plugins: [react(), preserveStaticFiles()],
   publicDir: 'assets',
   build: {
     outDir: 'dist',
