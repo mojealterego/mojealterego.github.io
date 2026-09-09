@@ -1,7 +1,8 @@
 import React,{useEffect,useState} from 'react'
 import {createRoot} from 'react-dom/client'
 import './styles.css'
-import {AboutPage,RelationshipPage,BooksPage,Section,Cards} from './routes.jsx'
+import {AboutPage,BooksPage,Section,Cards} from './routes.jsx'
+import {RelationshipPage} from './RelationshipPage.jsx'
 const nav=[['O MNIE','/o-mnie.html'],['RELATIONSHIP','/relationship.html'],['FOTOGRAFIA','/fotografia.html'],['KSIĄŻKI','/ksiazki.html'],['FILM','/zwiastuny.html'],['MASAŻE','/masaze.html'],['APLIKACJE','/aplikacje.html'],['AGENCI','/agenci.html'],['PROJEKTY','/projekty.html']]
 function Menu({open,onClose}){if(!open)return null;return <div className="menu-overlay" role="dialog" aria-modal="true"><button className="menu-close" onClick={onClose}>×</button><div className="menu-grid"><div>{nav.slice(0,4).map(([l,h])=><a key={h} href={h}>{l}</a>)}</div><div>{nav.slice(4).map(([l,h])=><a key={h} href={h}>{l}</a>)}</div></div><div className="menu-foot"><a href="/publikacje.html">PUBLIKACJE</a><a href="/nagrody.html">NAGRODY</a><a href="/kontakt.html">KONTAKT</a></div></div>}
 function Header({onMenu}){const[compact,setCompact]=useState(false);useEffect(()=>{const f=()=>setCompact(scrollY>48);addEventListener('scroll',f,{passive:true});f();return()=>removeEventListener('scroll',f)},[]);return <header className={`site-nav ${compact?'compact':''}`}><a href="/" className="brand"><img src="/assets/logo-master.svg" alt="Andrzej Mikulski — MojeAlterego"/></a><button className="menu-trigger" onClick={onMenu}>MENU <span>↗</span></button></header>}
