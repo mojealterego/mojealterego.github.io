@@ -1,274 +1,453 @@
 # MOJEALTEREGO — DIGITAL WORLD
 
-> Source of truth for the MojeAlterego personal universe website, its content, assets, migration status, and outstanding work.
+> **PERSISTENT PROJECT LEDGER / SOURCE OF TRUTH**
+>
+> This file exists so that information supplied during the project is not dependent on chat context. Content, links, media, implementation decisions, completed work and outstanding work are recorded here.
 
-## 1. PURPOSE OF THIS FILE
+## 0. NON-NEGOTIABLE WORKING RULES
 
-This README is the persistent project ledger. It records:
-
-- content supplied by the owner;
-- titles, descriptions, links, trailers and audio materials;
-- assets received and their current handling status;
-- implementation decisions already made;
-- work completed in the repository;
-- work still remaining;
-- data that must **not** be invented;
-- known gaps and items that require source material from the owner.
-
-**Rule:** every new factual piece of content supplied for the website must be added to this README before it can be considered safely integrated into the React site.
-
-**Zero-fiction rule:** do not invent book metadata, awards, clients, reviews, social URLs, project status, repository URLs, publication data, translations, images, or other factual claims. If source material is missing, record `MISSING` rather than fabricate it.
+1. Information supplied by the owner must be persisted in this repository.
+2. Chat context is **not** the source of truth.
+3. Never claim that something was not supplied merely because it is no longer visible in the active chat context.
+4. Never invent missing titles, subtitles, descriptions, links, awards, projects, clients, reviews, social URLs, translations, statuses or assets.
+5. If a fact cannot currently be recovered, mark it `MISSING / RECOVERY REQUIRED`, not as nonexistent.
+6. Full titles and subtitles must be preserved exactly. Shortened labels must not replace canonical titles.
+7. Owner-provided descriptions are source material and must not be silently rewritten into invented marketing copy.
+8. Owner-provided media must be catalogued separately from book descriptions.
+9. Every new owner-provided content item must be added to this README before it is considered safely integrated.
 
 ---
 
-# 2. WEBSITE CONCEPT
+# 1. WEBSITE / REACT MIGRATION
 
-MOJEALTEREGO is an immersive personal digital universe, not a conventional portfolio.
+Repository: `mojealterego/mojealterego.github.io`
 
-The site has three layers:
+Production site: `https://mojealterego.github.io/`
 
-1. **PERSONA** — O mnie, fotografia, książki, Relationship, masaże.
-2. **TWÓRCZOŚĆ** — fotografia, wystawy, publikacje, film, książki, projekty.
-3. **LABORATORIUM** — applications, AI agents, projects, experiments, architectures, repositories and research.
+Branch: `main`
 
-Narrative progression:
+Architecture: React + Vite.
+
+Current migration direction:
+
+- immersive personal digital universe rather than a conventional portfolio;
+- three layers: PERSONA / TWÓRCZOŚĆ / LABORATORIUM;
+- cinematic editorial visual language;
+- original logo must remain immutable;
+- responsive desktop / tablet / mobile composition;
+- accessibility target WCAG 2.2 AA;
+- keyboard navigation and reduced-motion support;
+- SEO and structured data per page;
+- no invented content.
+
+Narrative:
 
 > Kim jest ten człowiek? → Co on właściwie tworzy? → Jak daleko sięga ten świat?
 
+Required domains:
+
+- O MNIE
+- RELATIONSHIP
+- FOTOGRAFIA
+- KSIĄŻKI
+- FILM / ZWIASTUNY / TELEDYSKI
+- MASAŻE
+- APLIKACJE
+- AGENCI
+- PROJEKTY
+- PUBLIKACJE
+- NAGRODY
+- KONTAKT
+- WARSZTATY FOTOGRAFICZNE
+
 ---
 
-# 3. BOOK MASTER REGISTER
+# 2. BOOK MASTER REGISTER
 
-## 3.1 CCR — TETRALOGIA
+## 2.1 CCR — TETRALOGIA
 
 ### 01 — CCR Tom I
-**Pełny tytuł:** `CCR Tom I — Jak przetrwać w dziwnym świecie po przeniesieniu się do alternatywnej osi czasu`
+**PEŁNY TYTUŁ:** `CCR Tom I — Jak przetrwać w dziwnym świecie po przeniesieniu się do alternatywnej osi czasu`
 
-**Trailer:** https://youtu.be/2yi7YcNuhqE?feature=shared
+**TRAILER:** `https://youtu.be/2yi7YcNuhqE?feature=shared`
 
-**Empik:** https://www.empik.com/ccr-tom-i-jak-przetrwac-w-dziwnym-swiecie-po-przeniesieniu-sie-do-alternatywnej-osi-czasu-mikulski-andrzej,p1686064571,ebooki-i-mp3-p
+**EMPIK:** `https://www.empik.com/ccr-tom-i-jak-przetrwac-w-dziwnym-swiecie-po-przeniesieniu-sie-do-alternatywnej-osi-czasu-mikulski-andrzej,p1686064571,ebooki-i-mp3-p`
 
-**Opis otrzymany od właściciela:**
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
+
 > To psychodeliczny thriller egzystencjalny, intymny pamiętnik straty i podróż przez alternatywne światy, w których światło nie tylko oświetla – ono pamięta. Fotograf z Cieszyna traci córkę i… światło zaczyna oddychać. Jedno zdjęcie otwiera pęknięcie między wymiarami: Cieszyn 2025, Chicago 2135, Neo-Paris 2345, Devil Mind 2777. Czy można odnaleźć dziecko, jeśli samemu przestaje się istnieć? Czy miłość rezonuje poza czasem? Co się stanie, gdy wspomnienia zaczną rosnąć jak żywe organizmy, a cień stanie się osobnym „ja”? To książka o ojcostwie na granicy kosmosu i rozpaczy. O świetle, które pamięta nas bardziej, niż my pamiętamy siebie. Mroczna, poetycka, totalnie oryginalna. Jeśli lubisz „Matrix”, „Interstellar”, Sapkowskiego, Dukaja, Żulczyka, i literaturę, która wykręca percepcję – to jest Twoja nowa obsesja. „Czas nie płynie — oddycha.” Przygotuj się na historię, która nie kończy się na ostatniej stronie — tylko przenosi cię dalej.
 
-**Status:** RECEIVED — title, subtitle, description, trailer and Empik link supplied.
+**STATUS:** RECEIVED — title, subtitle, description, trailer, Empik link.
 
 ### 02 — CCR Tom II
-**Pełny tytuł:** `CCR Tom II — Oś czasu w alternatywnych światach`
+**PEŁNY TYTUŁ:** `CCR Tom II — Oś czasu w alternatywnych światach`
 
-**Trailer:** https://youtu.be/x57-DYD5vUk?feature=shared
+**TRAILER:** `https://youtu.be/x57-DYD5vUk?feature=shared`
 
-**Empik:** https://www.empik.com/ccr-tom-ii-os-czasu-w-alternatywnych-swiatach-mikulski-andrzej,p1687087904,ebooki-i-mp3-p
+**EMPIK:** `https://www.empik.com/ccr-tom-ii-os-czasu-w-alternatywnych-swiatach-mikulski-andrzej,p1687087904,ebooki-i-mp3-p`
 
-**Opis otrzymany od właściciela:**
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
+
 > Kiedy świadomość przestaje należeć do jednego ciała, a światło zaczyna pamiętać człowieka lepiej niż on sam — zaczyna się podróż, której nie da się zatrzymać. Drugi tom serii CCR to wejście w głębsze warstwy równoległych rzeczywistości. Andrzej Mikulski — fotograf, operator światła i świadek pierwszych eksperymentów CCR — wraca, by zmierzyć się z własnymi odbiciami w alternatywnych osiach czasu. Cieszyn 2058, Neo-Paris 2345, Devil Mind 2777 — każde z tych miejsc jest jednocześnie wspomnieniem, błędem i nowym początkiem. W centrum tej historii wciąż pulsuje jedno pytanie: czy światło potrafi przywrócić człowieka, jeśli pamięć o nim nie zgasła? CCR – Tom II to opowieść o rezonansie świadomości, miłości silniejszej niż czas i o świecie, w którym każda myśl tworzy nową rzeczywistość. To książka dla czytelników, którzy lubią przekraczać granicę między nauką a metafizyką, realizmem a czymś, co dopiero zaczyna nabierać kształtu. Światło nie umiera. Światło tylko zmienia częstotliwość.
 
-**Status:** RECEIVED — title, subtitle, description, trailer and Empik link supplied.
+**STATUS:** RECEIVED — title, subtitle, description, trailer, Empik link.
 
 ### 03 — CCR Tom III
-**Pełny tytuł:** `CCR Tom III — Ludzie Roku — Oś 18 Świadomości`
+**PEŁNY TYTUŁ:** `CCR Tom III — Ludzie Roku — Oś 18 Świadomości`
 
-**Trailer:** https://youtu.be/sB6llID2Dmg?feature=shared
+**TRAILER:** `https://youtu.be/sB6llID2Dmg?feature=shared`
 
-**Empik:** https://www.empik.com/ccr-tom-iii-ludzie-roku-os-18-swiadomosci-mikulski-andrzej,p1687088055,ebooki-i-mp3-p
+**EMPIK:** `https://www.empik.com/ccr-tom-iii-ludzie-roku-os-18-swiadomosci-mikulski-andrzej,p1687088055,ebooki-i-mp3-p`
 
-**Opis otrzymany od właściciela:**
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
+
 > Kontynuacja epickiego cyklu, w którym czas, światło i pamięć splatają się w metafizyczną pętlę. Zapowiedź powinna akcentować eskalację skali – od osobistego dramatu do kosmicznego eksperymentu. „Światło pamięta. Czas się powtarza.” Po latach ciszy, Andrzej Mikulski powraca – już nie jako fotograf, ale operator 18 Świadomości. W trzecim tomie trylogii CCR, świat przestaje być miejscem, a staje się systemem. Kulminacja mitologii „światła jako pamięci”. Czas przestaje być linią — jest archiwum emocji, w którym ojciec i córka odnajdują się po setkach lat, poprzez dane, rezonanse, echa i sny. To nie tylko kontynuacja — to rekonstrukcja człowieczeństwa po końcu człowieka. Od kopalnianych tuneli po laboratoria przyszłości, od Cieszyna po Neo-Paris roku 2345 – każda oś czasu to kolejny zapis pamięci, każdy błysk światła to wiadomość dla Zuzi, córki, która istnieje już tylko w kodzie. To opowieść o przetrwaniu świadomości w epoce, w której zanikają emocje, a miłość staje się częstotliwością.
 
-**Status:** RECEIVED — title, subtitle, description, trailer and Empik link supplied.
+**STATUS:** RECEIVED — title, subtitle, description, trailer, Empik link.
 
 ### 04 — CCR Tom IV
-**Pełny tytuł:** `CCR Tom IV — Architektura Nieskończoności`
+**PEŁNY TYTUŁ:** `CCR Tom IV — Architektura Nieskończoności`
 
-**Trailer:** https://youtu.be/SYMsiiyHAMc?feature=shared
+**TRAILER:** `https://youtu.be/SYMsiiyHAMc?feature=shared`
 
-**Description source:** owner supplied a long six-part text titled `Architektura Nieskończoności: Jak światło i miłość stały się stałymi fizycznymi?` covering: time and breathing universe; 33-year rhythm; Code 18 Consciousness; biophotonics; Zenit camera and photography as portal; Devil Mind; love as physical constant; and the question `Czy Ty też jesteś Operatorem własnego CCR?`
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-**Important source terminology preserved:** Podróżniczka, Oś ?, Operator, CCR / Cosmic Consciousness Resonator, Kod 18 Świadomości, Punkt Dywergencji, Devil Mind, Sygnał serca, 528 Hz, Paliwo Miłości.
+Owner supplied the long text titled `Architektura Nieskończoności: Jak światło i miłość stały się stałymi fizycznymi?` covering six major parts: whether time flows or breathes; the 33-year rhythm; Code 18 Consciousness; biophotonics; photography as a portal and the Zenit case; Devil Mind and trauma; love as a physical constant; and the final question `Czy Ty też jesteś Operatorem własnego CCR?`.
 
-**Status:** RECEIVED — title, subtitle, trailer and full long-form description supplied.
+**SOURCE TERMINOLOGY:** Podróżniczka, Oś ?, Operator, CCR / Cosmic Consciousness Resonator, Kod 18 Świadomości, Punkt Dywergencji, Devil Mind, Sygnał serca, 528 Hz, Paliwo Miłości.
+
+**STATUS:** RECEIVED — title, subtitle, full long-form description, trailer.
 
 ---
 
-## 3.2 CZŁOWIEK ROKU / OCZAMI ALIENATORKI
+## 2.2 CZŁOWIEK ROKU / OCZAMI ALIENATORKI
 
 ### 05 — Człowiek Roku
-**Title:** `Człowiek Roku`
+**TYTUŁ:** `Człowiek Roku`
 
-**Description:** owner supplied the complete promotional description beginning `CZŁOWIEK ROKU: Raport z Piekła, w którym żyjesz, ale go nie widzisz` and covering the autobiographical/system-critical premise, Cieszyn, the struggle concerning dignity and daughter, comparisons to Wojciech Smarzowski, `Ślepnąc od świateł` and `Football Factory`, and the claim that the book was published in 66 languages.
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-**Trailer / podcast:** owner explicitly supplied a podcast/video link: https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu
+Owner supplied the complete promotional text beginning:
 
-**Visual:** owner supplied promotional graphic with the `Człowiek Roku` book and Empik presentation.
+> `CZŁOWIEK ROKU: Raport z Piekła, w którym żyjesz, ale go nie widzisz`
 
-**Status:** RECEIVED — title, full promotional copy, podcast/video and visual supplied.
+The supplied copy describes the fall from the public image of a decorated `Człowiek Roku` into a struggle over dignity, senses and daughter; it presents Cieszyn and the Polish justice/social system as central elements and explicitly compares the work with Wojciech Smarzowski, `Ślepnąc od świateł` by Jakub Żulczyk and `Football Factory` by Nick Love. It ends with the statement supplied by the owner that the book was published in 66 languages.
+
+**PODCAST / VIDEO:** `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
+
+**VISUAL:** owner supplied `Człowiek Roku` / `Już w sprzedaży` Empik promotional visual.
+
+**STATUS:** RECEIVED — title, full promotional copy, podcast/video, visual.
 
 ### 06 — Oczami Alienatorki
-**Title:** `Oczami Alienatorki`
+**TYTUŁ:** `Oczami Alienatorki`
 
-**Description:** owner supplied the complete long-form text beginning `Nie ma nic bardziej bezwzględnego niż kobieta, która przestaje udawać.` It contains the sections `I. Satanizm Dnia Codziennego`, `II. SYSTEMOWE PORÓWNANIE LITERACKO-FILMOWE`, `III. DLACZEGO TA KSIĄŻKA ZSZOKUJE I WYCIŚNIE ŁZY?`, comparative analysis and the CTA `CZYTAJ JEŚLI MASZ ODWAGĘ`.
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-**Visual:** owner supplied promotional graphic with the `Oczami Alienatorki` cover and Empik presentation.
+Owner supplied the complete long-form text beginning:
 
-**Status:** RECEIVED — title, complete promotional copy and visual supplied. **Empik link/trailer: MISSING unless separately supplied.**
+> `Nie ma nic bardziej bezwzględnego niż kobieta, która przestaje udawać.`
+
+The source includes `I. Satanizm Dnia Codziennego`, `II. SYSTEMOWE PORÓWNANIE LITERACKO-FILMOWE`, `III. DLACZEGO TA KSIĄŻKA ZSZOKUJE I WYCIŚNIE ŁZY?`, comparisons with `Ślepnąc od świateł`, Wojciech Smarzowski and `Football Factory`, and the CTA `CZYTAJ JEŚLI MASZ ODWAGĘ`.
+
+**VISUAL:** owner supplied `Oczami Alienatorki` / `Już wkrótce` Empik promotional visual.
+
+**STATUS:** RECEIVED — title, full promotional copy, visual. Empik URL and trailer: `MISSING / RECOVERY REQUIRED` unless separately recovered.
 
 ---
 
-## 3.3 POZOSTAŁE KSIĄŻKI / PUBLIKACJE
+## 2.3 POZOSTAŁE KSIĄŻKI
 
 ### 07 — Światło, które zostało
-**Title:** `Światło, które zostało`
+**TYTUŁ:** `Światło, które zostało`
 
-**Empik:** https://www.empik.com/swiatlo-ktore-zostalo-mikulski-andrzej,p1688662252,ebooki-i-mp3-p
+**EMPIK:** `https://www.empik.com/swiatlo-ktore-zostalo-mikulski-andrzej,p1688662252,ebooki-i-mp3-p`
 
-**Description:** owner supplied the complete promotional copy beginning `Światło, które zostało” to książka, której się nie czyta — tę historię się przeżywa.` and describing the intimate story of collapse, recovery, truth, fatherhood, alienation and light.
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-**Visual:** owner supplied `Już w sprzedaży` Empik promotional graphic.
+> „Światło, które zostało” to książka, której się nie czyta — tę historię się przeżywa. Mikulski pisze tak, jakby każdy akapit powstawał w półmroku, przy drżącej lampie, kiedy człowiekowi zostało więcej ciszy niż tchu. To zapis upadku i powolnego podnoszenia się z niego — ale bez tanich morałów, bez taniego światła. Tylko prawda, taka, która boli, i taka, która naprawdę świeci. To jedna z najbardziej intymnych polskich książek ostatnich lat. Autor rozbraja system, alienację, depresję i tęsknotę po ojcowsku — bez pozy, bez PR-u, z autentyczną miłością, której nikt nie potrafił zapisać w aktach. Czytając, masz wrażenie, że siedzisz obok niego — w sądowym korytarzu, w pustej kuchni, w milczeniu po wyroku. I nagle rozumiesz, dlaczego światło jest tutaj bohaterem równie ważnym jak człowiek. To książka dla tych, którzy kiedyś stracili głos. I dla tych, którzy wciąż próbują go odzyskać. Zostaje pod skórą na długo po ostatniej stronie.
 
-**Status:** RECEIVED — title, description, Empik link and visual supplied.
+**VISUAL:** owner supplied `Już w sprzedaży` Empik promotional visual.
+
+**STATUS:** RECEIVED — title, description, Empik link, visual.
 
 ### 08 — Baśń o Pornlandii
-**Title:** `Baśń o Pornlandii`
+**TYTUŁ:** `Baśń o Pornlandii`
 
-**Empik:** https://www.empik.com/basn-o-pornlandii-mikulski-andrzej,p1687292490,ebooki-i-mp3-p
+**EMPIK:** `https://www.empik.com/basn-o-pornlandii-mikulski-andrzej,p1687292490,ebooki-i-mp3-p`
 
-**Trailers:**
-- https://youtu.be/8neIWOmUKAc?feature=shared
-- https://youtu.be/U4wPXJFPpag?feature=shared
+**TRAILERS:**
+- `https://youtu.be/8neIWOmUKAc?feature=shared`
+- `https://youtu.be/U4wPXJFPpag?feature=shared`
 
-**Description:** owner supplied the complete promotional copy beginning `Baśń o Pornlandii” to brutalnie poetycka podróż...` and covering Rocco, Mirę, Andrzeja, the world of prohibited touch/emotion, and the `wirus empatii` premise.
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-**Visual:** owner supplied `Już w sprzedaży` Empik promotional graphic.
+> „Baśń o Pornlandii” to brutalnie poetycka podróż do świata, w którym dotyk stał się przestępstwem, emocje – walutą kontrolowaną przez system, a miłość – aktem buntu większym niż rewolucja. Andrzej Mikulski otwiera przed czytelnikiem nową oś czasu: zimną, neonową i boleśnie aktualną. Na planecie pachnącej szkłem ludzie żyją bez ciała, bez bliskości, bez prawa do błędu. Wszystko jest obliczone. Wszystko jest sterylne. Aż do chwili, gdy w tej maszynie zaczyna pękać pierwszy szew. Rocco – były aktor świata, którego już nie ma. Mira – kustoszka gestów zakazanych. Andrzej – fotograf zagubiony w obcym wymiarze, który jedynym kliknięciem zatrzymuje prawdę, jakiej system nie toleruje. Ich sojusz staje się początkiem epidemii, której Pornlandia boi się najbardziej: wirusa empatii. To książka o pragnieniu, którego nie da się stłumić, o wolności, która zawsze szuka pęknięcia w lodzie, i o świecie, który przypomina, jak łatwo stracić człowieczeństwo… i jak trudno je odzyskać.
 
-**Status:** RECEIVED — title, description, Empik link, two trailers and visual supplied.
+**VISUAL:** owner supplied `Już w sprzedaży` Empik promotional visual.
+
+**STATUS:** RECEIVED — title, description, Empik link, two trailers, visual.
 
 ### 09 — Cieszyn Noir
-**Title:** `Cieszyn Noir`
+**TYTUŁ:** `Cieszyn Noir`
 
-**Description:** **MISSING — owner has identified the title, but no dedicated description has yet been supplied in the current source register.**
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-**Visual:** owner has supplied book/promotional imagery in the project material.
+> `BÓG UMARŁ W CIESZYNIE`
+>
+> W kopalni ČSM Sever, kilometr pod cieszynką ziemią, Andrzej oddycha powietrzem, które pamięta dinozaury i pachnie smarem oraz potem. To tutaj, w absolutnej ciemności przerywanej stroboskopem lamp, rzeczywistość zaczyna pulsować błędem znanym jako „Critical Cyclic Reset”. Przez wizjer aparatu widzi fioletowe, neonowe światło i żyły węgla krwawiące cyfrową krwią – to moment, w którym kod Systemu staje się widoczny.
+>
+> Ten „glitch” sugeruje, że nasz świat jest jedynie źle wyrenderowaną teksturą, zaprogramowaną symulacją mającą na celu zdławienie „Iskry”. Ból fizyczny i praca w pyle stają się jedynym uczciwym punktem odniesienia, bo skała nie potrafi kłamać tak jak ludzie na bankietach. Gdy system zaczyna się sypać, bohater widzi świat jako błąd w grze, w której stawką jest przetrwanie Zuzi w labiryncie procedur.
+>
+> **OSKAROWA ROLA**
+>
+> **PUNKT 4: SYSTEM JEST WIECZNY – OD INKWIZYTORA PO URZĘDNIKA MOPS**
+>
+> Interludium z 1679 roku ujawnia, że „Cień” to ponadczasowy byt, który jedynie zmienia mundury – od habitu inkwizytora po garsonkę urzędniczki. Cel pozostaje ten sam: zgaszenie „Iskry”, czyli Zuzi, która w każdym cyklu jest celem ataku Systemu. „Pamięć Kamienia” sugeruje, że walka trwa od stuleci, a my jesteśmy tylko kolejnymi bitami informacji w procesie defragmentacji.
+>
+> Nawet w wizjach Neo-Paryża czy jako awatar Rocco, bohater mierzy się z tym samym firewall-em Sądu Rodzinnego. System traktuje ludzi jak wadliwy hardware, który należy wyczyścić, by zachować optymalizację Roju. Każdy restart cyklu kończy się niepowodzeniem, dopóki jednostka nie zrozumie, że jej rola została napisana w kodzie błędu 1679-2024-2777.
+>
+> **PUNKT 5: SZTUKA JAKO WIRUS I JEDYNA LINIA OBRONY**
+>
+> Wernisaż w Galerii „Szara” staje się próbą zainfekowania systemu prawdą poprzez surowe, ziarniste obrazy. Zdjęcia o tytułach „Oczekiwanie” i „Brak” dokumentują brud rzeczywistości, a centralne dzieło „WŁASNOŚĆ” demaskuje mechanizm zawłaszczania drugiego człowieka. To jedyny moment, w którym maska Weroniki pęka pod wpływem symbolu pękniętego talerza, którego nikt inny nie potrafi odczytać.
+>
+> Sztuka nie wygra w sądzie, ponieważ wyroki zapadają przy grillu, gdzie sędzia Krystyna pije toskańskie wino z mecenasem Wojciechem. Mecenas, ten „laluś” w todze, z uśmiechem hieny informuje, że prawo to nie sprawiedliwość, lecz procedura pisana przez układ. Jednak prawda rzucona w oczy elity powiatowej działa jak wirus, grawerując trwałą rysę na nieskazitelnej, białej .
+>
+> **LABIRYNT**
+>
+> Czy jesteś pewien, że Twoja rola w „filmie”, który nazywasz życiem, nie została już dawno napisana przez kogoś innego? Może Ty również jesteś tylko statystą czekającym na swój „Protokół Zniszczenia” i 720 sekund, które skasują wszystko, co kochasz. Rzeczywistość to pęknięta szyba hartowana, która trzyma się w ramie wyłącznie dzięki chwilowemu, fałszywemu napięciu.
 
-**Status:** TITLE RECEIVED · DESCRIPTION MISSING · LINKS MISSING unless separately supplied.
+**PODCAST:** `Cieszyn Noir i miłość silniejsza niż system` — supplied as M4A: `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a`.
+
+**STATUS:** RECEIVED — title, full supplied description text, podcast, promotional visual material.
 
 ### 10 — Ontologia Liczby i Geometrii
-**Title:** `Ontologia Liczby i Geometrii`
+**TYTUŁ:** `Ontologia Liczby i Geometrii`
 
-**Description:** **MISSING — no dedicated description has yet been supplied.**
+**STRUKTURA:** `TRYLOGIA`
 
-**Structure:** owner has identified this as a **trylogia**.
+**OPIS:** `MISSING / RECOVERY REQUIRED` — owner explicitly stated that a dedicated description was not yet supplied in the material currently recoverable here. Do not invent one.
 
-**Status:** TITLE + TRYLOGIA STRUCTURE RECEIVED · DESCRIPTION MISSING · LINKS MISSING unless separately supplied.
+**PODCAST:** `Liczby rzeźbią fizyczną strukturę wszechświata` — supplied as M4A: `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a`.
+
+**STATUS:** TITLE + TRYLOGIA STRUCTURE + PODCAST RECEIVED; dedicated book description not yet recorded.
 
 ### 11 — Druga Połowa
-**Title:** `Druga Połowa`
-**Type:** komiks / opowieść obrazkowa
+**TYTUŁ:** `Druga Połowa`
 
-**Trailer / video:** https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu
+**TYPE:** komiks / opowieść obrazkowa
 
-**Description supplied by owner:**
+**VIDEO / PODCAST:** `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
+
+**OPIS — ŹRÓDŁO WŁAŚCICIELA:**
+
 > Czy wiesz, że według Platona każda dusza pękła kiedyś na pół, a my spędzamy życie na poszukiwaniu tej drugiej połowy?
 >
 > Kiedy zimny, pusty wieczór na miejskim rynku przecina przypadkowe spojrzenie, czas nagle się zatrzymuje.
 >
-> `Druga Połowa` to niezwykła opowieść obrazkowa (komiks), która dotyka najgłębszych strun ludzkich emocji — niepewności, lęku przed stratą i przełomowej nadziei na prawdziwe uczucie.
+> „Druga Połowa” to niezwykła opowieść obrazkowa (komiks), która dotyka najgłębszych strun ludzkich emocji — niepewności, lęku przed stratą i przełomowej nadziei na prawdziwe uczucie.
 >
-> Głębokie emocje — relacja, w której obawy o przyszłość zderzają się z absolutnym oddaniem i poczuciem bezpieczeństwa.
+> **Głębokie emocje** — Śledź relację, w której obawy o przyszłość zderzają się z absolutnym oddaniem i poczuciem bezpieczeństwa.
 >
-> Klimatyczna oprawa — od zimowych, klimatycznych uliczek po ciepłe, pełne słońca poranki — piękna kreska dopracowana w każdym detalu.
+> **Klimatyczna oprawa** — Od zimowych, klimatycznych uliczek po ciepłe, pełne słońca poranki — piękna kreska dopracowana w każdym detalu.
 >
-> Prawdziwe dialogi — historia o szukaniu bliskości, w której każdy kadr tętni autentycznymi uczuciami.
+> **Prawdziwe dialogi** — Historia o szukaniu bliskości, w której każdy kadr tętni autentycznymi uczuciami.
 >
-> `Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował`
+> „Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował”
+>
+> `Zamów swój egzemplarz teraz i odkryj historię której nie znałeś !`
 
-**Visual:** owner supplied dedicated comic promotional visual.
+**VISUAL:** owner supplied dedicated comic promotional visual.
 
-**Status:** RECEIVED — title, format, description, video and visual supplied.
+**STATUS:** RECEIVED — title, format, description, video, visual.
 
 ### 12 — O Życiu O Relacjach
-**Title:** `O Życiu O Relacjach`
+**TYTUŁ:** `O Życiu O Relacjach`
 
-**Description:** **MISSING — title explicitly identified by owner as a book that had been lost from the register; dedicated description has not yet been supplied in the current source record.**
+**IMPORTANT:** Owner explicitly stated that this title and its description were already supplied and had been lost from the previous register.
 
-**Status:** TITLE RECEIVED · DESCRIPTION MISSING · LINKS MISSING unless separately supplied.
+**RECOVERED CONTENT MARKERS:**
 
----
+- `O KSIĄŻCE`
+- `A JEŚLI CHCESZ PÓJŚĆ KROK DALEJ?`
+- `KSIĄŻKA, KTÓRA ZADAJE PYTANIA`
+- `NIE CZEKAJ NA IDEALNY MOMENT`
+- `DLA KOGO JEST TA KSIĄŻKA?`
+- `A MOŻE ZACZNIESZ OD JEDNEJ STRONY?`
+- `KSIĄŻKA + SZKOLENIA`
+- exact CTA/source line: `NIE CZYTAJ TEJ KSIĄŻKI, JEŚLI NIE CHCESZ NICZEGO ZMIENIAĆ.`
+- methodology sequence: `ZROZUMIENIE → DECYZJA → DZIAŁANIE → ZMIANA`
 
-# 4. BOOK VISUAL ASSET REGISTER
-
-Owner supplied dedicated `Już w sprzedaży / Już wkrótce` promotional visuals for:
-
-- Światło, które zostało — JUŻ W SPRZEDAŻY / Empik
-- Baśń o Pornlandii — JUŻ W SPRZEDAŻY / Empik
-- CCR Tom I — JUŻ W SPRZEDAŻY / Empik
-- CCR Tom II — JUŻ W SPRZEDAŻY / Empik
-- Człowiek Roku — JUŻ W SPRZEDAŻY / Empik
-- CCR Tom III — JUŻ W SPRZEDAŻY / Empik
-- CCR Tom IV — JUŻ WKRÓTCE / Empik
-- Oczami Alienatorki — JUŻ WKRÓTCE / Empik
-- Druga Połowa — dedicated comic promotional visual, `JUŻ WKRÓTCE`
-
-**Asset handling rule:** supplied visuals are source assets. Do not reconstruct covers or replace supplied artwork with generated approximations.
+**STATUS:** TITLE + EXISTENCE OF COMPLETE OWNER-SUPPLIED DESCRIPTION CONFIRMED; full original body requires recovery from the earlier source/attachment before publication. Do not fabricate missing paragraphs.
 
 ---
 
-# 5. RELATIONSHIP COACHING SOURCE MATERIAL
+# 3. AUDIO / PODCAST REGISTER
 
-Owner supplied a visual presentation covering pages 11–18 of the Relationship Coaching material. The source establishes the visual language: black textured background, gold/cream typography, AM / Relationship Coaching branding, thin gold rules, editorial quote panels and page numbering.
+The following audio files were supplied by the owner. Their existence must not be forgotten even when their exact book assignment is not yet certain.
 
-Key source messages include:
+| File | Working title | Assignment |
+|---|---|---|
+| `Anatomia_sukcesu_Pamiętnika_Sprawcy_Techniki_narracyjne.m4a` | Anatomia sukcesu Pamiętnika Sprawcy — Techniki narracyjne | `Człowiek Roku` / RECOVERY-VERIFY |
+| `Baśń_o_Pornlandii_dystopia_dotyku_i_buntu(1).m4a` | Baśń o Pornlandii — dystopia dotyku i buntu | `Baśń o Pornlandii` |
+| `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a` | Cieszyn Noir i miłość silniejsza niż system | `Cieszyn Noir` |
+| `Fizyka_miłości_w_Architekturze_Nieskończoności-2(1).m4a` | Fizyka miłości w Architekturze Nieskończoności | `CCR Tom IV` |
+| `Inżynieria_wsteczna_pułapki_na_czytelnika_Mikulskiego(1).m4a` | Inżynieria wsteczna pułapki na czytelnika Mikulskiego | `UNASSIGNED / VERIFY` |
+| `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a` | Liczby rzeźbią fizyczną strukturę wszechświata | `Ontologia Liczby i Geometrii` |
+| `Światło,_Cień_i_Zapach__Analiza_Międzywymiarowych_Zapisków_Andr(1).m4a` | Światło, Cień i Zapach — Analiza Międzywymiarowych Zapisków Andr... | `UNASSIGNED / VERIFY` |
+| `Światło,_Zapach_i_Echo__Jak_Mikulski_i_Grenouille_Odkodowali_Pa.m4a` | Światło, Zapach i Echo — Jak Mikulski i Grenouille Odkodowali Pa... | `UNASSIGNED / VERIFY` |
 
-- `ŚWIADOME DECYZJE BUDUJĄ RELACJĘ`
-- `OD REAKCJI DO ŚWIADOMEGO WYBORU`
-- `WOLNOŚĆ ZACZYNA SIĘ OD DECYZJI`
-- `NIE KAŻDĄ HISTORIĘ TRZEBA KONTYNUOWAĆ`
-- `STRES POWODUJE, ŻE WSZYSTKICH EFEKTÓW OCZEKUJEMY „NA JUŻ”.`
-- `ODWAŻ SIĘ ZROBIĆ PIERWSZY KROK`
-- `NIE MUSISZ BYĆ ZROZUMIANY PRZEZ KAŻDEGO`
-- `NIE BĘDĘ DECYDOWAĆ ZA CIEBIE. NIE BĘDĘ OCENIAŁ TWOJEJ HISTORII. BĘDĘ POMAGAŁ CI JĄ LEPIEJ ZOBACZYĆ.`
+**Rule:** filenames are preserved exactly as received. Do not rename or silently discard them during migration.
 
-Methodology used by the website remains:
+---
 
-`POZNANIE → ZROZUMIENIE → ANALIZA → STRATEGIA → PRAKTYKA → TRANSFORMACJA`
+# 4. BOOK VISUAL REGISTER
 
-The exact required opening sentence for the Relationship page is:
+Owner supplied promotional visuals including:
+
+- `CCR Tom I` — `JUŻ W SPRZEDAŻY` / Empik.
+- `CCR Tom II` — `JUŻ W SPRZEDAŻY` / Empik.
+- `CCR Tom III — Ludzie Roku — Oś 18 Świadomości` — `JUŻ W SPRZEDAŻY` / Empik.
+- `CCR Tom IV — Architektura Nieskończoności` — `JUŻ WKRÓTCE` / Empik.
+- `Człowiek Roku` — `JUŻ W SPRZEDAŻY` / Empik.
+- `Oczami Alienatorki` — `JUŻ WKRÓTCE` / Empik.
+- `Światło, które zostało` — `JUŻ W SPRZEDAŻY` / Empik.
+- `Baśń o Pornlandii` — `JUŻ W SPRZEDAŻY` / Empik.
+- `Druga Połowa` — dedicated comic promotional visual.
+
+**Visual rule:** owner-provided cover art and original logo are source assets. Do not reconstruct, replace or generate a similar logo or cover when an authentic supplied asset exists.
+
+---
+
+# 5. REQUIRED BOOK UI BEHAVIOUR
+
+The Books section must treat each title as an editorial object rather than a generic card.
+
+Each book entry should support, where source material exists:
+
+- canonical full title;
+- subtitle;
+- cover / promotional visual;
+- spoiler-free description;
+- trailer / podcast;
+- Empik purchase link;
+- status (`JUŻ W SPRZEDAŻY` / `JUŻ WKRÓTCE`) only when explicitly supplied;
+- expanded presentation on click.
+
+CCR must remain a recognizable connected universe. The canonical titles must never be reduced to `CCR Tom I`, `CCR Tom II`, `CCR Tom III` or `CCR Tom IV` in the primary title presentation when the subtitle is available.
+
+---
+
+# 6. CONTENT ALREADY SPECIFIED FOR OTHER SITE SECTIONS
+
+## O MNIE
+
+Owner/source material establishes:
+
+- Warsaw-born photojournalist / author;
+- since 2023 living and creating in Silesia;
+- combines mining work with photojournalism for Agencja Fotograficzna REPORTER;
+- photography, film and IT;
+- 16 individual exhibitions;
+- 300+ group exhibitions;
+- work/presence in 40+ countries;
+- 2000+ awards/distinctions/acceptances;
+- AFRP 2017;
+- AFIAP 2019;
+- EFIAP 2020;
+- `Fotografia Uliczna` community with 75,000+ members;
+- Flog.pl jury;
+- books including the titles recorded above.
+
+## RELATIONSHIP
+
+**First sentence must be exactly:**
 
 > `Nie każda relacja potrzebuje końca. Nie każda potrzebuje ratunku. Każda potrzebuje zrozumienia.`
 
-Additional source contact/service information visible in the supplied Relationship material:
+Methodology:
 
-- phone: `518 873 940`
-- email: `grandmasterrelationshiptrainer@gmail.com`
-- stationary: `Całe województwo śląskie`
-- online: `Cała Polska, Słowacja i Czechy`
-- languages: Polish — native; Slovak — fluent; Czech — communicative
-- additional services shown: online consultations, photography, massage, production/creation, AI agent systems, desktop/web/mobile applications, advertising banners/posters, video advertising, ebooks.
+`POZNANIE → ZROZUMIENIE → ANALIZA → STRATEGIA → PRAKTYKA → TRANSFORMACJA`
+
+Areas:
+
+- Człowiek
+- Komunikacja
+- Relacja
+- Konflikt
+- Granice
+- Decyzja
+
+Contact supplied for massages: `studiomasazu1810@gmail.com`.
+
+## PHOTOGRAPHY
+
+Curated gallery, not a generic grid. Required viewer metadata includes:
+
+`01 / 24` · `TYTUŁ / KATEGORIA` · navigation arrows · close · mobile swipe/pinch/tap.
+
+## FILM
+
+Cinematic wall rather than a YouTube list. Large media presentation and fullscreen player. No autoplay.
+
+## APPLICATIONS / AGENTS
+
+Premium technical language. Metadata may include architecture, stack, repository and status only when sourced. Not a programmer dashboard.
+
+## PROJECTS
+
+Project Archive target: `01–57`.
+
+Required detail hierarchy:
+
+`PROBLEM · IDEA · ARCHITEKTURA · TECHNOLOGIA · MECHANIZM · STATUS · REPOZYTORIUM · POWIĄZANE PROJEKTY`
+
+Graph target:
+
+`projects ↔ agents ↔ apps ↔ technologies ↔ publications`
+
+## AWARDS
+
+Known timeline:
+
+- 2017 AFRP
+- 2018 BRĄZ
+- 2019 AFIAP + SREBRO
+- 2020 EFIAP
+- 2023 ZŁOTO
+- 2023–2024 CZŁOWIEK ROKU
+
+## CONTACT
+
+Primary question:
+
+> `W JAKIEJ SPRAWIE CHCESZ SIĘ SKONTAKTOWAĆ?`
+
+Choices:
+
+`Relationship · Fotografia · Masaż · Media · Projekty · AI/Agent`
+
+## FOOTER
+
+Required closing line:
+
+> `THE WORLD IS LARGER THAN THE PAGE.`
 
 ---
 
-# 6. SITE ART DIRECTION
+# 7. NAVIGATION / INTERACTION REQUIREMENTS
 
-## Hero
+Initial navigation:
 
-Cinematic dark black aniline leather / Alcantara-like material, subtle texture, slow light, depth, gold reflection. Authentic original Andrzej Mikulski / MojeAlterego logo. No human photograph in Hero.
+`LOGO | MENU`
 
-Exact hero copy:
+After scroll:
 
-`CZŁOWIEK. OBRAZ. RELACJA. TECHNOLOGIA.`
+`smaller logo | sections | contact`
 
-`Świat tworzony pomiędzy rzeczywistością, obrazem, słowem i technologią.`
+Fullscreen menu:
 
-CTA:
-
-`WEJDŹ DO ŚWIATA`
-
-## Navigation
-
-Initial state: `LOGO | MENU`
-
-After scroll: smaller logo | sections | contact
-
-Fullscreen menu left:
+Left:
 
 - O MNIE
 - RELATIONSHIP
@@ -287,191 +466,106 @@ Bottom:
 
 `PUBLIKACJE · NAGRODY · KONTAKT`
 
-Command search: Cmd/Ctrl+K
+Additional:
 
-Languages: PL / EN / SK / CZ, but do not pretend translations exist until supplied.
-
-**Critical:** semantic colors are art direction only. Never display labels such as `BOTTLE GREEN`, `TITANIUM`, `BURGUNDY`, `ROYAL BLUE` beside content.
-
----
-
-# 7. HOME CONTENT REQUIREMENTS
-
-After Hero:
-
-- Manifest
-- four domains: `CZŁOWIEK`, `OBRAZ`, `SŁOWO`, `MASZYNA`
-- statistics: `2000+`, `300+`, `40+`, `16`, `75,000+`
-
-The home page must not contain unverified invented quotations or facts.
-
----
-
-# 8. PAGE REQUIREMENTS
-
-## O MNIE
-
-Large editorial portrait + biography, sticky image, journey:
-
-`DZIECIŃSTWO → FOTOREPORTAŻ → FOTOGRAFIA → FILM → LITERATURA → TECHNOLOGIA`
-
-## FOTOGRAFIA
-
-Curated gallery, not conventional grid. Asymmetric full-width compositions, monumental verticals/details/fullscreen viewer.
-
-Viewer metadata:
-
-`01 / 24` · `TYTUŁ / KATEGORIA`
-
-## KSIĄŻKI
-
-Each title presented as an object: large supplied cover, light sweep, verified description, CTA. Full presentation on click. No spoiler-heavy copy unless supplied.
-
-CCR should be treated as a universe/tetralogy.
-
-## RELATIONSHIP
-
-Less technology, more editorial/sensory treatment. Use supplied Relationship source material as content and visual reference.
-
-## MASAŻE
-
-Sensory, minimal, large images, whitespace. Do not turn this section into an AI/technical dashboard.
-
-Contact source:
-`studiomasazu1810@gmail.com`
-
-## FILM
-
-Cinematic wall, large media treatment + PLAY, fullscreen player. Use supplied trailers and video IDs only.
-
-## APLIKACJE / AGENCI
-
-Premium technical language; terminal-like metadata, status, architecture, stack, repository. Not a generic programmer dashboard.
-
-## PROJEKTY
-
-Project Archive 01–57. Each project should preserve verified source name, short description, categories, status and repository information. Detail structure:
-
-`PROBLEM · IDEA · ARCHITEKTURA · TECHNOLOGIA · MECHANIZM · STATUS · REPOZYTORIUM · POWIĄZANE PROJEKTY`
-
-## PUBLIKACJE / NAGRODY / KONTAKT
-
-Editorial presentation, not generic lists. Preserve source data exactly and flag missing fields.
-
----
-
-# 9. INTERACTION / ACCESSIBILITY / PERFORMANCE
-
-States:
-
-`DEFAULT / HOVER / ACTIVE / FOCUS / DISABLED / LOADING / ERROR`
-
-Requirements:
-
-- full keyboard operation;
+- Cmd/Ctrl+K command search;
+- PL / EN / SK / CZ architecture, but never fake untranslated content;
+- full keyboard support;
+- DEFAULT / HOVER / ACTIVE / FOCUS / DISABLED / LOADING / ERROR states;
 - WCAG 2.2 AA;
-- lazy images;
-- WebP/AVIF where appropriate;
-- minimal JS;
-- code splitting;
-- GPU transforms;
-- avoid CLS;
-- font optimization;
-- mobile premium app-like composition;
-- tablet-specific composition;
-- ultra-wide 27–49 inch support;
-- optional Experience Mode;
 - reduced motion;
-- no autoplay;
-- time-reactive day/night only where it improves the experience.
+- mobile-first premium composition;
+- optional Experience Mode;
+- no heavy 3D on mobile;
+- no autoplay.
 
 ---
 
-# 10. ASSET INTEGRITY
+# 8. ASSET STATUS SYSTEM
 
-Authentic original logo:
+Every asset should be classified as one of:
+
+- `ORIGINAL`
+- `VERIFIED`
+- `EXTERNAL`
+- `PLACEHOLDER`
+- `MISSING`
+
+Original logo:
 
 `assets/logo-master.svg`
 
-Previously verified SHA:
+Original logo SHA previously verified:
 
 `9ec679f8e4cb5a26010a34a3e324cf378dbe03f9`
 
-**Logo rule:** immutable source asset. Never reconstruct or generate a replacement logo.
-
-Asset status vocabulary:
-
-`ORIGINAL / VERIFIED / EXTERNAL / PLACEHOLDER / MISSING`
-
-Broken or unverified image paths must not be invented.
+**Logo rule:** use the supplied authentic logo. Never reconstruct or generate a similar replacement.
 
 ---
 
-# 11. REACT MIGRATION STATUS
+# 9. IMPLEMENTATION STATUS
 
-## Completed
+Completed in the React migration:
 
-- Vite + React project scaffold created.
-- React entry point created.
-- Shared navigation/header architecture created.
-- Home route created.
-- O mnie React page created.
-- Relationship React page created.
-- Książki React page created.
-- Legacy HTML entry points converted to React wrappers so Vite does not parse incompatible legacy CSS.
-- GitHub Pages workflow converted to build `dist` and deploy it.
-- README project ledger created and expanded with supplied book/media content.
+- React/Vite application scaffold;
+- GitHub Pages build/deploy conversion;
+- React entry points for the legacy route set;
+- main navigation and fullscreen menu foundation;
+- Home foundation;
+- O Mnie route foundation;
+- Relationship route foundation;
+- Books route foundation;
+- data-page foundations for photography, trailers, music videos, massages, applications, agents, projects, publications, awards, contact and workshops;
+- original logo path retained;
+- legacy CSS parsing issue addressed by moving route entries to React wrappers.
 
-## Current implementation files
+Known verification limitation:
 
-- `package.json`
-- `vite.config.js`
-- `src/main.jsx`
-- `src/routes.jsx`
-- `src/styles.css`
-- root React HTML entry wrappers
-
-## Known issue requiring verification
-
-The About page currently references `/assets/andrzej-mikulski-about.png`; this path must be verified against the actual repository asset inventory before being considered final.
+- live visual verification through the current environment has been blocked by browser/network restrictions;
+- do not claim live screenshot verification unless it actually succeeds.
 
 ---
 
-# 12. CURRENT OUTSTANDING WORK
+# 10. OUTSTANDING WORK
 
-1. Finish complete React migration without losing source content.
-2. Verify every book title, description, trailer, podcast/audio and Empik link against this register.
-3. Integrate the supplied book promotional visuals as actual assets where their repository paths are established.
-4. Add missing dedicated descriptions for `Cieszyn Noir`, `Ontologia Liczby i Geometrii` and `O Życiu O Relacjach` only when source material is supplied.
-5. Verify the exact `Człowiek Roku` trailer/podcast material and integrate it.
-6. Integrate `Druga Połowa` as a comic, not as an ordinary novel.
-7. Finish photography gallery and viewer.
-8. Finish film/trailer wall using only verified supplied media.
-9. Migrate exact Applications and Agents data.
-10. Migrate Projects Archive 01–57 with exact source metadata.
-11. Migrate Publications, Awards and Contact with exact source content.
-12. Implement relationship visual language based on supplied pages 11–18.
-13. Verify all asset paths.
-14. Preserve sitemap, manifest and `.nojekyll` through the Vite build.
-15. Run CI/build validation after every substantial migration stage.
-16. Do not declare the website complete until all source sections and critical interactions are migrated and CI passes.
+1. Recover and persist the **complete original body** of `O Życiu O Relacjach` from the earlier source/attachment.
+2. Persist the dedicated `Ontologia Liczby i Geometrii — Trylogia` description when supplied/recovered.
+3. Integrate the full `Cieszyn Noir` description above into the React Books page without shortening it into generic invented copy.
+4. Map every supplied podcast/audio file to its correct book after source verification.
+5. Migrate the exact Project Archive 01–57 data from the original source.
+6. Migrate exact Agents / Applications metadata from original source.
+7. Migrate exact photography/gallery data and supplied media.
+8. Migrate exact publication and award source data.
+9. Verify every external book URL before publication; never invent or infer a URL.
+10. Verify actual asset paths before using them in React.
+11. Preserve `.nojekyll`, `manifest.webmanifest`, `sitemap.xml` and other explicitly required static files in the Vite output.
+12. Run GitHub Actions build and inspect deployment status after meaningful changes.
+13. Do not declare the migration complete until source content and required interactions are actually migrated and CI passes.
 
 ---
 
-# 13. ANTI-LOSS CHECKLIST
+# 11. CHANGE LOG — CONTENT PERSISTENCE
 
-Before every substantial repository change:
+### 2026-09-10
 
-- [ ] README contains the latest owner-supplied content.
-- [ ] Every known book remains in the master register.
-- [ ] Every supplied trailer remains recorded.
-- [ ] Every supplied Empik link remains recorded.
-- [ ] Every supplied visual remains recorded.
-- [ ] Podcast/audio materials remain recorded.
-- [ ] Missing descriptions are explicitly marked `MISSING`.
-- [ ] No fabricated URL or metadata has been introduced.
-- [ ] Original logo remains untouched.
-- [ ] Legacy source content is recoverable from Git history where not yet migrated.
-- [ ] CI is checked after migration changes.
+- Rebuilt the book register around canonical full titles.
+- Restored canonical CCR subtitles:
+  - `CCR Tom I — Jak przetrwać w dziwnym świecie po przeniesieniu się do alternatywnej osi czasu`
+  - `CCR Tom II — Oś czasu w alternatywnych światach`
+  - `CCR Tom III — Ludzie Roku — Oś 18 Świadomości`
+  - `CCR Tom IV — Architektura Nieskończoności`
+- Added full owner-supplied `Cieszyn Noir` source text.
+- Recorded `Cieszyn Noir` podcast.
+- Recorded the eight supplied M4A podcast/audio materials.
+- Recorded `Druga Połowa` as a separate comic title.
+- Recorded `O Życiu O Relacjach` as a distinct title and preserved recovered section markers rather than fabricating its missing body.
+- Recorded `Ontologia Liczby i Geometrii` as a **trylogia** and preserved its podcast.
+- Reinforced the rule that owner-supplied content must be persisted in the repository and not depend on active chat context.
 
-**Most important:** a title is not considered migrated merely because it appears in a card. Its verified title, description, links/media, visual asset status and implementation status must remain traceable in this README.
+---
+
+# 12. CURRENT SOURCE-OF-TRUTH RULE
+
+**If the chat says one thing and this repository ledger says another, stop and reconcile the source material before implementation. Do not guess.**
+
+**If something was supplied by the owner but is no longer visible in active conversation context, it must be treated as potentially recoverable — not as never supplied.**
