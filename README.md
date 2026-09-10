@@ -2,19 +2,18 @@
 
 > **PERSISTENT PROJECT LEDGER / SOURCE OF TRUTH**
 >
-> This file exists so that information supplied during the project is not dependent on chat context. Content, links, media, implementation decisions, completed work and outstanding work are recorded here.
+> Owner-supplied content is immutable source material. Do not invent, shorten, paraphrase, replace or silently rewrite it.
 
-## 0. NON-NEGOTIABLE WORKING RULES
+## 0. NON-NEGOTIABLE CONTENT RULES
 
 1. Information supplied by the owner must be persisted in this repository.
-2. Chat context is **not** the source of truth.
-3. Never claim that something was not supplied merely because it is no longer visible in the active chat context.
+2. Chat context is not the source of truth.
+3. Never claim that supplied material was not supplied merely because it is not visible in the active chat.
 4. Never invent missing titles, subtitles, descriptions, links, awards, projects, clients, reviews, social URLs, translations, statuses or assets.
-5. If a fact cannot currently be recovered, mark it `MISSING / RECOVERY REQUIRED`, not as nonexistent.
-6. Full titles and subtitles must be preserved exactly. Shortened labels must not replace canonical titles.
-7. Owner-provided descriptions are source material and must not be silently rewritten into invented marketing copy.
-8. Owner-provided media must be catalogued separately from book descriptions.
-9. Every new owner-provided content item must be added to this README before it is considered safely integrated.
+5. If something cannot be recovered, mark it `MISSING / RECOVERY REQUIRED`.
+6. Full titles, subtitles and owner descriptions must remain intact.
+7. Owner-provided descriptions must not be replaced with assistant-written marketing summaries.
+8. New owner-provided content must be recorded in this README and, where useful, in a dedicated source file.
 
 ---
 
@@ -27,22 +26,6 @@ Production site: `https://mojealterego.github.io/`
 Branch: `main`
 
 Architecture: React + Vite.
-
-Current migration direction:
-
-- immersive personal digital universe rather than a conventional portfolio;
-- three layers: PERSONA / TWÓRCZOŚĆ / LABORATORIUM;
-- cinematic editorial visual language;
-- original logo must remain immutable;
-- responsive desktop / tablet / mobile composition;
-- accessibility target WCAG 2.2 AA;
-- keyboard navigation and reduced-motion support;
-- SEO and structured data per page;
-- no invented content.
-
-Narrative:
-
-> Kim jest ten człowiek? → Co on właściwie tworzy? → Jak daleko sięga ten świat?
 
 Required domains:
 
@@ -59,6 +42,12 @@ Required domains:
 - NAGRODY
 - KONTAKT
 - WARSZTATY FOTOGRAFICZNE
+
+Design direction: immersive personal digital universe; PERSONA / TWÓRCZOŚĆ / LABORATORIUM; cinematic editorial language; original logo immutable; responsive desktop/tablet/mobile; WCAG 2.2 AA; keyboard support; reduced motion; SEO; no invented content.
+
+Narrative:
+
+> Kim jest ten człowiek? → Co on właściwie tworzy? → Jak daleko sięga ten świat?
 
 ---
 
@@ -77,8 +66,6 @@ Required domains:
 
 > To psychodeliczny thriller egzystencjalny, intymny pamiętnik straty i podróż przez alternatywne światy, w których światło nie tylko oświetla – ono pamięta. Fotograf z Cieszyna traci córkę i… światło zaczyna oddychać. Jedno zdjęcie otwiera pęknięcie między wymiarami: Cieszyn 2025, Chicago 2135, Neo-Paris 2345, Devil Mind 2777. Czy można odnaleźć dziecko, jeśli samemu przestaje się istnieć? Czy miłość rezonuje poza czasem? Co się stanie, gdy wspomnienia zaczną rosnąć jak żywe organizmy, a cień stanie się osobnym „ja”? To książka o ojcostwie na granicy kosmosu i rozpaczy. O świetle, które pamięta nas bardziej, niż my pamiętamy siebie. Mroczna, poetycka, totalnie oryginalna. Jeśli lubisz „Matrix”, „Interstellar”, Sapkowskiego, Dukaja, Żulczyka, i literaturę, która wykręca percepcję – to jest Twoja nowa obsesja. „Czas nie płynie — oddycha.” Przygotuj się na historię, która nie kończy się na ostatniej stronie — tylko przenosi cię dalej.
 
-**STATUS:** RECEIVED — title, subtitle, description, trailer, Empik link.
-
 ### 02 — CCR Tom II
 **PEŁNY TYTUŁ:** `CCR Tom II — Oś czasu w alternatywnych światach`
 
@@ -89,8 +76,6 @@ Required domains:
 **OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
 > Kiedy świadomość przestaje należeć do jednego ciała, a światło zaczyna pamiętać człowieka lepiej niż on sam — zaczyna się podróż, której nie da się zatrzymać. Drugi tom serii CCR to wejście w głębsze warstwy równoległych rzeczywistości. Andrzej Mikulski — fotograf, operator światła i świadek pierwszych eksperymentów CCR — wraca, by zmierzyć się z własnymi odbiciami w alternatywnych osiach czasu. Cieszyn 2058, Neo-Paris 2345, Devil Mind 2777 — każde z tych miejsc jest jednocześnie wspomnieniem, błędem i nowym początkiem. W centrum tej historii wciąż pulsuje jedno pytanie: czy światło potrafi przywrócić człowieka, jeśli pamięć o nim nie zgasła? CCR – Tom II to opowieść o rezonansie świadomości, miłości silniejszej niż czas i o świecie, w którym każda myśl tworzy nową rzeczywistość. To książka dla czytelników, którzy lubią przekraczać granicę między nauką a metafizyką, realizmem a czymś, co dopiero zaczyna nabierać kształtu. Światło nie umiera. Światło tylko zmienia częstotliwość.
-
-**STATUS:** RECEIVED — title, subtitle, description, trailer, Empik link.
 
 ### 03 — CCR Tom III
 **PEŁNY TYTUŁ:** `CCR Tom III — Ludzie Roku — Oś 18 Świadomości`
@@ -103,8 +88,6 @@ Required domains:
 
 > Kontynuacja epickiego cyklu, w którym czas, światło i pamięć splatają się w metafizyczną pętlę. Zapowiedź powinna akcentować eskalację skali – od osobistego dramatu do kosmicznego eksperymentu. „Światło pamięta. Czas się powtarza.” Po latach ciszy, Andrzej Mikulski powraca – już nie jako fotograf, ale operator 18 Świadomości. W trzecim tomie trylogii CCR, świat przestaje być miejscem, a staje się systemem. Kulminacja mitologii „światła jako pamięci”. Czas przestaje być linią — jest archiwum emocji, w którym ojciec i córka odnajdują się po setkach lat, poprzez dane, rezonanse, echa i sny. To nie tylko kontynuacja — to rekonstrukcja człowieczeństwa po końcu człowieka. Od kopalnianych tuneli po laboratoria przyszłości, od Cieszyna po Neo-Paris roku 2345 – każda oś czasu to kolejny zapis pamięci, każdy błysk światła to wiadomość dla Zuzi, córki, która istnieje już tylko w kodzie. To opowieść o przetrwaniu świadomości w epoce, w której zanikają emocje, a miłość staje się częstotliwością.
 
-**STATUS:** RECEIVED — title, subtitle, description, trailer, Empik link.
-
 ### 04 — CCR Tom IV
 **PEŁNY TYTUŁ:** `CCR Tom IV — Architektura Nieskończoności`
 
@@ -112,11 +95,15 @@ Required domains:
 
 **OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-Owner supplied the long text titled `Architektura Nieskończoności: Jak światło i miłość stały się stałymi fizycznymi?` covering six major parts: whether time flows or breathes; the 33-year rhythm; Code 18 Consciousness; biophotonics; photography as a portal and the Zenit case; Devil Mind and trauma; love as a physical constant; and the final question `Czy Ty też jesteś Operatorem własnego CCR?`.
+Pełny materiał właściciela zaczyna się od:
+
+> `Architektura Nieskończoności: Jak światło i miłość stały się stałymi fizycznymi?`
+
+Źródłowy materiał obejmuje sześć głównych części dotyczących czasu, rytmu 33 lat, Kodu 18 Świadomości, biofotoniki, fotografii jako portalu i aparatu Zenit, Devil Mind i traumy, miłości jako stałej fizycznej oraz pytania końcowego `Czy Ty też jesteś Operatorem własnego CCR?`.
 
 **SOURCE TERMINOLOGY:** Podróżniczka, Oś ?, Operator, CCR / Cosmic Consciousness Resonator, Kod 18 Świadomości, Punkt Dywergencji, Devil Mind, Sygnał serca, 528 Hz, Paliwo Miłości.
 
-**STATUS:** RECEIVED — title, subtitle, full long-form description, trailer.
+**UWAGA:** Pełny tekst właściciela nie może być zastępowany opisem napisanym przez asystenta. Do implementacji należy użyć pełnego źródła, gdy jest dostępne.
 
 ---
 
@@ -127,32 +114,31 @@ Owner supplied the long text titled `Architektura Nieskończoności: Jak świat�
 
 **OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-Owner supplied the complete promotional text beginning:
+Pełny tekst właściciela zaczyna się od:
 
 > `CZŁOWIEK ROKU: Raport z Piekła, w którym żyjesz, ale go nie widzisz`
 
-The supplied copy describes the fall from the public image of a decorated `Człowiek Roku` into a struggle over dignity, senses and daughter; it presents Cieszyn and the Polish justice/social system as central elements and explicitly compares the work with Wojciech Smarzowski, `Ślepnąc od świateł` by Jakub Żulczyk and `Football Factory` by Nick Love. It ends with the statement supplied by the owner that the book was published in 66 languages.
-
 **PODCAST / VIDEO:** `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
 
-**VISUAL:** owner supplied `Człowiek Roku` / `Już w sprzedaży` Empik promotional visual.
-
-**STATUS:** RECEIVED — title, full promotional copy, podcast/video, visual.
+Pełny tekst jest źródłem właściciela i nie wolno go zastępować skrótem.
 
 ### 06 — Oczami Alienatorki
 **TYTUŁ:** `Oczami Alienatorki`
 
 **OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
-Owner supplied the complete long-form text beginning:
+Pełny tekst właściciela zaczyna się od:
 
 > `Nie ma nic bardziej bezwzględnego niż kobieta, która przestaje udawać.`
 
-The source includes `I. Satanizm Dnia Codziennego`, `II. SYSTEMOWE PORÓWNANIE LITERACKO-FILMOWE`, `III. DLACZEGO TA KSIĄŻKA ZSZOKUJE I WYCIŚNIE ŁZY?`, comparisons with `Ślepnąc od świateł`, Wojciech Smarzowski and `Football Factory`, and the CTA `CZYTAJ JEŚLI MASZ ODWAGĘ`.
+Źródłowe sekcje obejmują:
 
-**VISUAL:** owner supplied `Oczami Alienatorki` / `Już wkrótce` Empik promotional visual.
+- `I. Satanizm Dnia Codziennego`
+- `II. SYSTEMOWE PORÓWNANIE LITERACKO-FILMOWE`
+- `III. DLACZEGO TA KSIĄŻKA ZSZOKUJE I WYCIŚNIE ŁZY?`
+- CTA: `CZYTAJ JEŚLI MASZ ODWAGĘ`
 
-**STATUS:** RECEIVED — title, full promotional copy, visual. Empik URL and trailer: `MISSING / RECOVERY REQUIRED` unless separately recovered.
+Pełny tekst jest źródłem właściciela i nie wolno go zastępować skrótem.
 
 ---
 
@@ -167,10 +153,6 @@ The source includes `I. Satanizm Dnia Codziennego`, `II. SYSTEMOWE PORÓWNANIE L
 
 > „Światło, które zostało” to książka, której się nie czyta — tę historię się przeżywa. Mikulski pisze tak, jakby każdy akapit powstawał w półmroku, przy drżącej lampie, kiedy człowiekowi zostało więcej ciszy niż tchu. To zapis upadku i powolnego podnoszenia się z niego — ale bez tanich morałów, bez taniego światła. Tylko prawda, taka, która boli, i taka, która naprawdę świeci. To jedna z najbardziej intymnych polskich książek ostatnich lat. Autor rozbraja system, alienację, depresję i tęsknotę po ojcowsku — bez pozy, bez PR-u, z autentyczną miłością, której nikt nie potrafił zapisać w aktach. Czytając, masz wrażenie, że siedzisz obok niego — w sądowym korytarzu, w pustej kuchni, w milczeniu po wyroku. I nagle rozumiesz, dlaczego światło jest tutaj bohaterem równie ważnym jak człowiek. To książka dla tych, którzy kiedyś stracili głos. I dla tych, którzy wciąż próbują go odzyskać. Zostaje pod skórą na długo po ostatniej stronie.
 
-**VISUAL:** owner supplied `Już w sprzedaży` Empik promotional visual.
-
-**STATUS:** RECEIVED — title, description, Empik link, visual.
-
 ### 08 — Baśń o Pornlandii
 **TYTUŁ:** `Baśń o Pornlandii`
 
@@ -183,10 +165,6 @@ The source includes `I. Satanizm Dnia Codziennego`, `II. SYSTEMOWE PORÓWNANIE L
 **OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
 > „Baśń o Pornlandii” to brutalnie poetycka podróż do świata, w którym dotyk stał się przestępstwem, emocje – walutą kontrolowaną przez system, a miłość – aktem buntu większym niż rewolucja. Andrzej Mikulski otwiera przed czytelnikiem nową oś czasu: zimną, neonową i boleśnie aktualną. Na planecie pachnącej szkłem ludzie żyją bez ciała, bez bliskości, bez prawa do błędu. Wszystko jest obliczone. Wszystko jest sterylne. Aż do chwili, gdy w tej maszynie zaczyna pękać pierwszy szew. Rocco – były aktor świata, którego już nie ma. Mira – kustoszka gestów zakazanych. Andrzej – fotograf zagubiony w obcym wymiarze, który jedynym kliknięciem zatrzymuje prawdę, jakiej system nie toleruje. Ich sojusz staje się początkiem epidemii, której Pornlandia boi się najbardziej: wirusa empatii. To książka o pragnieniu, którego nie da się stłumić, o wolności, która zawsze szuka pęknięcia w lodzie, i o świecie, który przypomina, jak łatwo stracić człowieczeństwo… i jak trudno je odzyskać.
-
-**VISUAL:** owner supplied `Już w sprzedaży` Empik promotional visual.
-
-**STATUS:** RECEIVED — title, description, Empik link, two trailers, visual.
 
 ### 09 — Cieszyn Noir
 **TYTUŁ:** `Cieszyn Noir`
@@ -217,20 +195,18 @@ The source includes `I. Satanizm Dnia Codziennego`, `II. SYSTEMOWE PORÓWNANIE L
 >
 > Czy jesteś pewien, że Twoja rola w „filmie”, który nazywasz życiem, nie została już dawno napisana przez kogoś innego? Może Ty również jesteś tylko statystą czekającym na swój „Protokół Zniszczenia” i 720 sekund, które skasują wszystko, co kochasz. Rzeczywistość to pęknięta szyba hartowana, która trzyma się w ramie wyłącznie dzięki chwilowemu, fałszywemu napięciu.
 
-**PODCAST:** `Cieszyn Noir i miłość silniejsza niż system` — supplied as M4A: `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a`.
-
-**STATUS:** RECEIVED — title, full supplied description text, podcast, promotional visual material.
+**PODCAST:** `Cieszyn Noir i miłość silniejsza niż system` — `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a`
 
 ### 10 — Ontologia Liczby i Geometrii
 **TYTUŁ:** `Ontologia Liczby i Geometrii`
 
 **STRUKTURA:** `TRYLOGIA`
 
-**OPIS:** `MISSING / RECOVERY REQUIRED` — owner explicitly stated that a dedicated description was not yet supplied in the material currently recoverable here. Do not invent one.
+**PRESENTATION DECISION:** immersive gallery inside the book presentation. No conventional invented description.
 
-**PODCAST:** `Liczby rzeźbią fizyczną strukturę wszechświata` — supplied as M4A: `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a`.
+**PODCAST:** `Liczby rzeźbią fizyczną strukturę wszechświata` — `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a`
 
-**STATUS:** TITLE + TRYLOGIA STRUCTURE + PODCAST RECEIVED; dedicated book description not yet recorded.
+**STATUS:** Gallery source manifest is stored in `docs/ONTOLOGIA_GALLERY.md`. Binary gallery assets require repository verification before being described as committed.
 
 ### 11 — Druga Połowa
 **TYTUŁ:** `Druga Połowa`
@@ -257,111 +233,246 @@ The source includes `I. Satanizm Dnia Codziennego`, `II. SYSTEMOWE PORÓWNANIE L
 >
 > `Zamów swój egzemplarz teraz i odkryj historię której nie znałeś !`
 
-**VISUAL:** owner supplied dedicated comic promotional visual.
+---
 
-**STATUS:** RECEIVED — title, format, description, video, visual.
+## 2.4 — O ŻYCIU O RELACJACH — NOWE UZUPEŁNIENIE WŁAŚCICIELA
 
-### 12 — O Życiu O Relacjach
-**TYTUŁ:** `O Życiu O Relacjach`
+### 12 — O ŻYCIU O RELACJACH
+**PEŁNY TYTUŁ:** `O ŻYCIU O RELACJACH`
 
-**IMPORTANT:** Owner explicitly stated that this title and its description were already supplied and had been lost from the previous register.
+**PODTYTUŁ:** `O TYM, CO NAPRAWDĘ MA ZNACZENIE`
 
-**RECOVERED CONTENT MARKERS:**
+**AUTOR:** `ANDRZEJ MIKULSKI`
 
-- `O KSIĄŻCE`
-- `A JEŚLI CHCESZ PÓJŚĆ KROK DALEJ?`
-- `KSIĄŻKA, KTÓRA ZADAJE PYTANIA`
-- `NIE CZEKAJ NA IDEALNY MOMENT`
-- `DLA KOGO JEST TA KSIĄŻKA?`
-- `A MOŻE ZACZNIESZ OD JEDNEJ STRONY?`
-- `KSIĄŻKA + SZKOLENIA`
-- exact CTA/source line: `NIE CZYTAJ TEJ KSIĄŻKI, JEŚLI NIE CHCESZ NICZEGO ZMIENIAĆ.`
-- methodology sequence: `ZROZUMIENIE → DECYZJA → DZIAŁANIE → ZMIANA`
+**OPIS — DOKŁADNY TEKST WŁAŚCICIELA:**
 
-**STATUS:** TITLE + EXISTENCE OF COMPLETE OWNER-SUPPLIED DESCRIPTION CONFIRMED; full original body requires recovery from the earlier source/attachment before publication. Do not fabricate missing paragraphs.
+> NIE CZYTAJ TEJ KSIĄŻKI, JEŚLI NIE CHCESZ NICZEGO ZMIENIAĆ.
+>
+> Są książki, które czytasz i odkładasz na półkę.
+>
+> Są też takie, które sprawiają, że po przeczytaniu jednej strony zaczynasz inaczej patrzeć na siebie, swoje relacje, decyzje i życie.
+>
+> Ta książka należy do tej drugiej kategorii.
+>
+> To nie jest zbiór pustych motywacyjnych haseł.
+>
+> To zaproszenie do zatrzymania się, zadania sobie trudnych pytań i podjęcia decyzji, które być może od dawna odkładasz na później.
+>
+> O miłości.
+> O granicach.
+> O strachu.
+> O czasie.
+> O własnej wartości.
+> O błędach.
+> O przebaczeniu.
+> O marzeniach.
+> O odwadze.
+> O tym, kim jesteś, kiedy przestajesz żyć według oczekiwań innych.
+>
+> Bo czasami nie potrzebujesz kolejnej rady. Potrzebujesz zobaczyć prawdę, której od dawna unikasz.
+>
+> TA KSIĄŻKA NIE MA CIĘ ZMIENIĆ.
+>
+> Ma pomóc Ci zobaczyć, co naprawdę wymaga zmiany.
+> Każda strona została stworzona tak, aby nie tylko przekazać myśl, ale również uruchomić refleksję.
+>
+> Nie pytaj wyłącznie:
+>
+> „Czy to prawda?”
+>
+> Zapytaj:
+>
+> „Czy to dotyczy mnie?”
+> Bo możesz wiedzieć, czym są zdrowe granice — i nadal pozwalać innym je przekraczać.
+>
+> Możesz wiedzieć, że czas jest najcenniejszy — i nadal odkładać życie na później.
+>
+> Możesz wiedzieć, że warto walczyć o swoje marzenia — i nadal bać się zrobić pierwszy krok.
+>
+> Możesz kochać drugiego człowieka — i jednocześnie zapominać o sobie.
+>
+> Wiedza nie zmienia życia.
+> Dopiero zastosowanie jej w życiu może to zrobić.
+>
+> A JEŚLI CHCESZ PÓJŚĆ KROK DALEJ?
+>
+> Sama książka może być początkiem.
+>
+> Dlatego powstały również szkolenia i programy rozwojowe, które pozwalają przełożyć refleksję na konkretne działanie.
+>
+> Nie chodzi o kolejną godzinę słuchania teorii.
+>
+> Chodzi o:
+>
+> ZROZUMIENIE → DECYZJĘ → DZIAŁANIE → ZMIANĘ
+>
+> Podczas szkoleń pracujemy nad tym, co naprawdę wpływa na codzienne życie:
+>
+> budowaniem zdrowych relacji,
+>
+> komunikacją,
+>
+> granicami,
+>
+> pewnością siebie,
+>
+> podejmowaniem decyzji,
+>
+> radzeniem sobie z lękiem i presją,
+>
+> rozpoznawaniem własnych potrzeb,
+>
+> pracą nad przekonaniami,
+>
+> odpowiedzialnością za własne wybory,
+>
+> budowaniem życia zgodnego z własnymi wartościami.
+>
+> Nie po to, żeby stać się kimś innym.
+> Po to, żeby bardziej świadomie stać się sobą.
+>
+> KSIĄŻKA, KTÓRA ZADAJE PYTANIA
+>
+> Nie obiecuje, że po jej przeczytaniu wszystkie problemy znikną.
+>
+> Nie obiecuje idealnego życia.
+>
+> Nie mówi, że wystarczy „myśleć pozytywnie”.
+>
+> Mówi coś znacznie bardziej wymagającego:
+>
+> Masz wpływ na wiele swoich decyzji.
+> Masz wpływ na to, gdzie stawiasz granice.
+>
+> Masz wpływ na to, komu dajesz swój czas.
+>
+> Masz wpływ na to, czy pozostajesz w miejscu, czy robisz pierwszy krok.
+>
+> Masz wpływ na to, czego uczysz się ze swoich błędów.
+>
+> Masz wpływ na to, czy żyjesz według własnych wartości.
+>
+> I czasami właśnie od jednej decyzji zaczyna się całkowicie nowy rozdział.
+>
+> NIE CZEKAJ NA IDEALNY MOMENT
+>
+> Bo może nigdy nie nadejść.
+>
+> Nie będziesz zawsze gotowy.
+> Nie przestaniesz się bać wszystkich rzeczy.
+> Nie będziesz mieć pewności, że każda decyzja będzie właściwa.
+>
+> Ale możesz zrobić coś ważniejszego:
+>
+> Możesz zacząć działać pomimo niepewności.
+> Możesz powiedzieć „nie”.
+> Możesz powiedzieć „tak”.
+> Możesz przeprosić.
+> Możesz odejść.
+> Możesz wrócić.
+> Możesz zacząć od nowa.
+> Możesz zawalczyć o swoje marzenie.
+> Możesz przestać udowadniać swoją wartość innym.
+> Możesz wreszcie zacząć żyć bardziej po swojemu.
+>
+> DLA KOGO JEST TA KSIĄŻKA?
+>
+> Dla człowieka, który czuje, że stać go na więcej.
+>
+> Dla osoby, która chce lepiej rozumieć siebie i innych.
+>
+> Dla tych, którzy są na zakręcie i nie wiedzą jeszcze, którą drogę wybrać.
+>
+> Dla tych, którzy chcą poprawić swoje relacje.
+>
+> Dla tych, którzy zbyt długo odkładali ważne decyzje.
+>
+> Dla tych, którzy potrzebują odzyskać odwagę.
+>
+> Dla tych, którzy chcą się rozwijać — ale nie chcą żyć według gotowego schematu.
+>
+> I dla każdego, kto choć raz pomyślał:
+>
+> „Chcę coś zmienić, tylko nie wiem, od czego zacząć.”
+>
+> A MOŻE ZACZNIESZ OD JEDNEJ STRONY?
+>
+> Jednej myśli.
+>
+> Jednego pytania.
+>
+> Jednej decyzji.
+>
+> Jednej rozmowy.
+>
+> Jednego „nie”.
+>
+> Jednego „spróbuję”.
+>
+> Jednego pierwszego kroku.
+>
+> Bo nie musisz od razu zmieniać całego swojego życia.
+> Czasami wystarczy zmienić jedną rzecz, która zacznie zmieniać wszystko inne.
+>
+> KSIĄŻKA + SZKOLENIA
+> PRZECZYTAJ. ZATRZYMAJ SIĘ. ZASTANÓW. DZIAŁAJ.
+>
+> Książka daje Ci przestrzeń do refleksji.
+>
+> Szkolenia pomagają przełożyć refleksję na praktykę.
+>
+> Ty podejmujesz decyzję, co z tym zrobisz.
+>
+> NIE CZEKAJ, AŻ ŻYCIE SAMO SIĘ ZMIENI.
+> ZACZNIJ OD SIEBIE.
+>
+> Kup książkę.
+> Weź udział w szkoleniu.
+> Zrób pierwszy krok.
+>
+> Bo być może za rok będziesz dokładnie w tym samym miejscu.
+>
+> Chyba że zdecydujesz się zrobić coś inaczej już dzisiaj.
+>
+> AM | ANDRZEJ MIKULSKI
+>
+> Książka • Szkolenia • Rozwój osobisty • Relacje • Świadome życie
+>
+> TWOJE ŻYCIE NIE MUSI WYGLĄDAĆ TAK, JAK WYGLĄDA DZISIAJ.
+>
+> Ale ktoś musi podjąć decyzję, żeby je zmienić.
+> Dlaczego nie Ty?
+
+**SOURCE FILE:** `docs/O_ZYCIU_O_RELACJACH_SOURCE.md`
+
+**STATUS:** RECEIVED — title, subtitle, author and complete owner-supplied promotional description.
 
 ---
 
 # 3. AUDIO / PODCAST REGISTER
 
-The following audio files were supplied by the owner. Their existence must not be forgotten even when their exact book assignment is not yet certain.
+- `Anatomia_sukcesu_Pamiętnika_Sprawcy_Techniki_narracyjne.m4a`
+- `Baśń_o_Pornlandii_dystopia_dotyku_i_buntu(1).m4a`
+- `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a`
+- `Fizyka_miłości_w_Architekturze_Nieskończoności-2(1).m4a`
+- `Inżynieria_wsteczna_pułapki_na_czytelnika_Mikulskiego(1).m4a`
+- `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a`
+- `Światło,_Cień_i_Zapach__Analiza_Międzywymiarowych_Zapisków_Andr(1).m4a`
+- `Światło,_Zapach_i_Echo__Jak_Mikulski_i_Grenouille_Odkodowali_Pa.m4a`
 
-| File | Working title | Assignment |
-|---|---|---|
-| `Anatomia_sukcesu_Pamiętnika_Sprawcy_Techniki_narracyjne.m4a` | Anatomia sukcesu Pamiętnika Sprawcy — Techniki narracyjne | `Człowiek Roku` / RECOVERY-VERIFY |
-| `Baśń_o_Pornlandii_dystopia_dotyku_i_buntu(1).m4a` | Baśń o Pornlandii — dystopia dotyku i buntu | `Baśń o Pornlandii` |
-| `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a` | Cieszyn Noir i miłość silniejsza niż system | `Cieszyn Noir` |
-| `Fizyka_miłości_w_Architekturze_Nieskończoności-2(1).m4a` | Fizyka miłości w Architekturze Nieskończoności | `CCR Tom IV` |
-| `Inżynieria_wsteczna_pułapki_na_czytelnika_Mikulskiego(1).m4a` | Inżynieria wsteczna pułapki na czytelnika Mikulskiego | `UNASSIGNED / VERIFY` |
-| `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a` | Liczby rzeźbią fizyczną strukturę wszechświata | `Ontologia Liczby i Geometrii` |
-| `Światło,_Cień_i_Zapach__Analiza_Międzywymiarowych_Zapisków_Andr(1).m4a` | Światło, Cień i Zapach — Analiza Międzywymiarowych Zapisków Andr... | `UNASSIGNED / VERIFY` |
-| `Światło,_Zapach_i_Echo__Jak_Mikulski_i_Grenouille_Odkodowali_Pa.m4a` | Światło, Zapach i Echo — Jak Mikulski i Grenouille Odkodowali Pa... | `UNASSIGNED / VERIFY` |
-
-**Rule:** filenames are preserved exactly as received. Do not rename or silently discard them during migration.
+Filenames are preserved exactly as received.
 
 ---
 
-# 4. BOOK VISUAL REGISTER
-
-Owner supplied promotional visuals including:
-
-- `CCR Tom I` — `JUŻ W SPRZEDAŻY` / Empik.
-- `CCR Tom II` — `JUŻ W SPRZEDAŻY` / Empik.
-- `CCR Tom III — Ludzie Roku — Oś 18 Świadomości` — `JUŻ W SPRZEDAŻY` / Empik.
-- `CCR Tom IV — Architektura Nieskończoności` — `JUŻ WKRÓTCE` / Empik.
-- `Człowiek Roku` — `JUŻ W SPRZEDAŻY` / Empik.
-- `Oczami Alienatorki` — `JUŻ WKRÓTCE` / Empik.
-- `Światło, które zostało` — `JUŻ W SPRZEDAŻY` / Empik.
-- `Baśń o Pornlandii` — `JUŻ W SPRZEDAŻY` / Empik.
-- `Druga Połowa` — dedicated comic promotional visual.
-
-**Visual rule:** owner-provided cover art and original logo are source assets. Do not reconstruct, replace or generate a similar logo or cover when an authentic supplied asset exists.
-
----
-
-# 5. REQUIRED BOOK UI BEHAVIOUR
-
-The Books section must treat each title as an editorial object rather than a generic card.
-
-Each book entry should support, where source material exists:
-
-- canonical full title;
-- subtitle;
-- cover / promotional visual;
-- spoiler-free description;
-- trailer / podcast;
-- Empik purchase link;
-- status (`JUŻ W SPRZEDAŻY` / `JUŻ WKRÓTCE`) only when explicitly supplied;
-- expanded presentation on click.
-
-CCR must remain a recognizable connected universe. The canonical titles must never be reduced to `CCR Tom I`, `CCR Tom II`, `CCR Tom III` or `CCR Tom IV` in the primary title presentation when the subtitle is available.
-
----
-
-# 6. CONTENT ALREADY SPECIFIED FOR OTHER SITE SECTIONS
+# 4. OTHER SITE SOURCE REQUIREMENTS
 
 ## O MNIE
 
-Owner/source material establishes:
-
-- Warsaw-born photojournalist / author;
-- since 2023 living and creating in Silesia;
-- combines mining work with photojournalism for Agencja Fotograficzna REPORTER;
-- photography, film and IT;
-- 16 individual exhibitions;
-- 300+ group exhibitions;
-- work/presence in 40+ countries;
-- 2000+ awards/distinctions/acceptances;
-- AFRP 2017;
-- AFIAP 2019;
-- EFIAP 2020;
-- `Fotografia Uliczna` community with 75,000+ members;
-- Flog.pl jury;
-- books including the titles recorded above.
+Warsaw-born photojournalist / author; since 2023 living and creating in Silesia; combines mining work with photojournalism for Agencja Fotograficzna REPORTER; photography, film and IT; 16 individual exhibitions; 300+ group exhibitions; 40+ countries; 2000+ awards/distinctions/acceptances; AFRP 2017; AFIAP 2019; EFIAP 2020; `Fotografia Uliczna` community 75,000+ members; Flog.pl jury.
 
 ## RELATIONSHIP
 
-**First sentence must be exactly:**
+Exact first sentence:
 
 > `Nie każda relacja potrzebuje końca. Nie każda potrzebuje ratunku. Każda potrzebuje zrozumienia.`
 
@@ -369,46 +480,31 @@ Methodology:
 
 `POZNANIE → ZROZUMIENIE → ANALIZA → STRATEGIA → PRAKTYKA → TRANSFORMACJA`
 
-Areas:
-
-- Człowiek
-- Komunikacja
-- Relacja
-- Konflikt
-- Granice
-- Decyzja
-
-Contact supplied for massages: `studiomasazu1810@gmail.com`.
-
 ## PHOTOGRAPHY
 
-Curated gallery, not a generic grid. Required viewer metadata includes:
-
-`01 / 24` · `TYTUŁ / KATEGORIA` · navigation arrows · close · mobile swipe/pinch/tap.
+Curated gallery, asymmetric compositions, fullscreen viewer, mobile swipe/pinch/tap.
 
 ## FILM
 
-Cinematic wall rather than a YouTube list. Large media presentation and fullscreen player. No autoplay.
+Cinematic wall, fullscreen player, no autoplay.
 
 ## APPLICATIONS / AGENTS
 
-Premium technical language. Metadata may include architecture, stack, repository and status only when sourced. Not a programmer dashboard.
+Premium technical presentation; architecture, stack, status and repository only when sourced.
 
 ## PROJECTS
 
 Project Archive target: `01–57`.
 
-Required detail hierarchy:
+Detail hierarchy:
 
 `PROBLEM · IDEA · ARCHITEKTURA · TECHNOLOGIA · MECHANIZM · STATUS · REPOZYTORIUM · POWIĄZANE PROJEKTY`
 
-Graph target:
+Graph:
 
 `projects ↔ agents ↔ apps ↔ technologies ↔ publications`
 
 ## AWARDS
-
-Known timeline:
 
 - 2017 AFRP
 - 2018 BRĄZ
@@ -419,153 +515,71 @@ Known timeline:
 
 ## CONTACT
 
-Primary question:
+`W JAKIEJ SPRAWIE CHCESZ SIĘ SKONTAKTOWAĆ?`
 
-> `W JAKIEJ SPRAWIE CHCESZ SIĘ SKONTAKTOWAĆ?`
+Choices: `Relationship · Fotografia · Masaż · Media · Projekty · AI/Agent`
 
-Choices:
-
-`Relationship · Fotografia · Masaż · Media · Projekty · AI/Agent`
+Massage contact: `studiomasazu1810@gmail.com`
 
 ## FOOTER
-
-Required closing line:
 
 > `THE WORLD IS LARGER THAN THE PAGE.`
 
 ---
 
-# 7. NAVIGATION / INTERACTION REQUIREMENTS
+# 5. NAVIGATION / INTERACTION
 
-Initial navigation:
-
-`LOGO | MENU`
-
-After scroll:
-
-`smaller logo | sections | contact`
+Initial: `LOGO | MENU`
 
 Fullscreen menu:
-
-Left:
 
 - O MNIE
 - RELATIONSHIP
 - FOTOGRAFIA
 - KSIĄŻKI
-
-Right:
-
 - FILM
 - MASAŻE
 - APLIKACJE
 - AGENCI
 - PROJEKTY
+- PUBLIKACJE
+- NAGRODY
+- KONTAKT
 
-Bottom:
-
-`PUBLIKACJE · NAGRODY · KONTAKT`
-
-Additional:
-
-- Cmd/Ctrl+K command search;
-- PL / EN / SK / CZ architecture, but never fake untranslated content;
-- full keyboard support;
-- DEFAULT / HOVER / ACTIVE / FOCUS / DISABLED / LOADING / ERROR states;
-- WCAG 2.2 AA;
-- reduced motion;
-- mobile-first premium composition;
-- optional Experience Mode;
-- no heavy 3D on mobile;
-- no autoplay.
+Additional requirements: Cmd/Ctrl+K search; PL/EN/SK/CZ architecture without fake translations; full keyboard support; DEFAULT/HOVER/ACTIVE/FOCUS/DISABLED/LOADING/ERROR states; WCAG 2.2 AA; reduced motion; no heavy 3D on mobile; no autoplay.
 
 ---
 
-# 8. ASSET STATUS SYSTEM
+# 6. ASSET RULES
 
-Every asset should be classified as one of:
+Asset statuses:
 
-- `ORIGINAL`
-- `VERIFIED`
-- `EXTERNAL`
-- `PLACEHOLDER`
-- `MISSING`
+`ORIGINAL` · `VERIFIED` · `EXTERNAL` · `PLACEHOLDER` · `MISSING`
 
-Original logo:
+Original logo: `assets/logo-master.svg`
 
-`assets/logo-master.svg`
+Previously verified SHA: `9ec679f8e4cb5a26010a34a3e324cf378dbe03f9`
 
-Original logo SHA previously verified:
-
-`9ec679f8e4cb5a26010a34a3e324cf378dbe03f9`
-
-**Logo rule:** use the supplied authentic logo. Never reconstruct or generate a similar replacement.
+Never reconstruct or generate a similar replacement when the authentic asset exists.
 
 ---
 
-# 9. IMPLEMENTATION STATUS
+# 7. IMPLEMENTATION / VERIFICATION
 
-Completed in the React migration:
+React/Vite migration includes the application scaffold, GitHub Pages build/deploy conversion, React route entries, navigation/menu foundation, Home/O Mnie/Relationship/Books foundations and data-page foundations.
 
-- React/Vite application scaffold;
-- GitHub Pages build/deploy conversion;
-- React entry points for the legacy route set;
-- main navigation and fullscreen menu foundation;
-- Home foundation;
-- O Mnie route foundation;
-- Relationship route foundation;
-- Books route foundation;
-- data-page foundations for photography, trailers, music videos, massages, applications, agents, projects, publications, awards, contact and workshops;
-- original logo path retained;
-- legacy CSS parsing issue addressed by moving route entries to React wrappers.
-
-Known verification limitation:
-
-- live visual verification through the current environment has been blocked by browser/network restrictions;
-- do not claim live screenshot verification unless it actually succeeds.
+Live visual verification is subject to the current environment's browser/network restrictions and must never be falsely claimed.
 
 ---
 
-# 10. OUTSTANDING WORK
+# 8. CHANGE LOG — 2026-09-10
 
-1. Recover and persist the **complete original body** of `O Życiu O Relacjach` from the earlier source/attachment.
-2. Persist the dedicated `Ontologia Liczby i Geometrii — Trylogia` description when supplied/recovered.
-3. Integrate the full `Cieszyn Noir` description above into the React Books page without shortening it into generic invented copy.
-4. Map every supplied podcast/audio file to its correct book after source verification.
-5. Migrate the exact Project Archive 01–57 data from the original source.
-6. Migrate exact Agents / Applications metadata from original source.
-7. Migrate exact photography/gallery data and supplied media.
-8. Migrate exact publication and award source data.
-9. Verify every external book URL before publication; never invent or infer a URL.
-10. Verify actual asset paths before using them in React.
-11. Preserve `.nojekyll`, `manifest.webmanifest`, `sitemap.xml` and other explicitly required static files in the Vite output.
-12. Run GitHub Actions build and inspect deployment status after meaningful changes.
-13. Do not declare the migration complete until source content and required interactions are actually migrated and CI passes.
+- Owner supplied the complete `O ŻYCIU O RELACJACH` promotional description in chat.
+- The exact description was written to `docs/O_ZYCIU_O_RELACJACH_SOURCE.md`.
+- The exact description was added to this README under `2.4 — O ŻYCIU O RELACJACH — NOWE UZUPEŁNIENIE WŁAŚCICIELA`.
+- `src/BooksPage.jsx` contains the complete owner-supplied text for the book.
+- No assistant-generated description is authorized to replace the owner's source.
 
----
+## SOURCE-OF-TRUTH RULE
 
-# 11. CHANGE LOG — CONTENT PERSISTENCE
-
-### 2026-09-10
-
-- Rebuilt the book register around canonical full titles.
-- Restored canonical CCR subtitles:
-  - `CCR Tom I — Jak przetrwać w dziwnym świecie po przeniesieniu się do alternatywnej osi czasu`
-  - `CCR Tom II — Oś czasu w alternatywnych światach`
-  - `CCR Tom III — Ludzie Roku — Oś 18 Świadomości`
-  - `CCR Tom IV — Architektura Nieskończoności`
-- Added full owner-supplied `Cieszyn Noir` source text.
-- Recorded `Cieszyn Noir` podcast.
-- Recorded the eight supplied M4A podcast/audio materials.
-- Recorded `Druga Połowa` as a separate comic title.
-- Recorded `O Życiu O Relacjach` as a distinct title and preserved recovered section markers rather than fabricating its missing body.
-- Recorded `Ontologia Liczby i Geometrii` as a **trylogia** and preserved its podcast.
-- Reinforced the rule that owner-supplied content must be persisted in the repository and not depend on active chat context.
-
----
-
-# 12. CURRENT SOURCE-OF-TRUTH RULE
-
-**If the chat says one thing and this repository ledger says another, stop and reconcile the source material before implementation. Do not guess.**
-
-**If something was supplied by the owner but is no longer visible in active conversation context, it must be treated as potentially recoverable — not as never supplied.**
+**If owner source and implementation differ, owner source wins. Stop, reconcile and correct the implementation. Never guess.**
