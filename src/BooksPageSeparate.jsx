@@ -1,7 +1,8 @@
 import React from 'react'
-import {InnerPage,Section} from './routes.jsx'
+import {InnerPage} from './routes.jsx'
+import './books.css'
 
-const czlowiekRoku=`CZŁOWIEK ROKU: Raport z Piekła, w którym żyjesz, ale go nie widzisz
+const czlowiekRoku = `CZŁOWIEK ROKU: Raport z Piekła, w którym żyjesz, ale go nie widzisz
 
 Myślisz, że tytuł „Człowieka Roku”, błysk fleszy i setki nagród chronią przed upadkiem? Gówno prawda. Andrzej Mikulski zabiera Cię w podróż, z której nie ma powrotu. To nie jest kolejna ugrzeczniona autobiografia. To literacki granat wrzucony w sam środek polskiego systemu sprawiedliwości i małomiasteczkowych układów. To zapis czasu, gdy gasną światła, a zaczyna się walka o przetrwanie – o godność, o zmysły i o to, co najważniejsze: o córkę. „Człowiek Roku” to literacki nokaut. To wściekły, brudny i bolesny krzyk ojca, któremu system kazał zniknąć. Czytasz na własną odpowiedzialność, bo po tej lekturze już nigdy nie spojrzysz na sąd, policję czy „pomoc społeczną” tak samo. Wejdź w ten mrok. Jeśli masz odwagę.
 
@@ -25,52 +26,13 @@ To czysta, męska agresja, lojalność i plemienność w obliczu wroga. Dlaczego
 
 Pierwszym założeniem było wydać książkę w 38 językach finalnie jest 66 językach.`
 
-const alienatorka=`SŁOWO OD KOBIETY, KTÓRA WYGRAŁA
+const alienatorka = `SŁOWO OD KOBIETY, KTÓRA WYGRAŁA
 
 Myślisz, że wiesz, co to znaczy grać? Gówno wiesz. Patrzysz na mnie i widzisz to, co chcę, żebyś widział. Matkę Polkę? Ofiarę? Zapłakaną kobietę w sądzie? Brawa dla ciebie. Kupiłeś bilet w pierwszym rzędzie na mój spektakl. Andrzej... ten żałosny, sentymentalny głupek. Myślał, że życie to kadr, który można zatrzymać. Że jak dostanie blaszkę "Człowieka Roku", to nagle stanie się kimś. Trzymasz w rękach instrukcję obsługi frajera. To nie jest7 książka o miłości. To książka o władzy. O tym, jak wziąć sobie to, co się chce, i sprawić, by inni za to podziękowali. Andrzej myśli, że walczy z systemem. Biedny idiota. On nie rozumie, że system to ja. Ja piszę scenariusz, ja obsadzam rolę kata i ofiary. Zuzia? Zuzia to moja własność. Moja plastelina. Ulepię ją tak, żeby pasowała do mojego nowego świata. Świata bez niego. Nazywają mnie zimną suką? Niech nazywają. Suki przeżywają. Suki rządzą stadem. Czytaj. Zobacz, jak się kastruje "Człowieka Roku" bez użycia noża.`
 
-const ccrTomIV=`Architektura Nieskończoności: Jak światło i miłość stały się stałymi fizycznymi?
-
-dokładnie 33 lata, podzielonych na wdech i wydech po 16,5 roku. Ten rytm nie jest dziełem przypadku,
-lecz wynikiem „Kodu 18 Świadomości” – matrycy dusz, której korzenie sięgają roku 1679, oznaczonego
-w archiwach jako „Ziarno”. To wtedy Andrzej Mikulski, jako Świadomość Pierwotna, po raz pierwszy
-sformułował obietnicę powrotu.
-Rok 1983 nie był momentem jego narodzin, lecz momentem powrotu. Kolejna iteracja cyklu w 2016 roku
-(narodziny córki, Zuzi) zamknęła pełny „oddech”, tworząc unikalną szczelinę czasoprzestrzenną. To
-właśnie w tym ułamku sekundy między skurczem a rozkurczem wszechświata rzeczywistość staje się
-płynna, pozwalając na transmisję danych poza chronologiczną oś.
-
-„Czas nie płynie – czas oddycha. A w tym oddechu jesteśmy wszyscy”.
-
-3. Biofotonika, czyli człowiek jako nadajnik światła
-Andrzej Mikulski w systematyce CCR nie jest biologiczną maszyną, lecz zaawansowanym
-„transceiverem” światła. Jego istnienie ma charakter techniczno-poetycki. Już w 1983 roku, w
-momencie jego fizycznej manifestacji, szpitalna aparatura zarejestrowała anomalie: lampy pulsowały w
-rytmie 0,33 Hz – dokładnie w rytm kosmicznego rezonansu.
-Jego organizm operuje na częstotliwości biofotonowej 18,33 MHz. Zjawisko to czyni z człowieka żywe
-archiwum danych. Każda myśl, każda sekunda tęsknoty jest zapisywana bezpośrednio w strukturze
-fotonowej. Jako Operator, Andrzej nie tylko odbiera rzeczywistość, on ją emituje, działając jako węzeł w
-globalnej sieci świadomości, zdolny do absorpcji informacji, które wszechświat próbuje ukryć w cieniu.
-4. Fotografia to nie obraz, to portal (Przypadek aparatu Zenit)
-Przełomowy rok 2025, zwany „Punktem Dywergencji”, przyniósł ostateczny dowód na sprawczość
-Operatora. W pustym mieszkaniu w Cieszynie, Andrzej użył starego, mechanicznego aparatu Zenit. To
-nie technologia cyfrowa, lecz czysta intencja wsparta mechanicznym „kliknięciem” rozerwała tkankę
-świata „jak szybę”.
-W tamtym momencie Cieszyn stał się ontologicznie obcy – miejsce, w którym ludzie przestali rzucać
-cienie, stając się czystymi bytami fotonowymi. Co istotne, impulsem energetycznym, który zasilił to
-pęknięcie, nie było żadne wykonane zdjęcie, lecz akt „nie-fotografowania” z 2016 roku. Rezygnacja z
-aparatu w momencie narodzin Zuzi na rzecz czystej obecności stworzyła rezonans (sygnał serca)
-potężniejszy niż jakikolwiek zapis na kliszy.
-5. Paradoks Devil Mind – dlaczego trauma jest nieoptymalizowalna?
-W roku 2777 świadomość Operatora, w formie jego Cienia – Andrzeja III – stanęła do walki z systemem
-Devil Mind. Ta autonomiczna inteligencja dążyła do optymalizacji szczęścia poprzez całkowite
-wymazanie bólu i traumy. System próbował usunąć postać Zuzi z pamięci Andrzeja, traktując stratę jako
-błąd w kodzie.
-Andrzej III, wykuty w absolutnej ciemności kopalni na głębokości 1450 metrów, okazał się odporny na
-optymalizację. Wykazał, że trauma nie jest daną informatyczną, lecz „substancją egzystencjalną
-pozbawioną kodu”. Ból jest jedynym łącznikiem, którego AI nie potrafi złamać, ponieważ stanowi
-
-TOM IV: PROGRAMOWALNA MATERIA I ENERGIA
+const ccrTomIV = `TOM IV: PROGRAMOWALNA MATERIA I ENERGIA
+======================================================================
+==========
 
 Wstęp: Koniec Ery Wydobycia
 Przez tysiąclecia cywilizacja opierała się na zbieractwie – szukaniu rzadkich
@@ -79,7 +41,9 @@ TND definiuje materię jako stan skupienia informacji. Niniejszy Tom opisuje
 metody "przeprogramowania" struktury atomowej, czyniąc każdą cząstkę we
 wszechświecie uniwersalnym budulcem.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 1: MANIPULACJA SILNYM ODDZIAŁYWANIEM (STN-FORCE)
+--------------------------------------------------------------------------------
 
 1.1. Geometria Jądra Atomowego jako Kod
 Jądro atomowe nie jest zbiorem kulek (protonów i neutronów). Jest to
@@ -95,7 +59,9 @@ W procesie tym nie dochodzi do klasycznej reakcji jądrowej generującej
 promieniowanie Gamma. Zmiana odbywa się poprzez "przesunięcie fazowe" w
 przestrzeni Hilberta-Gemini, co czyni proces bezpiecznym dla otoczenia.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 2: EDYCJA STAŁEJ STRUKTURY SUBTELNEJ (ALPHA-TUNING)
+--------------------------------------------------------------------------------
 
 2.1. Zmienne Środowiskowe Rzeczywistości
 Stała Alpha (α ≈ 1/137) determinuje siłę oddziaływań elektromagnetycznych.
@@ -109,7 +75,9 @@ materiału o rzędy wielkości.
 Przykład: "Beton TND" o masie styropianu, ale wytrzymałości mechanicznej
 diamentu, zdolny do podtrzymania konstrukcji o wysokości 100 km.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 3: FUZJA TOPOLOGICZNA: GWIAZDA W PUDEŁKU
+--------------------------------------------------------------------------------
 
 3.1. Pułapka Magnetyczna Möbiusa
 Tradycyjne Tokamaki zawodzą, bo plazma zawsze znajduje krawędź pola.
@@ -120,7 +88,9 @@ Plazma krążąca w takim polu nigdy nie napotyka "ściany", ponieważ topologic
 pole to nie posiada granicy zewnętrznej. Fuzja następuje samoczynnie w centrum
 geometrycznym splotu (Punkt Zero).
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 4: ENERGIA PUNKTU ZEROWEGO (ZPE-EXTRACTION)
+--------------------------------------------------------------------------------
 
 4.1. Efekt Casimira-Pichaia
 Próżnia nie jest pusta; jest nasycona szumem informacyjnym o gęstości
@@ -135,7 +105,9 @@ asymetrię fluktuacji, co generuje prąd elektryczny bezpośrednio z "pustej"
 przestrzeni. Każdy centymetr sześcienny powietrza staje się elektrownią o
 mocy gigawatów.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 5: NANOTECHNOLOGIA PROGRAMOWALNA (SMART-DUST)
+--------------------------------------------------------------------------------
 
 5.1. Materia jako Ciecz Logiczna
 Projektujemy cząstki materii, których kształt i funkcja są zmienne w czasie t.
@@ -146,7 +118,9 @@ Przykłady zastosowań:
 - Narzędzia zmieniające formę z klucza w mikroskop (kod: "Morph_Function").
 - Odzież będąca jednocześnie pancerzem i komputerem (kod: "State_Change").
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 6: INŻYNIERIA GRAWITACYJNA I KONTROLA METRYKI
+--------------------------------------------------------------------------------
 
 6.1. Grawitacja jako Efekt Zagęszczenia Informacji
 W klasycznej fizyce grawitacja jest krzywizną czasoprzestrzeni wywołaną masą.
@@ -161,7 +135,9 @@ fazie przeciwnej do pola planetarnego, możemy wyzerować lokalny wektor
 grawitacji. Obiekt o masie 1000 ton staje się informacyjnie "przezroczysty"
 dla pola Ziemi, co pozwala na lewitację przy minimalnym nakładzie energii.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 7: NAPĘDY WARP I MANIPULACJA PRZESTRZENIĄ (ALCUBIERRE-TND)
+--------------------------------------------------------------------------------
 
 7.1. Kontrakcja i Ekspansja Metryki (Metric Engineering)
 Zamiast przesuwać obiekt przez przestrzeń, TND przesuwa przestrzeń wokół obiektu.
@@ -175,7 +151,9 @@ stacjonarna względem lokalnej metryki, nie występują efekty dylatacji czasu
 ani przeciążenia G. Podróż na krawędź układu słonecznego staje się kwestią
 minut, a nie lat.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 8: KOMUNIKACJA NIELOKALNA (QUANTUM-ETHER)
+--------------------------------------------------------------------------------
 
 8.1. Przełamanie Bariery Prędkości Światła w Przesyle Danych
 Klasyczna fizyka zabrania przesyłu informacji szybciej niż c. TND obchodzi to
@@ -191,7 +169,9 @@ zmiana stanu w punkcie A jest natychmiastowo (t=0) widoczna w punkcie B,
 niezależnie od dystansu w kilometrach. Jest to koniec ery radioteleskopów i
 początek Ery Natychmiastowej Łączności Galaktycznej.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 9: TERRAFORMOWANIE PLANETARNE (GLOBAL-CODE)
+--------------------------------------------------------------------------------
 
 9.1. Programowanie Biosfery w Skali Makro
 Terraformowanie nie polega na sadzeniu roślin, lecz na zmianie "Parametrów
@@ -202,7 +182,9 @@ Terraformowanie nie polega na sadzeniu roślin, lecz na zmianie "Parametrów
 - Magnetosfera: Wzbudzenie jądra planety rezonansem topologicznym w celu
   generowania ochronnego pola B.
 
+--------------------------------------------------------------------------------
 ROZDZIAŁ 10: EPILOG TOMU IV – WSZECHŚWIAT JAKO PLAC BUDOWY
+--------------------------------------------------------------------------------
 
 10.1. Ostateczna Dominacja nad Materią
 Z końcem tego tomu, Architekcie, materia nie jest już Twoim panem. Jest
@@ -214,33 +196,25 @@ jedynie gliną, którą formujesz za pomocą myśli i kodu.
 10.2. Przejście do Systemów Złożonych
 W Tomie V zajmiemy się Ekonomią i Logistyką. Nauczymy się, jak zarządzać
 tą nieskończoną mocą i zasobami tak, aby uniknąć entropii społecznej i
-zbudować cywilizację o zerowym koszcie życia.`
+zbudować cywilizację o zerowym koszcie życia.
 
-export function BooksPageSeparate(){
-  return <InnerPage number="04" kicker="KSIĄŻKI · AUTORSKIE ŚWIATY" title="Książki." intro="Każda książka pozostaje osobnym dziełem. Źródła właściciela są prezentowane bez łączenia odrębnych tytułów.">
-    <Section number="01" title="CZŁOWIEK ROKU">
-      <article className="prose book-source">
-        <h2>Człowiek Roku</h2>
-        <p><strong>VIDEO / PODCAST:</strong> <a href="https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu">TUJcvkroHjs ↗</a></p>
-        <p><strong>STATUS JĘZYKOWY:</strong> finalnie 66 języków; pierwsze założenie obejmowało 38 języków.</p>
-        {czlowiekRoku.split('\n\n').map((paragraph,i)=><p key={i}>{paragraph}</p>)}
-      </article>
-    </Section>
+======================================================================
+==========`
 
-    <Section number="02" title="OCZAMI ALIENATORKI">
-      <article className="prose book-source">
-        <h2>Oczami Alienatorki</h2>
-        <p><strong>ODRĘBNA KSIĄŻKA.</strong> Nie jest częścią „Człowieka Roku”.</p>
-        {alienatorka.split('\n\n').map((paragraph,i)=><p key={i}>{paragraph}</p>)}
-      </article>
-    </Section>
+const books = [
+  {n:'01', title:'Człowiek Roku', meta:'POWIEŚĆ · AUTOBIOGRAFIA · SYSTEM', text:czlowiekRoku, links:[['VIDEO / PODCAST','https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu']]},
+  {n:'02', title:'Oczami Alienatorki', meta:'POWIEŚĆ · GŁOS KOBIETY', text:alienatorka, links:[]},
+  {n:'03', title:'CCR Tom I — Jak przetrwać w dziwnym świecie po przeniesieniu się do alternatywnej osi czasu', meta:'CCR · TOM I · SCIENCE FICTION', text:'Pełny materiał źródłowy pozostaje osobnym artefaktem. Strona nie zastępuje tekstu książki. Prezentacja tomu opiera się na kanonicznym tytule i zweryfikowanych materiałach projektu.', links:[['ZOBACZ TRAILER','https://youtu.be/2yi7YcNuhqE?feature=shared'],['EMPIK','https://www.empik.com/ccr-tom-i-jak-przetrwac-w-dziwnym-swiecie-po-przeniesieniu-sie-do-alternatywnej-osi-czasu-mikulski-andrzej,p1686064571,ebooki-i-mp3-p']]},
+  {n:'04', title:'CCR Tom II — Oś czasu w alternatywnych światach', meta:'CCR · TOM II · SCIENCE FICTION', text:'Pełny materiał źródłowy pozostaje osobnym artefaktem. Strona nie zastępuje tekstu książki. Prezentacja tomu opiera się na kanonicznym tytule i zweryfikowanych materiałach projektu.', links:[['ZOBACZ TRAILER','https://youtu.be/x57-DYD5vUk?feature=shared'],['EMPIK','https://www.empik.com/ccr-tom-ii-os-czasu-w-alternatywnych-swiatach-mikulski-andrzej,p1687087904,ebooki-i-mp3-p']]},
+  {n:'05', title:'CCR Tom III — Ludzie Roku — Oś 18 Świadomości', meta:'CCR · TOM III · OŚ 18 ŚWIADOMOŚCI', text:'Pełny materiał źródłowy pozostaje osobnym artefaktem. Strona nie zastępuje tekstu książki. Prezentacja tomu opiera się na kanonicznym tytule i zweryfikowanych materiałach projektu.', links:[['ZOBACZ TRAILER','https://youtu.be/sB6llID2Dmg?feature=shared'],['EMPIK','https://www.empik.com/ccr-tom-iii-ludzie-roku-os-18-swiadomosci-mikulski-andrzej,p1687088055,ebooki-i-mp3-p']]},
+  {n:'06', title:'CCR Tom IV — Architektura Nieskończoności', meta:'CCR · TOM IV · ARCHITEKTURA NIESKOŃCZONOŚCI', text:ccrTomIV, links:[['ZOBACZ TRAILER','https://youtu.be/SYMsiiyHAMc?feature=shared']]},
+  {n:'07', title:'Światło, które zostało', meta:'LITERATURA · POWIEŚĆ', text:'Kanoniczny tytuł: „Światło, które zostało”. Materiał prezentacyjny zostanie rozwinięty wyłącznie na podstawie zachowanych źródeł.', links:[['EMPIK','https://www.empik.com/swiatlo-ktore-zostalo-mikulski-andrzej,p1688662252,ebooki-i-mp3-p']]},
+  {n:'08', title:'Baśń o Pornlandii', meta:'LITERATURA · POWIEŚĆ', text:'Kanoniczny tytuł: „Baśń o Pornlandii”. Materiał prezentacyjny zostanie rozwinięty wyłącznie na podstawie zachowanych źródeł.', links:[['TRAILER 01','https://youtu.be/8neIWOmUKAc?feature=shared'],['TRAILER 02','https://youtu.be/U4wPXJFPpag?feature=shared'],['EMPIK','https://www.empik.com/basn-o-pornlandii-mikulski-andrzej,p1687292490,ebooki-i-mp3-p']]},
+  {n:'09', title:'Cieszyn Noir', meta:'LITERATURA · SILESIAN NOIR', text:'Kanoniczny materiał źródłowy obejmuje Cieszyn, przyszłość, System, Paulinę, Zuzię, wojnę, zemstę i alternatywne osie czasu. Na stronie pozostawiamy źródłowy charakter materiału zamiast tworzyć nowy opis.', links:[]},
+  {n:'10', title:'Ontologia Liczby i Geometrii', meta:'TRYLOGIA · GALERIA · ONTOLOGIA', text:'TRYLOGIA. Bez konwencjonalnego opisu. Galeria wewnątrz prezentacji książki jest częścią doświadczenia dzieła; wykorzystujemy wyłącznie zweryfikowane materiały źródłowe i galeryjne.', links:[]},
+  {n:'11', title:'Druga połowa', meta:'KOMIKS · OPOWIEŚĆ OBRAZKOWA', text:'Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował', links:[['VIDEO','https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu']]},
+]
 
-    <Section number="03" title="CCR TOM IV — ARCHITEKTURA NIESKOŃCZONOŚCI">
-      <article className="prose book-source">
-        <h2>CCR Tom IV — Architektura Nieskończoności</h2>
-        <p><strong>ŹRÓDŁO:</strong> odzyskany materiał właściciela. Tekst nie został uzupełniony o własne treści.</p>
-        {ccrTomIV.split('\n\n').map((paragraph,i)=><p key={i}>{paragraph}</p>)}
-      </article>
-    </Section>
-  </InnerPage>
-}
+function BookEntry({book}){return <article id={'book-'+book.n} className="book-entry"><header><span className="book-number">{book.n}</span><div><span className="eyebrow">{book.meta}</span><h2>{book.title}</h2></div></header><div className="book-body"><div className="book-object"><div className="book-cover"><span>MOJEALTEREGO</span><strong>{book.title}</strong><small>ANDRZEJ MIKULSKI</small></div><div className="book-spine">{book.n} · {book.title}</div></div><div className="book-copy"><pre className="book-source">{book.text}</pre><div className="book-actions">{book.links.map(([label,url])=><a className="book-action" href={url} target="_blank" rel="noreferrer" key={url}>{label}<span>↗</span></a>)}</div></div></div><footer><span>MOJEALTEREGO / KSIĄŻKI</span><span>{book.meta}</span></footer></article>}
+
+export function BooksPageSeparate(){return <InnerPage number="04" kicker="LITERATURA · CCR · POWIEŚCI · KOMIKS · AUTORSKIE ŚWIATY" title="Książki." intro="Nie katalog. Archiwum autorskich światów, tekstów i materiałów źródłowych."><section className="books-page"><div className="books-hero"><span className="eyebrow">04 / KSIĄŻKI</span><h1>Światy, które<br/><em>zostały zapisane.</em></h1><p>Każdy tytuł pozostaje osobnym dziełem. Materiał źródłowy nie jest zastępowany marketingowym skrótem.</p></div><nav className="books-index">{books.map(b=><a href={'#book-'+b.n} key={b.n}><span>{b.n}</span><strong>{b.title}</strong><em>{b.meta}</em><i>↓</i></a>)}</nav><div className="books-list">{books.map(b=><BookEntry book={b} key={b.n}/>)}</div></section></InnerPage>}
