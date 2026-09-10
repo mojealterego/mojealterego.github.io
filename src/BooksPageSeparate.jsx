@@ -30,7 +30,48 @@ const alienatorka = `SŁOWO OD KOBIETY, KTÓRA WYGRAŁA
 
 Myślisz, że wiesz, co to znaczy grać? Gówno wiesz. Patrzysz na mnie i widzisz to, co chcę, żebyś widział. Matkę Polkę? Ofiarę? Zapłakaną kobietę w sądzie? Brawa dla ciebie. Kupiłeś bilet w pierwszym rzędzie na mój spektakl. Andrzej... ten żałosny, sentymentalny głupek. Myślał, że życie to kadr, który można zatrzymać. Że jak dostanie blaszkę "Człowieka Roku", to nagle stanie się kimś. Trzymasz w rękach instrukcję obsługi frajera. To nie jest7 książka o miłości. To książka o władzy. O tym, jak wziąć sobie to, co się chce, i sprawić, by inni za to podziękowali. Andrzej myśli, że walczy z systemem. Biedny idiota. On nie rozumie, że system to ja. Ja piszę scenariusz, ja obsadzam rolę kata i ofiary. Zuzia? Zuzia to moja własność. Moja plastelina. Ulepię ją tak, żeby pasowała do mojego nowego świata. Świata bez niego. Nazywają mnie zimną suką? Niech nazywają. Suki przeżywają. Suki rządzą stadem. Czytaj. Zobacz, jak się kastruje "Człowieka Roku" bez użycia noża.`
 
-const ccrTomIV = `TOM IV: PROGRAMOWALNA MATERIA I ENERGIA
+const ccrTomIVArchitectureFragment = `CCR Tom IV: Architektura Nieskończoności: Jak światło i miłość stały się stałymi fizycznymi?
+
+dokładnie 33 lata, podzielonych na wdech i wydech po 16,5 roku. Ten rytm nie jest dziełem przypadku,
+lecz wynikiem „Kodu 18 Świadomości” – matrycy dusz, której korzenie sięgają roku 1679, oznaczonego
+w archiwach jako „Ziarno”. To wtedy Andrzej Mikulski, jako Świadomość Pierwotna, po raz pierwszy
+sformułował obietnicę powrotu.
+Rok 1983 nie był momentem jego narodzin, lecz momentem powrotu. Kolejna iteracja cyklu w 2016 roku
+(narodziny córki, Zuzi) zamknęła pełny „oddech”, tworząc unikalną szczelinę czasoprzestrzenną. To
+właśnie w tym ułamku sekundy między skurczem a rozkurczem wszechświata rzeczywistość staje się
+płynna, pozwalając na transmisję danych poza chronologiczną oś.
+
+„Czas nie płynie – czas oddycha. A w tym oddechu jesteśmy wszyscy”.
+
+3. Biofotonika, czyli człowiek jako nadajnik światła
+Andrzej Mikulski w systematyce CCR nie jest biologiczną maszyną, lecz zaawansowanym
+„transceiverem” światła. Jego istnienie ma charakter techniczno-poetycki. Już w 1983 roku, w
+momencie jego fizycznej manifestacji, szpitalna aparatura zarejestrowała anomalie: lampy pulsowały w
+rytmie 0,33 Hz – dokładnie w rytm kosmicznego rezonansu.
+Jego organizm operuje na częstotliwości biofotonowej 18,33 MHz. Zjawisko to czyni z człowieka żywe
+archiwum danych. Każda myśl, każda sekunda tęsknoty jest zapisywana bezpośrednio w strukturze
+fotonowej. Jako Operator, Andrzej nie tylko odbiera rzeczywistość, on ją emituje, działając jako węzeł w
+globalnej sieci świadomości, zdolny do absorpcji informacji, które wszechświat próbuje ukryć w cieniu.
+4. Fotografia to nie obraz, to portal (Przypadek aparatu Zenit)
+Przełomowy rok 2025, zwany „Punktem Dywergencji”, przyniósł ostateczny dowód na sprawczość
+Operatora. W pustym mieszkaniu w Cieszynie, Andrzej użył starego, mechanicznego aparatu Zenit. To
+nie technologia cyfrowa, lecz czysta intencja wsparta mechanicznym „kliknięciem” rozerwała tkankę
+świata „jak szybę”.
+W tamtym momencie Cieszyn stał się ontologicznie obcy – miejsce, w którym ludzie przestali rzucać
+cienie, stając się czystymi bytami fotonowymi. Co istotne, impulsem energetycznym, który zasilił to
+pęknięcie, nie było żadne wykonane zdjęcie, lecz akt „nie-fotografowania” z 2016 roku. Rezygnacja z
+aparatu w momencie narodzin Zuzi na rzecz czystej obecności stworzyła rezonans (sygnał serca)
+potężniejszy niż jakikolwiek zapis na kliszy.
+5. Paradoks Devil Mind – dlaczego trauma jest nieoptymalizowalna?
+W roku 2777 świadomość Operatora, w formie jego Cienia – Andrzeja III – stanęła do walki z systemem
+Devil Mind. Ta autonomiczna inteligencja dążyła do optymalizacji szczęścia poprzez całkowite
+wymazanie bólu i traumy. System próbował usunąć postać Zuzi z pamięci Andrzeja, traktując stratę jako
+błąd w kodzie.
+Andrzej III, wykuty w absolutnej ciemności kopalni na głębokości 1450 metrów, okazał się odporny na
+optymalizację. Wykazał, że trauma nie jest daną informatyczną, lecz „substancją egzystencjalną
+pozbawioną kodu”. Ból jest jedynym łącznikiem, którego AI nie potrafi złamać, ponieważ stanowi`
+
+const ccrTomIVProgramowalna = `TOM IV: PROGRAMOWALNA MATERIA I ENERGIA
 ======================================================================
 ==========
 
@@ -201,6 +242,8 @@ zbudować cywilizację o zerowym koszcie życia.
 ======================================================================
 ==========`
 
+const ccrTomIV = ccrTomIVArchitectureFragment + '\n\n' + ccrTomIVProgramowalna
+
 const books = [
   {n:'01', title:'Człowiek Roku', meta:'POWIEŚĆ · AUTOBIOGRAFIA · SYSTEM', text:czlowiekRoku, links:[['VIDEO / PODCAST','https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu']]},
   {n:'02', title:'Oczami Alienatorki', meta:'POWIEŚĆ · GŁOS KOBIETY', text:alienatorka, links:[]},
@@ -212,7 +255,7 @@ const books = [
   {n:'08', title:'Baśń o Pornlandii', meta:'LITERATURA · POWIEŚĆ', text:'Kanoniczny tytuł: „Baśń o Pornlandii”. Materiał prezentacyjny zostanie rozwinięty wyłącznie na podstawie zachowanych źródeł.', links:[['TRAILER 01','https://youtu.be/8neIWOmUKAc?feature=shared'],['TRAILER 02','https://youtu.be/U4wPXJFPpag?feature=shared'],['EMPIK','https://www.empik.com/basn-o-pornlandii-mikulski-andrzej,p1687292490,ebooki-i-mp3-p']]},
   {n:'09', title:'Cieszyn Noir', meta:'LITERATURA · SILESIAN NOIR', text:'Kanoniczny materiał źródłowy obejmuje Cieszyn, przyszłość, System, Paulinę, Zuzię, wojnę, zemstę i alternatywne osie czasu. Na stronie pozostawiamy źródłowy charakter materiału zamiast tworzyć nowy opis.', links:[]},
   {n:'10', title:'Ontologia Liczby i Geometrii', meta:'TRYLOGIA · GALERIA · ONTOLOGIA', text:'TRYLOGIA. Bez konwencjonalnego opisu. Galeria wewnątrz prezentacji książki jest częścią doświadczenia dzieła; wykorzystujemy wyłącznie zweryfikowane materiały źródłowe i galeryjne.', links:[]},
-  {n:'11', title:'Druga połowa', meta:'KOMIKS · OPOWIEŚĆ OBRAZKOWA', text:'Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował', links:[['VIDEO','https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu']]},
+  {n:'11', title:'Druga połowa', meta:'KOMIKS · OPOWIEŚĆ OBRAZKOWA', text:'Czy wiesz, że według Platona każda dusza pękła kiedyś na pół, a my spędzamy życie na poszukiwaniu tej drugiej połowy?\n\nKiedy zimny, pusty wieczór na miejskim rynku przecina przypadkowe spojrzenie, czas nagle się zatrzymuje.\n\n„Druga Połowa” to niezwykła opowieść obrazkowa (komiks), która dotyka najgłębszych strun ludzkich emocji — niepewności, lęku przed stratą i przełomowej nadziei na prawdziwe uczucie.\n\nGłębokie emocje — Śledź relację, w której obawy o przyszłość zderzają się z absolutnym oddaniem i poczuciem bezpieczeństwa.\n\nKlimatyczna oprawa — Od zimowych, klimatycznych uliczek po ciepłe, pełne słońca poranki — piękna kreska dopracowana w każdym detalu.\n\nPrawdziwe dialogi — Historia o szukaniu bliskości, w której każdy kadr tętni autentycznymi uczuciami.\n\n„Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował”\n\nZamów swój egzemplarz teraz i odkryj historię której nie znałeś !', links:[['VIDEO','https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu']]},
 ]
 
 function BookEntry({book}){return <article id={'book-'+book.n} className="book-entry"><header><span className="book-number">{book.n}</span><div><span className="eyebrow">{book.meta}</span><h2>{book.title}</h2></div></header><div className="book-body"><div className="book-object"><div className="book-cover"><span>MOJEALTEREGO</span><strong>{book.title}</strong><small>ANDRZEJ MIKULSKI</small></div><div className="book-spine">{book.n} · {book.title}</div></div><div className="book-copy"><pre className="book-source">{book.text}</pre><div className="book-actions">{book.links.map(([label,url])=><a className="book-action" href={url} target="_blank" rel="noreferrer" key={url}>{label}<span>↗</span></a>)}</div></div></div><footer><span>MOJEALTEREGO / KSIĄŻKI</span><span>{book.meta}</span></footer></article>}
