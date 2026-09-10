@@ -199,6 +199,43 @@ A dedicated promotional visual for this title was supplied in the conversation. 
 - Podcast: **MISSING / not assigned from the supplied material**
 - Cover asset repository path: **MISSING until verified**
 
+## 13 — CIESZYN NOIR
+
+**Full title:** `Cieszyn Noir`
+
+**Headline / supplied section title:** `BÓG UMARŁ W CIESZYNIE`
+
+**Type / positioning:** noir / speculative fiction / psychological and systemic dystopian narrative, based strictly on the supplied source text.
+
+### Description supplied by owner
+
+> W kopalni ČSM Sever, kilometr pod cieszynką ziemią, Andrzej oddycha powietrzem, które pamięta dinozaury i pachnie smarem oraz potem. To tutaj, w absolutnej ciemności przerywanej stroboskopem lamp, rzeczywistość zaczyna pulsować błędem znanym jako „Critical Cyclic Reset”. Przez wizjer aparatu widzi fioletowe, neonowe światło i żyły węgla krwawiące cyfrową krwią – to moment, w którym kod Systemu staje się widoczny.
+>
+> Ten „glitch” sugeruje, że nasz świat jest jedynie źle wyrenderowaną teksturą, zaprogramowaną symulacją mającą na celu zdławienie „Iskry”. Ból fizyczny i praca w pyle stają się jedynym uczciwym punktem odniesienia, bo skała nie potrafi kłamać tak jak ludzie na bankietach. Gdy system zaczyna się sypać, bohater widzi świat jako błąd w grze, w której stawką jest przetrwanie
+>
+> Czy jesteś pewien, że Twoja rola w „filmie”, który nazywasz życiem, nie została już dawno napisana przez kogoś innego? Może Ty również jesteś tylko statystą czekającym na swój „Protokół Zniszczenia” i 720 sekund, które skasują wszystko, co kochasz. Rzeczywistość to pęknięta szyba hartowana, która trzyma się w ramie wyłącznie dzięki chwilowemu, fałszywemu napięciu.
+
+## Source asset
+
+A dedicated promotional visual for `Cieszyn Noir` was supplied in the conversation. The visual shows the book cover, the title `CIESZYN NOIR`, the line `książka Andrzeja Mikulskiego`, the cover statement `PRAWDA ZAWSZE ZOSTAWIA ŚLAD`, and the promotional status `JUŻ WKRÓTCE`.
+
+## Additional source data
+
+- Podcast file supplied: `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a`
+- The supplied material establishes that this podcast exists, but its contents have not been transcribed or otherwise verified here.
+
+## Data status
+
+- Title: **RECEIVED**
+- Headline: **RECEIVED**
+- Full promotional description: **RECEIVED**
+- Dedicated visual: **RECEIVED**
+- Podcast file: **RECEIVED**
+- Podcast content/transcript: **NOT YET VERIFIED**
+- Empik link: **MISSING / not supplied here**
+- Trailer: **MISSING / not supplied here**
+- Cover asset repository path: **MISSING until verified**
+
 ## Anti-loss instruction
 
-Do not replace this description with a shortened invented marketing summary. The supplied text is the source content and must remain available for the React book presentation.
+Do not replace these descriptions with shortened invented marketing summaries. The supplied texts are source content and must remain available for the React book presentation.
