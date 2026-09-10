@@ -25,15 +25,9 @@ To czysta, męska agresja, lojalność i plemienność w obliczu wroga. Dlaczego
 
 Pierwszym założeniem było wydać książkę w 38 językach finalnie jest 66 językach.`
 
-const alienatorka=`Nie ma nic bardziej bezwzględnego niż kobieta, która przestaje udawać.
+const alienatorka=`SŁOWO OD KOBIETY, KTÓRA WYGRAŁA
 
-I. Satanizm Dnia Codziennego
-
-II. SYSTEMOWE PORÓWNANIE LITERACKO-FILMOWE
-
-III. DLACZEGO TA KSIĄŻKA ZSZOKUJE I WYCIŚNIE ŁZY?
-
-CZYTAJ JEŚLI MASZ ODWAGĘ`
+Myślisz, że wiesz, co to znaczy grać? Gówno wiesz. Patrzysz na mnie i widzisz to, co chcę, żebyś widział. Matkę Polkę? Ofiarę? Zapłakaną kobietę w sądzie? Brawa dla ciebie. Kupiłeś bilet w pierwszym rzędzie na mój spektakl. Andrzej... ten żałosny, sentymentalny głupek. Myślał, że życie to kadr, który można zatrzymać. Że jak dostanie blaszkę "Człowieka Roku", to nagle stanie się kimś. Trzymasz w rękach instrukcję obsługi frajera. To nie jest7 książka o miłości. To książka o władzy. O tym, jak wziąć sobie to, co się chce, i sprawić, by inni za to podziękowali. Andrzej myśli, że walczy z systemem. Biedny idiota. On nie rozumie, że system to ja. Ja piszę scenariusz, ja obsadzam rolę kata i ofiary. Zuzia? Zuzia to moja własność. Moja plastelina. Ulepię ją tak, żeby pasowała do mojego nowego świata. Świata bez niego. Nazywają mnie zimną suką? Niech nazywają. Suki przeżywają. Suki rządzą stadem. Czytaj. Zobacz, jak się kastruje "Człowieka Roku" bez użycia noża.`
 
 export function BooksPageSeparate(){
   return <InnerPage number="04" kicker="KSIĄŻKI · AUTORSKIE ŚWIATY" title="Książki." intro="Każda książka pozostaje osobnym dziełem. Źródła właściciela są prezentowane bez łączenia odrębnych tytułów.">
@@ -51,7 +45,6 @@ export function BooksPageSeparate(){
         <h2>Oczami Alienatorki</h2>
         <p><strong>ODRĘBNA KSIĄŻKA.</strong> Nie jest częścią „Człowieka Roku”.</p>
         {alienatorka.split('\n\n').map((paragraph,i)=><p key={i}>{paragraph}</p>)}
-        <p><strong>STATUS ŹRÓDŁA:</strong> pełny tekst właściciela wymaga odzyskania z przekazanego źródła PDF; nie zastępuję brakującej treści tekstem wygenerowanym.</p>
       </article>
     </Section>
   </InnerPage>
