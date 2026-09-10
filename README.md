@@ -8,10 +8,12 @@
 
 1. Every owner-supplied text used by the site is persisted here or in a dedicated source file.
 2. Full texts are preferred over summaries.
-3. Missing source material is marked `MISSING / RECOVERY REQUIRED`.
+3. Missing or incomplete source material is marked `MISSING / RECOVERY REQUIRED` or `SOURCE FRAGMENT / INCOMPLETE`.
 4. The assistant must not replace owner material with invented marketing copy.
-5. Separate books must remain separate works.
-6. This README records both source material and implementation state.
+5. Separate books remain separate works.
+6. Every repository change is followed immediately by a README update before another repository change.
+7. No completion claim without a confirmed Git commit and verification.
+8. Source recovery and implementation are separate states; incomplete source is never presented as complete.
 
 ---
 
@@ -42,12 +44,6 @@ Primary routes:
 - `/nagrody.html` — NAGRODY
 - `/kontakt.html` — KONTAKT
 - `/warsztaty-fotograficzne.html` — WARSZTATY FOTOGRAFICZNE
-
-Implementation commits currently relevant:
-
-- `0dc6d86f4a40e4751868cb4b9345f83c2376aede` — full Oczami Alienatorki text added to the book page.
-- `cc81afe104250cfeebe98090730b74632e66a042` — `/ksiazki.html` routed to `BooksPageSeparate`.
-- `0a023658a92025c349db8a5c4ad424e1cb44a3ea` — Człowiek Roku source file.
 
 ---
 
@@ -187,518 +183,276 @@ Implementation commits currently relevant:
 
 # 4. CZŁOWIEK ROKU — PEŁNY TEKST WŁAŚCICIELA
 
-## TYTUŁ
+`docs/CZLOWIEK_ROKU_SOURCE.md` jest kanonicznym źródłem pełnego tekstu.
 
-`Człowiek Roku`
+Lead:
 
-## PEŁNY LEAD I TEKST
+`CZŁOWIEK ROKU: Raport z Piekła, w którym żyjesz, ale go nie widzisz`
 
-CZŁOWIEK ROKU: Raport z Piekła, w którym żyjesz, ale go nie widzisz
+`Myślisz, że tytuł „Człowieka Roku”, błysk fleszy i setki nagród chronią przed upadkiem? Gówno prawda. Andrzej Mikulski zabiera Cię w podróż, z której nie ma powrotu. To nie jest kolejna ugrzeczniona autobiografia. To literacki granat wrzucony w sam środek polskiego systemu sprawiedliwości i małomiasteczkowych układów. To zapis czasu, gdy gasną światła, a zaczyna się walka o przetrwanie – o godność, o zmysły i o to, co najważniejsze: o córkę. „Człowiek Roku” to literacki nokaut. To wściekły, brudny i bolesny krzyk ojca, któremu system kazał zniknąć. Czytasz na własną odpowiedzialność, bo po tej lekturze już nigdy nie spojrzysz na sąd, policję czy „pomoc społeczną” tak samo. Wejdź w ten mrok. Jeśli masz odwagę.`
 
-Myślisz, że tytuł „Człowieka Roku”, błysk fleszy i setki nagród chronią przed upadkiem? Gówno prawda. Andrzej Mikulski zabiera Cię w podróż, z której nie ma powrotu. To nie jest kolejna ugrzeczniona autobiografia. To literacki granat wrzucony w sam środek polskiego systemu sprawiedliwości i małomiasteczkowych układów. To zapis czasu, gdy gasną światła, a zaczyna się walka o przetrwanie – o godność, o zmysły i o to, co najważniejsze: o córkę. „Człowiek Roku” to literacki nokaut. To wściekły, brudny i bolesny krzyk ojca, któremu system kazał zniknąć. Czytasz na własną odpowiedzialność, bo po tej lekturze już nigdy nie spojrzysz na sąd, policję czy „pomoc społeczną” tak samo. Wejdź w ten mrok. Jeśli masz odwagę.
+The source continues with the owner-supplied `LITERACKI KOKTAJL MOŁOTOWA – PORÓWNANIA`, including the three explicit comparisons to Wojciech Smarzowski, Jakub Żulczyk and `FOOTBALL FACTORY`, followed by:
 
-LITERACKI KOKTAJL MOŁOTOWA – PORÓWNANIA
+`„Człowiek Roku” to nie książka. To akt oskarżenia. Przeczytaj, zanim system przyjdzie po Ciebie.`
 
-Ta książka to nie jest zwykła proza. To doświadczenie graniczne, które można ustawić w jednym szeregu z najmocniejszymi dziełami popkultury, które obnażają brudną prawdę o rzeczywistości.
-
-1. Jak kino WOJCIECHA SMARZOWSKIEGO
-
-Jeśli czułeś duszny smród korupcji w „Drogówce” lub beznadzieję i zgniliznę moralną w „Domu Złym”, poczujesz się tu jak w domu.
-
-Dlaczego?
-
-Mikulski, podobnie jak Smarzowski, nie bierze jeńców. Obnaża „Układ Zamknięty” Cieszyna z chirurgiczną precyzją. Pokazuje policjantów, sędziów i urzędników nie jako stróżów prawa, ale jako trybiki w maszynie do mielenia ludzi. To ten sam poziom naturalizmu, wulgarności i bolesnej prawdy o polskim „bagnie”, gdzie ręka rękę myje, a jednostka jest tylko mięsem armatnim.
-
-2. Jak „ŚLEPNĄC OD ŚWIATEŁ” Jakuba Żulczyka
-
-Andrzej jest jak Kuba Nitecki – stoi w centrum chaosu, obserwując rozpadający się świat z cynicznym, chłodnym dystansem, który skrywa wrzącą lawę emocji.
-
-Dlaczego?
-
-To ten sam gęsty, nokturnowy klimat. Tylko zamiast deszczowej Warszawy mamy mroczny Cieszyn. Mikulski pisze językiem ulicy i emocji – to strumień świadomości człowieka, który widzi więcej niż inni. Tak jak u Żulczyka, miasto jest tu bohaterem – brudnym, wrogim labiryntem, w którym „Człowiek Roku” staje się wyrzutkiem. To proza, która pulsuje rytmem nieprzespanych nocy, lęku i adrenaliny.
-
-3. Jak „FOOTBALL FACTORY”
-
-To czysta, męska agresja, lojalność i plemienność w obliczu wroga.
-
-Dlaczego?
-
-Choć Mikulski nie jest chuliganem, jego walka ma tę samą, pierwotną energię, co kultowy film Nicka Love'a. To opowieść o facetach, którzy dostają kopniaka od życia, ale wstają, by oddać. Język jest tu bronią – ostry, wulgarny, testosteronowy. To narracja o tym, że "wojna nie rozstrzyga, kto ma rację, ale kto zostanie", i o bólu, który jest jak tatuaż – zostaje na zawsze. To surowy, męski świat, gdzie jedyną wartością jest to, kto stoi obok ciebie, gdy system chce cię zniszczyć.
-
-„Człowiek Roku” to nie książka. To akt oskarżenia. Przeczytaj, zanim system przyjdzie po Ciebie.
-
-Pierwszym założeniem było wydać książkę w 38 językach finalnie jest 66 językach.
-
-**VIDEO / PODCAST:** `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
-
-Source file: `docs/CZLOWIEK_ROKU_SOURCE.md`
+`Pierwszym założeniem było wydać książkę w 38 językach finalnie jest 66 językach.`
 
 ---
 
-# 5. OCZAMI ALIENATORKI — PEŁNY TEKST PRZEKAZANY PRZEZ WŁAŚCICIELA
+# 5. OCZAMI ALIENATORKI — ŹRÓDŁO WŁAŚCICIELA
 
-## TYTUŁ
+Known exact owner-supplied headings:
 
-`OCZAMI ALIENATORKI`
+`Nie ma nic bardziej bezwzględnego niż kobieta, która przestaje udawać.`
 
-## SŁOWO OD KOBIETY, KTÓRA WYGRAŁA
+`I. Satanizm Dnia Codziennego`
 
-Myślisz, że wiesz, co to znaczy grać? Gówno wiesz. Patrzysz na mnie i widzisz to, co chcę, żebyś widział. Matkę Polkę? Ofiarę? Zapłakaną kobietę w sądzie? Brawa dla ciebie. Kupiłeś bilet w pierwszym rzędzie na mój spektakl. Andrzej... ten żałosny, sentymentalny głupek. Myślał, że życie to kadr, który można zatrzymać. Że jak dostanie blaszkę "Człowieka Roku", to nagle stanie się kimś. Trzymasz w rękach instrukcję obsługi frajera. To nie jest7 książka o miłości. To książka o władzy. O tym, jak wziąć sobie to, co się chce, i sprawić, by inni za to podziękowali. Andrzej myśli, że walczy z systemem. Biedny idiota. On nie rozumie, że system to ja. Ja piszę scenariusz, ja obsadzam rolę kata i ofiary. Zuzia? Zuzia to moja własność. Moja plastelina. Ulepię ją tak, żeby pasowała do mojego nowego świata. Świata bez niego. Nazywają mnie zimną suką? Niech nazywają. Suki przeżywają. Suki rządzą stadem. Czytaj. Zobacz, jak się kastruje "Człowieka Roku" bez użycia noża.
+`II. SYSTEMOWE PORÓWNANIE LITERACKO-FILMOWE`
 
-**UWAGA:** zachowano literalnie zapis `To nie jest7 książka` przekazany przez właściciela. Nie został poprawiony.
+`III. DLACZEGO TA KSIĄŻKA ZSZOKUJE I WYCIŚNIE ŁZY?`
+
+`CZYTAJ JEŚLI MASZ ODWAGĘ`
+
+Exact supplied fragment:
+
+`SŁOWO OD KOBIETY, KTÓRA WYGRAŁA`
+
+`Myślisz, że wiesz, co to znaczy grać? Gówno wiesz. Patrzysz na mnie i widzisz to, co chcę, żebyś widział. Matkę Polkę? Ofiarę? Zapłakaną kobietę w sądzie? Brawa dla ciebie. Kupiłeś bilet w pierwszym rzędzie na mój spektakl. Andrzej... ten żałosny, sentymentalny głupek. Myślał, że życie to kadr, który można zatrzymać. Że jak dostanie blaszkę "Człowieka Roku", to nagle stanie się kimś. Trzymasz w rękach instrukcję obsługi frajera. To nie jest7 książka o miłości. To książka o władzy. O tym, jak wziąć sobie to, co się chce, i sprawić, by inni za to podziękowali. Andrzej myśli, że walczy z systemem. Biedny idiota. On nie rozumie, że system to ja. Ja piszę scenariusz, ja obsadzam rolę kata i ofiary. Zuzia? Zuzia to moja własność. Moja plastelina. Ulepię ją tak, żeby pasowała do mojego nowego świata. Świata bez niego. Nazywają mnie zimną suką? Niech nazywają. Suki przeżywają. Suki rządzą stadem. Czytaj. Zobacz, jak się kastruje "Człowieka Roku" bez użycia noża.`
+
+Full PDF body beyond explicitly recovered fragments remains `MISSING / RECOVERY REQUIRED`. Do not invent it.
 
 ---
 
-# 6. O ŻYCIU O RELACJACH — PEŁNY TEKST WŁAŚCICIELA
+# 6. O ŻYCIU O RELACJACH
 
-## METADANE
+Canonical source: `docs/O_ZYCIU_O_RELACJACH_SOURCE.md`.
 
-**TYTUŁ:** `O ŻYCIU O RELACJACH`
-
-**PODTYTUŁ:** `O TYM, CO NAPRAWDĘ MA ZNACZENIE`
-
-**AUTOR:** `ANDRZEJ MIKULSKI`
-
-## PEŁNY OPIS
-
-NIE CZYTAJ TEJ KSIĄŻKI, JEŚLI NIE CHCESZ NICZEGO ZMIENIAĆ.
-
-Są książki, które czytasz i odkładasz na półkę.
-
-Są też takie, które sprawiają, że po przeczytaniu jednej strony zaczynasz inaczej patrzeć na siebie, swoje relacje, decyzje i życie.
-
-Ta książka należy do tej drugiej kategorii.
-
-To nie jest zbiór pustych motywacyjnych haseł.
-
-To zaproszenie do zatrzymania się, zadania sobie trudnych pytań i podjęcia decyzji, które być może od dawna odkładasz na później.
-
-O miłości.
-O granicach.
-O strachu.
-O czasie.
-O własnej wartości.
-O błędach.
-O przebaczeniu.
-O marzeniach.
-O odwadze.
-O tym, kim jesteś, kiedy przestajesz żyć według oczekiwań innych.
-
-Bo czasami nie potrzebujesz kolejnej rady. Potrzebujesz zobaczyć prawdę, której od dawna unikasz.
-
-TA KSIĄŻKA NIE MA CIĘ ZMIENIĆ.
-
-Ma pomóc Ci zobaczyć, co naprawdę wymaga zmiany.
-Każda strona została stworzona tak, aby nie tylko przekazać myśl, ale również uruchomić refleksję.
-
-Nie pytaj wyłącznie:
-
-„Czy to prawda?”
-
-Zapytaj:
-
-„Czy to dotyczy mnie?”
-Bo możesz wiedzieć, czym są zdrowe granice — i nadal pozwalać innym je przekraczać.
-
-Możesz wiedzieć, że czas jest najcenniejszy — i nadal odkładać życie na później.
-
-Możesz wiedzieć, że warto walczyć o swoje marzenia — i nadal bać się zrobić pierwszy krok.
-
-Możesz kochać drugiego człowieka — i jednocześnie zapominać o sobie.
-
-Wiedza nie zmienia życia.
-Dopiero zastosowanie jej w życiu może to zrobić.
-
-A JEŚLI CHCESZ PÓJŚĆ KROK DALEJ?
-
-Sama książka może być początkiem.
-
-Dlatego powstały również szkolenia i programy rozwojowe, które pozwalają przełożyć refleksję na konkretne działanie.
-
-Nie chodzi o kolejną godzinę słuchania teorii.
-
-Chodzi o:
-
-ZROZUMIENIE → DECYZJĘ → DZIAŁANIE → ZMIANĘ
-
-Podczas szkoleń pracujemy nad tym, co naprawdę wpływa na codzienne życie:
-
-budowaniem zdrowych relacji,
-
-komunikacją,
-
-granicami,
-
-pewnością siebie,
-
-podejmowaniem decyzji,
-
-radzeniem sobie z lękiem i presją,
-
-rozpoznawaniem własnych potrzeb,
-
-pracą nad przekonaniami,
-
-odpowiedzialnością za własne wybory,
-
-budowaniem życia zgodnego z własnymi wartościami.
-
-Nie po to, żeby stać się kimś innym.
-Po to, żeby bardziej świadomie stać się sobą.
-
-KSIĄŻKA, KTÓRA ZADAJE PYTANIA
-
-Nie obiecuje, że po jej przeczytaniu wszystkie problemy znikną.
-
-Nie obiecuje idealnego życia.
-
-Nie mówi, że wystarczy „myśleć pozytywnie”.
-
-Mówi coś znacznie bardziej wymagającego:
-
-Masz wpływ na wiele swoich decyzji.
-Masz wpływ na to, gdzie stawiasz granice.
-
-Masz wpływ na to, komu dajesz swój czas.
-
-Masz wpływ na to, czy pozostajesz w miejscu, czy robisz pierwszy krok.
-
-Masz wpływ na to, czego uczysz się ze swoich błędów.
-
-Masz wpływ na to, czy żyjesz według własnych wartości.
-
-I czasami właśnie od jednej decyzji zaczyna się całkowicie nowy rozdział.
-
-NIE CZEKAJ NA IDEALNY MOMENT
-
-Bo może nigdy nie nadejść.
-
-Nie będziesz zawsze gotowy.
-Nie przestaniesz się bać wszystkich rzeczy.
-Nie będziesz mieć pewności, że każda decyzja będzie właściwa.
-
-Ale możesz zrobić coś ważniejszego:
-
-Możesz zacząć działać pomimo niepewności.
-Możesz powiedzieć „nie”.
-Możesz powiedzieć „tak”.
-Możesz przeprosić.
-Możesz odejść.
-Możesz wrócić.
-Możesz zacząć od nowa.
-Możesz zawalczyć o swoje marzenie.
-Możesz przestać udowadniać swoją wartość innym.
-Możesz wreszcie zacząć żyć bardziej po swojemu.
-
-DLA KOGO JEST TA KSIĄŻKA?
-
-Dla człowieka, który czuje, że stać go na więcej.
-
-Dla osoby, która chce lepiej rozumieć siebie i innych.
-
-Dla tych, którzy są na zakręcie i nie wiedzą jeszcze, którą drogę wybrać.
-
-Dla tych, którzy chcą poprawić swoje relacje.
-
-Dla tych, którzy zbyt długo odkładali ważne decyzje.
-
-Dla tych, którzy potrzebują odzyskać odwagę.
-
-Dla tych, którzy chcą się rozwijać — ale nie chcą żyć według gotowego schematu.
-
-I dla każdego, kto choć raz pomyślał:
-
-„Chcę coś zmienić, tylko nie wiem, od czego zacząć.”
-
-A MOŻE ZACZNIESZ OD JEDNEJ STRONY?
-
-Jednej myśli.
-
-Jednego pytania.
-
-Jednej decyzji.
-
-Jednej rozmowy.
-
-Jednego „nie”.
-
-Jednego „spróbuję”.
-
-Jednego pierwszego kroku.
-
-Bo nie musisz od razu zmieniać całego swojego życia.
-Czasami wystarczy zmienić jedną rzecz, która zacznie zmieniać wszystko inne.
-
-KSIĄŻKA + SZKOLENIA
-PRZECZYTAJ. ZATRZYMAJ SIĘ. ZASTANÓW. DZIAŁAJ.
-
-Książka daje Ci przestrzeń do refleksji.
-
-Szkolenia pomagają przełożyć refleksję na praktykę.
-
-Ty podejmujesz decyzję, co z tym zrobisz.
-
-NIE CZEKAJ, AŻ ŻYCIE SAMO SIĘ ZMIENI.
-ZACZNIJ OD SIEBIE.
-
-Kup książkę.
-Weź udział w szkoleniu.
-Zrób pierwszy krok.
-
-Bo być może za rok będziesz dokładnie w tym samym miejscu.
-
-Chyba że zdecydujesz się zrobić coś inaczej już dzisiaj.
-
-AM | ANDRZEJ MIKULSKI
-
-Książka • Szkolenia • Rozwój osobisty • Relacje • Świadome życie
-
-TWOJE ŻYCIE NIE MUSI WYGLĄDAĆ TAK, JAK WYGLĄDA DZISIAJ.
-
-Ale ktoś musi podjąć decyzję, żeby je zmienić.
-Dlaczego nie Ty?
-
-Source file: `docs/O_ZYCIU_O_RELACJACH_SOURCE.md`
+The full owner-supplied text is preserved in that source file. The shorter implementation text in `src/routes.jsx` must not be treated as the canonical source.
 
 ---
 
-# 7. CCR — TETRALOGIA
+# 7. CCR — KANONICZNE TYTUŁY I LINKI
 
 ## CCR TOM I
 
-**PEŁNY TYTUŁ:** `CCR Tom I — Jak przetrwać w dziwnym świecie po przeniesieniu się do alternatywnej osi czasu`
+`CCR Tom I — Jak przetrwać w dziwnym świecie po przeniesieniu się do alternatywnej osi czasu`
 
-**TRAILER:** `https://youtu.be/2yi7YcNuhqE?feature=shared`
+Trailer: `https://youtu.be/2yi7YcNuhqE?feature=shared`
 
-**EMPIK:** `https://www.empik.com/ccr-tom-i-jak-przetrwac-w-dziwnym-swiecie-po-przeniesieniu-sie-do-alternatywnej-osi-czasu-mikulski-andrzej,p1686064571,ebooki-i-mp3-p`
-
-**OPIS:**
-
-To psychodeliczny thriller egzystencjalny, intymny pamiętnik straty i podróż przez alternatywne światy, w których światło nie tylko oświetla – ono pamięta. Fotograf z Cieszyna traci córkę i… światło zaczyna oddychać. Jedno zdjęcie otwiera pęknięcie między wymiarami: Cieszyn 2025, Chicago 2135, Neo-Paris 2345, Devil Mind 2777. Czy można odnaleźć dziecko, jeśli samemu przestaje się istnieć? Czy miłość rezonuje poza czasem? Co się stanie, gdy wspomnienia zaczną rosnąć jak żywe organizmy, a cień stanie się osobnym „ja”? To książka o ojcostwie na granicy kosmosu i rozpaczy. O świetle, które pamięta nas bardziej, niż my pamiętamy siebie. Mroczna, poetycka, totalnie oryginalna. Jeśli lubisz „Matrix”, „Interstellar”, Sapkowskiego, Dukaja, Żulczyka, i literaturę, która wykręca percepcję – to jest Twoja nowa obsesja. „Czas nie płynie — oddycha.” Przygotuj się na historię, która nie kończy się na ostatniej stronie — tylko przenosi cię dalej.
+Empik: `https://www.empik.com/ccr-tom-i-jak-przetrwac-w-dziwnym-swiecie-po-przeniesieniu-sie-do-alternatywnej-osi-czasu-mikulski-andrzej,p1686064571,ebooki-i-mp3-p`
 
 ## CCR TOM II
 
-**PEŁNY TYTUŁ:** `CCR Tom II — Oś czasu w alternatywnych światach`
+`CCR Tom II — Oś czasu w alternatywnych światach`
 
-**TRAILER:** `https://youtu.be/x57-DYD5vUk?feature=shared`
+Trailer: `https://youtu.be/x57-DYD5vUk?feature=shared`
 
-**EMPIK:** `https://www.empik.com/ccr-tom-ii-os-czasu-w-alternatywnych-swiatach-mikulski-andrzej,p1687087904,ebooki-i-mp3-p`
-
-**OPIS:**
-
-Kiedy świadomość przestaje należeć do jednego ciała, a światło zaczyna pamiętać człowieka lepiej niż on sam — zaczyna się podróż, której nie da się zatrzymać. Drugi tom serii CCR to wejście w głębsze warstwy równoległych rzeczywistości. Andrzej Mikulski — fotograf, operator światła i świadek pierwszych eksperymentów CCR — wraca, by zmierzyć się z własnymi odbiciami w alternatywnych osiach czasu. Cieszyn 2058, Neo-Paris 2345, Devil Mind 2777 — każde z tych miejsc jest jednocześnie wspomnieniem, błędem i nowym początkiem. W centrum tej historii wciąż pulsuje jedno pytanie: czy światło potrafi przywrócić człowieka, jeśli pamięć o nim nie zgasła? CCR – Tom II to opowieść o rezonansie świadomości, miłości silniejszej niż czas i o świecie, w którym każda myśl tworzy nową rzeczywistość. To książka dla czytelników, którzy lubią przekraczać granicę między nauką a metafizyką, realizmem a czymś, co dopiero zaczyna nabierać kształtu. Światło nie umiera. Światło tylko zmienia częstotliwość.
+Empik: `https://www.empik.com/ccr-tom-ii-os-czasu-w-alternatywnych-swiatach-mikulski-andrzej,p1687087904,ebooki-i-mp3-p`
 
 ## CCR TOM III
 
-**PEŁNY TYTUŁ:** `CCR Tom III — Ludzie Roku — Oś 18 Świadomości`
+`CCR Tom III — Ludzie Roku — Oś 18 Świadomości`
 
-**TRAILER:** `https://youtu.be/sB6llID2Dmg?feature=shared`
+Trailer: `https://youtu.be/sB6llID2Dmg?feature=shared`
 
-**EMPIK:** `https://www.empik.com/ccr-tom-iii-ludzie-roku-os-18-swiadomosci-mikulski-andrzej,p1687088055,ebooki-i-mp3-p`
-
-**OPIS:**
-
-Kontynuacja epickiego cyklu, w którym czas, światło i pamięć splatają się w metafizyczną pętlę. Zapowiedź powinna akcentować eskalację skali – od osobistego dramatu do kosmicznego eksperymentu. „Światło pamięta. Czas się powtarza.” Po latach ciszy, Andrzej Mikulski powraca – już nie jako fotograf, ale operator 18 Świadomości. W trzecim tomie trylogii CCR, świat przestaje być miejscem, a staje się systemem. Kulminacja mitologii „światła jako pamięci”. Czas przestaje być linią — jest archiwum emocji, w którym ojciec i córka odnajdują się po setkach lat, poprzez dane, rezonanse, echa i sny. To nie tylko kontynuacja — to rekonstrukcja człowieczeństwa po końcu człowieka. Od kopalnianych tuneli po laboratoria przyszłości, od Cieszyna po Neo-Paris roku 2345 – każda oś czasu to kolejny zapis pamięci, każdy błysk światła to wiadomość dla Zuzi, córki, która istnieje już tylko w kodzie. To opowieść o przetrwaniu świadomości w epoce, w której zanikają emocje, a miłość staje się częstotliwością.
+Empik: `https://www.empik.com/ccr-tom-iii-ludzie-roku-os-18-swiadomosci-mikulski-andrzej,p1687088055,ebooki-i-mp3-p`
 
 ## CCR TOM IV
 
-**PEŁNY TYTUŁ:** `CCR Tom IV — Architektura Nieskończoności`
+`CCR Tom IV — Architektura Nieskończoności`
 
-**TRAILER:** `https://youtu.be/SYMsiiyHAMc?feature=shared`
+Trailer: `https://youtu.be/SYMsiiyHAMc?feature=shared`
 
-**PEŁNE ŹRÓDŁO:** `MISSING / RECOVERY REQUIRED`
+Cover text:
 
-Źródło zaczyna się od:
+`CCR TOM IV: ARCHITEKTURA NIESKOŃCZONOŚCI`
 
-`Architektura Nieskończoności: Jak światło i miłość stały się stałymi fizycznymi?`
+`ANDRZEJ MIKULSKI`
 
-Znane terminy źródłowe: `Podróżniczka`, `Oś ?`, `Operator`, `CCR / Cosmic Consciousness Resonator`, `Kod 18 Świadomości`, `Punkt Dywergencji`, `Devil Mind`, `Sygnał serca`, `528 Hz`, `Paliwo Miłości`.
+`JUŻ WKRÓTCE`
 
-Nie wolno rekonstruować brakujących fragmentów własnym tekstem.
+`POZNAJ KOLEJNY WYMIAR RZECZYWISTOŚCI`
 
----
-
-# 8. ŚWIATŁO, KTÓRE ZOSTAŁO
-
-**TYTUŁ:** `Światło, które zostało`
-
-**EMPIK:** `https://www.empik.com/swiatlo-ktore-zostalo-mikulski-andrzej,p1688662252,ebooki-i-mp3-p`
-
-**OPIS:**
-
-„Światło, które zostało” to książka, której się nie czyta — tę historię się przeżywa. Mikulski pisze tak, jakby każdy akapit powstawał w półmroku, przy drżącej lampie, kiedy człowiekowi zostało więcej ciszy niż tchu. To zapis upadku i powolnego podnoszenia się z niego — ale bez tanich morałów, bez taniego światła. Tylko prawda, taka, która boli, i taka, która naprawdę świeci. To jedna z najbardziej intymnych polskich książek ostatnich lat. Autor rozbraja system, alienację, depresję i tęsknotę po ojcowsku — bez pozy, bez PR-u, z autentyczną miłością, której nikt nie potrafił zapisać w aktach. Czytając, masz wrażenie, że siedzisz obok niego — w sądowym korytarzu, w pustej kuchni, w milczeniu po wyroku. I nagle rozumiesz, dlaczego światło jest tutaj bohaterem równie ważnym jak człowiek. To książka dla tych, którzy kiedyś stracili głos. I dla tych, którzy wciąż próbują go odzyskać. Zostaje pod skórą na długo po ostatniej stronie.
+`WIEDZA · ŚWIADOMOŚĆ · PRZYSZŁOŚĆ`
 
 ---
 
-# 9. BAŚŃ O PORNLANDII
+# 8. CCR TOM IV — RECOVERED SOURCE / ARCHITEKTURA NIESKOŃCZONOŚCI
 
-**TYTUŁ:** `Baśń o Pornlandii`
+Canonical recovery files:
 
-**EMPIK:** `https://www.empik.com/basn-o-pornlandii-mikulski-andrzej,p1687292490,ebooki-i-mp3-p`
+- `docs/CCR_TOM_IV_RECOVERY.md`
+- `docs/CCR_TOM_IV_ARCHITEKTURA_NIESKONCZONOSCI_SOURCE.md`
+- `docs/CCR_TOM_IV_FULL_SOURCE.md`
 
-**TRAILERS:**
+## RECOVERED PROGRAMMABLE-MATTER SOURCE
+
+The recovered `TOM IV: PROGRAMOWALNA MATERIA I ENERGIA` source contains the following exact structure:
+
+`TOM IV: PROGRAMOWALNA MATERIA I ENERGIA`
+
+`Wstęp: Koniec Ery Wydobycia`
+
+`ROZDZIAŁ 1: MANIPULACJA SILNYM ODDZIAŁYWANIEM (STN-FORCE)`
+
+`ROZDZIAŁ 2: EDYCJA STAŁEJ STRUKTURY SUBTELNEJ (ALPHA-TUNING)`
+
+`ROZDZIAŁ 3: FUZJA TOPOLOGICZNA: GWIAZDA W PUDEŁKU`
+
+`ROZDZIAŁ 4: ENERGIA PUNKTU ZEROWEGO (ZPE-EXTRACTION)`
+
+`ROZDZIAŁ 5: NANOTECHNOLOGIA PROGRAMOWALNA (SMART-DUST)`
+
+`ROZDZIAŁ 6: INŻYNIERIA GRAWITACYJNA I KONTROLA METRYKI`
+
+`ROZDZIAŁ 7: NAPĘDY WARP I MANIPULACJA PRZESTRZENIĄ (ALCUBIERRE-TND)`
+
+`ROZDZIAŁ 8: KOMUNIKACJA NIELOKALNA (QUANTUM-ETHER)`
+
+`ROZDZIAŁ 9: TERRAFORMOWANIE PLANETARNE (GLOBAL-CODE)`
+
+`ROZDZIAŁ 10: EPILOG TOMU IV – WSZECHŚWIAT JAKO PLAC BUDOWY`
+
+Recovered source also explicitly includes:
+
+- `TND definiuje materię jako stan skupienia informacji.`
+- `Operator Transmutacji (T-Op)` and the supplied lead→gold expression.
+- `Alpha-Tuning` and the supplied fictional TND material model.
+- `Pułapka Magnetyczna Möbiusa` / `butelki Kleina`.
+- `Energia Punktu Zero` / supplied `P_out` equation.
+- `Nanotechnologia Programowalna (Smart-Dust)` and `Cząstka(t) = f(Code_Stream)`.
+- `Grawitacja jako Efekt Zagęszczenia Informacji` and the supplied information-density equation.
+- `Napędy Warp i Manipulacja Przestrzenią (Alcubierre-TND)` and supplied `v_eff` expression.
+- `Komunikacja Nielokalna (Quantum-Ether)` and the supplied `Write(Address_A, Data) -> Read(Address_B, Data)` notation.
+- `Terraformowanie Planetarne (Global-Code)`.
+- The supplied epilogue states that Tom V concerns economy and logistics.
+
+This section records the recovered source as speculative/fictional CCR material. It is not to be silently reframed as established real-world science.
+
+## ARCHITEKTURA NIESKOŃCZONOŚCI — RECOVERED FRAGMENT
+
+The Gemini Notebook source contains a fragment beginning with the 33-year cycle and the `Kod 18 Świadomości`, followed by sections on:
+
+`3. Biofotonika, czyli człowiek jako nadajnik światła`
+
+`4. Fotografia to nie obraz, to portal (Przypadek aparatu Zenit)`
+
+`5. Paradoks Devil Mind – dlaczego trauma jest nieoptymalizowalna?`
+
+The recovered Gemini Notebook fragment is incomplete and ends mid-sentence. It must remain marked `SOURCE FRAGMENT / INCOMPLETE`; no continuation may be invented.
+
+Additional recovered CCR source establishes:
+
+- `Oś 2345: Neo-Paris – Barokowy Cyberpunk i Synestezja Olfaktoryczna`
+- `Oś 2777: Devil Mind – Cyfrowa Dekonstrukcja i Glitch Art`
+- `Oś Nieskończoność (∞): Światło, Które Trwa`
+- recurring `Cykl 33 lat (1679, 1983, 2016, 2025...)`
+- apparatus as artifact and weapon
+- `Zuzia (Cel / Światło)`
+- `Ewa i Weronika`
+- transmedia / publishing / ending concepts
+- Unreal Engine implementation material centred on `CCR: Zamknięty Obiektyw`, Cieszyn as Anchor, light as memory carrier, and the 33-year cycle.
+
+---
+
+# 9. POZOSTAŁE KSIĄŻKI
+
+## ŚWIATŁO, KTÓRE ZOSTAŁO
+
+Empik: `https://www.empik.com/swiatlo-ktore-zostalo-mikulski-andrzej,p1688662252,ebooki-i-mp3-p`
+
+## BAŚŃ O PORNLANDII
+
+Empik: `https://www.empik.com/basn-o-pornlandii-mikulski-andrzej,p1687292490,ebooki-i-mp3-p`
+
+Trailers:
 
 - `https://youtu.be/8neIWOmUKAc?feature=shared`
 - `https://youtu.be/U4wPXJFPpag?feature=shared`
 
-**OPIS:**
+## CIESZYN NOIR
 
-„Baśń o Pornlandii” to brutalnie poetycka podróż do świata, w którym dotyk stał się przestępstwem, emocje – walutą kontrolowaną przez system, a miłość – aktem buntu większym niż rewolucja. Andrzej Mikulski otwiera przed czytelnikiem nową oś czasu: zimną, neonową i boleśnie aktualną. Na planecie pachnącej szkłem ludzie żyją bez ciała, bez bliskości, bez prawa do błędu. Wszystko jest obliczone. Wszystko jest sterylne. Aż do chwili, gdy w tej maszynie zaczyna pękać pierwszy szew. Rocco – były aktor świata, którego już nie ma. Mira – kustoszka gestów zakazanych. Andrzej – fotograf zagubiony w obcym wymiarze, który jedynym kliknięciem zatrzymuje prawdę, jakiej system nie toleruje. Ich sojusz staje się początkiem epidemii, której Pornlandia boi się najbardziej: wirusa empatii. To książka o pragnieniu, którego nie da się stłumić, o wolności, która zawsze szuka pęknięcia w lodzie, i o świecie, który przypomina, jak łatwo stracić człowieczeństwo… i jak trudno je odzyskać.
+Canonical source PDFs exist in Library, including `Cieszyn_Noir_FINAL(1).pdf`, `Cieszyn Noir(1).pdf`, `Cieszyn_Noir_FINAL(3).pdf` and related versions.
 
----
+Recovered exact source fragments include:
 
-# 10. CIESZYN NOIR
+`BÓG UMARŁ W CIESZYNIE`
 
-**TYTUŁ:** `Cieszyn Noir`
+`System: Dane usunięte. Przyczyna: Brak miłości. Kod błędu: SAMOTNOŚĆ.`
 
-**PEŁNY TEKST ŹRÓDŁOWY:**
+Full source must be recovered from the canonical PDF when required; no missing passages are to be invented.
 
-BÓG UMARŁ W CIESZYNIE
+## ONTOLOGIA LICZBY I GEOMETRII
 
-W kopalni ČSM Sever, kilometr pod cieszynką ziemią, Andrzej oddycha powietrzem, które pamięta dinozaury i pachnie smarem oraz potem. To tutaj, w absolutnej ciemności przerywanej stroboskopem lamp, rzeczywistość zaczyna pulsować błędem znanym jako „Critical Cyclic Reset”. Przez wizjer aparatu widzi fioletowe, neonowe światło i żyły węgla krwawiące cyfrową krwią – to moment, w którym kod Systemu staje się widoczny.
+`Ontologia Liczby i Geometrii`
 
-Ten „glitch” sugeruje, że nasz świat jest jedynie źle wyrenderowaną teksturą, zaprogramowaną symulacją mającą na celu zdławienie „Iskry”. Ból fizyczny i praca w pyle stają się jedynym uczciwym punktem odniesienia, bo skała nie potrafi kłamać tak jak ludzie na bankietach. Gdy system zaczyna się sypać, bohater widzi świat jako błąd w grze, w której stawką jest przetrwanie Zuzi w labiryncie procedur.
+`TRYLOGIA`
 
-OSKAROWA ROLA
+Implementation intent: immersive gallery. Do not invent conventional marketing description.
 
-PUNKT 4: SYSTEM JEST WIECZNY – OD INKWIZYTORA PO URZĘDNIKA MOPS
+Related project assets:
 
-Interludium z 1679 roku ujawnia, że „Cień” to ponadczasowy byt, który jedynie zmienia mundury – od habitu inkwizytora po garsonkę urzędniczki. Cel pozostaje ten sam: zgaszenie „Iskry”, czyli Zuzi, która w każdym cyklu jest celem ataku Systemu. „Pamięć Kamienia” sugeruje, że walka trwa od stuleci, a my jesteśmy tylko kolejnymi bitami informacji w procesie defragmentacji.
+- `docs/ONTOLOGIA_GALLERY.md`
+- podcast `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a`
 
-Nawet w wizjach Neo-Paryża czy jako awatar Rocco, bohater mierzy się z tym samym firewall-em Sądu Rodzinnego. System traktuje ludzi jak wadliwy hardware, który należy wyczyścić, by zachować optymalizację Roju. Każdy restart cyklu kończy się niepowodzeniem, dopóki jednostka nie zrozumie, że jej rola została napisana w kodzie błędu 1679-2024-2777.
+Binary gallery assets require verification before claiming they are committed.
 
-PUNKT 5: SZTUKA JAKO WIRUS I JEDYNA LINIA OBRONY
+## DRUGA POŁOWA
 
-Wernisaż w Galerii „Szara” staje się próbą zainfekowania systemu prawdą poprzez surowe, ziarniste obrazy. Zdjęcia o tytułach „Oczekiwanie” i „Brak” dokumentują brud rzeczywistości, a centralne dzieło „WŁASNOŚĆ” demaskuje mechanizm zawłaszczania drugiego człowieka. To jedyny moment, w którym maska Weroniki pęka pod wpływem symbolu pękniętego talerza, którego nikt inny nie potrafi odczytać.
+Owner-supplied description begins with Plato's split soul and includes:
 
-Sztuka nie wygra w sądzie, ponieważ wyroki zapadają przy grillu, gdzie sędzia Krystyna pije toskańskie wino z mecenasem Wojciechem. Mecenas, ten „laluś” w todze, z uśmiechem hieny informuje, że prawo to nie sprawiedliwość, lecz procedura pisana przez układ. Jednak prawda rzucona w oczy elity powiatowej działa jak wirus, grawerując trwałą rysę na nieskazitelnej, białej .
+`Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował`
 
-LABIRYNT
-
-Czy jesteś pewien, że Twoja rola w „filmie”, który nazywasz życiem, nie została już dawno napisana przez kogoś innego? Może Ty również jesteś tylko statystą czekającym na swój „Protokół Zniszczenia” i 720 sekund, które skasują wszystko, co kochasz. Rzeczywistość to pęknięta szyba hartowana, która trzyma się w ramie wyłącznie dzięki chwilowemu, fałszywemu napięciu.
-
-**PODCAST:** `Cieszyn Noir i miłość silniejsza niż system` — `Cieszyn_Noir_i_miłość_silniejsza_niż_system(1).m4a`
-
----
-
-# 11. ONTOLOGIA LICZBY I GEOMETRII
-
-**TYTUŁ:** `Ontologia Liczby i Geometrii`
-
-**STRUKTURA:** `TRYLOGIA`
-
-**DECYZJA PREZENTACYJNA:** immersive gallery inside the book presentation. No conventional invented description.
-
-**PODCAST:** `Liczby rzeźbią fizyczną strukturę wszechświata` — `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a`
-
-**GALLERY SOURCE:** `docs/ONTOLOGIA_GALLERY.md`
-
-Binary gallery assets require repository verification before being described as committed.
-
----
-
-# 12. DRUGA POŁOWA
-
-**TYTUŁ:** `Druga Połowa`
-
-**TYPE:** `komiks / opowieść obrazkowa`
-
-**VIDEO:** `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
-
-**PEŁNY TEKST:**
-
-Czy wiesz, że według Platona każda dusza pękła kiedyś na pół, a my spędzamy życie na poszukiwaniu tej drugiej połowy?
-
-Kiedy zimny, pusty wieczór na miejskim rynku przecina przypadkowe spojrzenie, czas nagle się zatrzymuje.
-
-„Druga Połowa” to niezwykła opowieść obrazkowa (komiks), która dotyka najgłębszych strun ludzkich emocji — niepewności, lęku przed stratą i przełomowej nadziei na prawdziwe uczucie.
-
-Głębokie emocje — Śledź relację, w której obawy o przyszłość zderzają się z absolutnym oddaniem i poczuciem bezpieczeństwa.
-
-Klimatyczna oprawa — Od zimowych, klimatycznych uliczek po ciepłe, pełne słońca poranki — piękna kreska dopracowana w każdym detalu.
-
-Prawdziwe dialogi — Historia o szukaniu bliskości, w której każdy kadr tętni autentycznymi uczuciami.
-
-„Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował”
+CTA:
 
 `Zamów swój egzemplarz teraz i odkryj historię której nie znałeś !`
 
----
-
-# 13. OTHER BOOK DATA
-
-## CCR / Cieszyn / Ontologia / Druga Połowa
-
-All known titles, trailers, source descriptions and unresolved source gaps are recorded above. Do not create replacement copy where the source is incomplete.
+Video: `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
 
 ---
 
-# 14. IMPLEMENTATION INVENTORY
+# 10. IMPLEMENTATION INVENTORY — CURRENT BOOK WORK
 
-## `src/main.jsx`
+- `src/main.jsx` routes `/ksiazki.html` to `BooksPageSeparate`.
+- `src/BooksPageSeparate.jsx` contains separate entries for Człowiek Roku, Oczami Alienatorki, CCR I, CCR II, CCR III, CCR IV, Światło, które zostało, Baśń o Pornlandii, Cieszyn Noir, Ontologia Liczby i Geometrii and Druga połowa.
+- `src/books.css` contains the dedicated books-page layout, responsive rules, source-text styling, index and book-entry structures.
+- `docs/CZLOWIEK_ROKU_SOURCE.md` is the canonical Człowiek Roku source.
+- `docs/CCR_TOM_IV_RECOVERY.md` records CCR IV recovery.
+- `docs/CCR_TOM_IV_ARCHITEKTURA_NIESKONCZONOSCI_SOURCE.md` records recovered CCR IV architecture source.
+- `docs/CCR_TOM_IV_FULL_SOURCE.md` records the recovered full Tom IV block.
 
-Current application entry point. Contains:
+Relevant commits before this README synchronization:
 
-- navigation
-- menu overlay
-- sticky/compact header
-- homepage
-- homepage manifest
-- domain index
-- statistics
-- contact band
-- route dispatch
-- footer
-
-The `/ksiazki.html` route uses `BooksPageSeparate`.
-
-## `src/routes.jsx`
-
-Contains:
-
-- `AboutPage`
-- `RelationshipPage`
-- `InnerPage`
-- `Section`
-- `Cards`
-
-## `src/BooksPageSeparate.jsx`
-
-Contains the separate book presentation for:
-
-- `Człowiek Roku`
-- `Oczami Alienatorki`
-
-Current commit containing the full Alienatorka source: `0dc6d86f4a40e4751868cb4b9345f83c2376aede`.
-
-## `docs/CZLOWIEK_ROKU_SOURCE.md`
-
-Canonical full source for `Człowiek Roku`.
-
-## `docs/O_ZYCIU_O_RELACJACH_SOURCE.md`
-
-Canonical full source for `O ŻYCIU O RELACJACH`.
-
-## `docs/ONTOLOGIA_GALLERY.md`
-
-Gallery manifest/source information for `Ontologia Liczby i Geometrii`.
+- `0a023658a92025c349db8a5c4ad424e1cb44a3ea` — created Człowiek Roku source.
+- `cc81afe104250cfeebe98090730b74632e66a042` — routed `/ksiazki.html` to `BooksPageSeparate`.
+- `0dc6d86f4a40e4751868cb4b9345f83c2376aede` — added supplied Oczami Alienatorki material.
+- `dfc2c10166f86ab55fb972080d211e7543526f0b` — created CCR Tom IV recovery record.
+- `386f680492e9360188e7364e1d0f589bd1601329` — created CCR Tom IV architecture source record.
+- `61deb730d740826f3f555cc9de8a4cd10f815111` — added CCR Tom IV section to the books page.
+- `15c6afc482f2825b04a3e3bffa36b13ff12194e4` — expanded the books section.
+- `4300184e228e47431c0d79d1ea23a7df2696d5c9` — updated books styling/source-text presentation.
+- `278bfc380d3dbc9d9b329501a3fab44edb17e563` — created CCR Tom IV full-source record.
 
 ---
 
-# 15. CURRENT SOURCE GAPS — DO NOT INVENT
+# 11. SOURCE GAPS — DO NOT INVENT
 
-- `CCR Tom IV` full owner text: `MISSING / RECOVERY REQUIRED`.
-- Any full PDF text for `Oczami Alienatorki` beyond the text explicitly supplied by the owner: `MISSING / RECOVERY REQUIRED`.
+- Full `Oczami Alienatorki` PDF body beyond explicitly recovered owner-supplied fragments: `MISSING / RECOVERY REQUIRED`.
+- Gemini Notebook `Architektura Nieskończoności` fragment after section 5: `SOURCE FRAGMENT / INCOMPLETE`.
+- Full Cieszyn Noir source body: recover from canonical PDF when implementation requires it.
 - Ontologia binary gallery assets: verify repository state before claiming they are committed.
 - Any content not explicitly present in this README or a canonical source file must be recovered before implementation.
 
 ---
 
-# 16. OPERATING RULE
+# 12. OPERATING RULE
 
-SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION.
+**SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
+
+Every repository modification must be immediately recorded in `README.md` before another repository modification begins.
 
 No silent rewriting.
 No invented content.
 No summaries where the owner requested full text.
-No claim of completion without a confirmed Git commit.
+No conflation of separate books.
+No completion claim without a confirmed Git commit and verification.
