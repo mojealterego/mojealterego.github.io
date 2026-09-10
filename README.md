@@ -107,7 +107,7 @@ Pełny materiał właściciela zaczyna się od:
 
 ---
 
-## 2.2 CZŁOWIEK ROKU / OCZAMI ALIENATORKI
+## 2.2 CZŁOWIEK ROKU
 
 ### 05 — Człowiek Roku
 **TYTUŁ:** `Człowiek Roku`
@@ -120,10 +120,16 @@ Pełny tekst właściciela zaczyna się od:
 
 **PODCAST / VIDEO:** `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
 
-Pełny tekst jest źródłem właściciela i nie wolno go zastępować skrótem.
+**STATUS:** pierwszym założeniem było wydanie książki w 38 językach; finalnie jest 66 językach.
+
+Pełny tekst właściciela jest zapisany w `docs/CZLOWIEK_ROKU_SOURCE.md` i nie wolno go zastępować skrótem.
+
+## 2.3 OCZAMI ALIENATORKI
 
 ### 06 — Oczami Alienatorki
 **TYTUŁ:** `Oczami Alienatorki`
+
+**STATUS:** osobna książka. Nie jest częścią `Człowiek Roku`.
 
 **OPIS — ŹRÓDŁO WŁAŚCICIELA:**
 
@@ -138,11 +144,11 @@ Pełny tekst właściciela zaczyna się od:
 - `III. DLACZEGO TA KSIĄŻKA ZSZOKUJE I WYCIŚNIE ŁZY?`
 - CTA: `CZYTAJ JEŚLI MASZ ODWAGĘ`
 
-Pełny tekst jest źródłem właściciela i nie wolno go zastępować skrótem.
+**SOURCE STATUS:** pełny tekst wymaga odzyskania z przekazanego źródła PDF; nie wolno uzupełniać brakującej treści tekstem wygenerowanym przez asystenta.
 
 ---
 
-## 2.3 POZOSTAŁE KSIĄŻKI
+## 2.4 POZOSTAŁE KSIĄŻKI
 
 ### 07 — Światło, które zostało
 **TYTUŁ:** `Światło, które zostało`
@@ -235,7 +241,7 @@ Pełny tekst jest źródłem właściciela i nie wolno go zastępować skrótem.
 
 ---
 
-## 2.4 — O ŻYCIU O RELACJACH — NOWE UZUPEŁNIENIE WŁAŚCICIELA
+## 2.5 — O ŻYCIU O RELACJACH — NOWE UZUPEŁNIENIE WŁAŚCICIELA
 
 ### 12 — O ŻYCIU O RELACJACH
 **PEŁNY TYTUŁ:** `O ŻYCIU O RELACJACH`
@@ -548,6 +554,49 @@ Fullscreen menu:
 
 Additional requirements: Cmd/Ctrl+K search; PL/EN/SK/CZ architecture without fake translations; full keyboard support; DEFAULT/HOVER/ACTIVE/FOCUS/DISABLED/LOADING/ERROR states; WCAG 2.2 AA; reduced motion; no heavy 3D on mobile; no autoplay.
 
+## 5.1 CURRENT IMPLEMENTATION VERIFIED
+
+### O MNIE
+Implemented in `src/routes.jsx` as `AboutPage` and routed from `src/main.jsx` at `/o-mnie.html`.
+
+Verified implemented content includes:
+
+- hero identity: `CZŁOWIEK · FOTOGRAF · FOTOREPORTER · AUTOR`
+- title: `O mnie.`
+- biography section
+- portrait asset: `assets/andrzej-mikulski-about.png`
+- creative path section
+- achievements section
+- biography data describing Warsaw origin, Silesia since 2023, mining work, Agencja Fotograficzna REPORTER, photography/film/IT, exhibitions, awards, FIAP titles and the `Fotografia Uliczna` community
+
+### MENU / NAVIGATION
+Implemented in `src/main.jsx`.
+
+Primary navigation is defined as:
+
+`O MNIE → RELATIONSHIP → FOTOGRAFIA → KSIĄŻKI → FILM → MASAŻE → APLIKACJE → AGENCI → PROJEKTY`
+
+The fullscreen menu additionally exposes:
+
+`PUBLIKACJE → NAGRODY → KONTAKT`
+
+The home `WORLD INDEX` uses the same primary navigation source.
+
+### KSIĄŻKI
+The routed `/ksiazki.html` page now uses `src/BooksPageSeparate.jsx`.
+
+`Człowiek Roku` and `Oczami Alienatorki` are implemented as two separate book entries. They are not merged and `Oczami Alienatorki` is explicitly marked as an independent book.
+
+`Człowiek Roku` uses the supplied owner text and records the final 66-language status.
+
+`Oczami Alienatorki` uses only the recovered owner excerpt/section names. The unrecovered PDF body is explicitly marked `MISSING / RECOVERY REQUIRED`; no assistant-generated replacement text is used.
+
+### SOURCE FILES
+
+- `docs/CZLOWIEK_ROKU_SOURCE.md` — complete owner source for `Człowiek Roku`
+- `docs/O_ZYCIU_O_RELACJACH_SOURCE.md` — complete owner source for `O ŻYCIU O RELACJACH`
+- `docs/ONTOLOGIA_GALLERY.md` — Ontologia gallery source manifest
+
 ---
 
 # 6. ASSET RULES
@@ -576,8 +625,13 @@ Live visual verification is subject to the current environment's browser/network
 
 - Owner supplied the complete `O ŻYCIU O RELACJACH` promotional description in chat.
 - The exact description was written to `docs/O_ZYCIU_O_RELACJACH_SOURCE.md`.
-- The exact description was added to this README under `2.4 — O ŻYCIU O RELACJACH — NOWE UZUPEŁNIENIE WŁAŚCICIELA`.
+- The exact description was added to this README under `2.5 — O ŻYCIU O RELACJACH — NOWE UZUPEŁNIENIE WŁAŚCICIELA`.
 - `src/BooksPage.jsx` contains the complete owner-supplied text for the book.
+- `src/BooksPageSeparate.jsx` was added as the routed books presentation for separate `Człowiek Roku` and `Oczami Alienatorki` entries.
+- `src/main.jsx` was updated to route `/ksiazki.html` to `BooksPageSeparate`.
+- `Człowiek Roku` is recorded as final 66 languages; initial plan was 38 languages.
+- `Oczami Alienatorki` is explicitly recorded as a separate book, not part of `Człowiek Roku`.
+- The implemented `O MNIE` page and fullscreen menu/navigation were verified in `src/routes.jsx` and `src/main.jsx` and are now documented here.
 - No assistant-generated description is authorized to replace the owner's source.
 
 ## SOURCE-OF-TRUTH RULE
