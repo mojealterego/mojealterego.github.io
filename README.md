@@ -643,7 +643,26 @@ The following remain source-gated:
 
 ---
 
-# 17. OPERATING RULE
+# 17. PROJECT DETAIL + WORLD SEARCH — IMPLEMENTED
+
+The Projects section now has two levels without duplicating project pages:
+
+- `/projekty.html` — live collection of repositories;
+- `/projekty.html?repo=<repository-name>` — reusable project detail view.
+
+Project detail is generated from live public GitHub metadata and does not invent a project description. It exposes verified repository facts such as language, stars, forks, open issues, creation/update dates, default branch, license identifier and repository size when available. The external GitHub link remains available.
+
+The homepage/header now exposes a `SZUKAJ` command interface. The search layer currently indexes the canonical route map and verified book titles already declared in the source ledger. It is intentionally narrow rather than pretending to search content that has not yet been indexed.
+
+The homepage hero light now also responds to pointer movement on capable devices while retaining the existing animation and reduced-motion behavior.
+
+Implementation file: `src/main.jsx`.
+
+Implementation commit: `e4e722d4d5eefa2137ff552df4bd320964efe215`.
+
+---
+
+# 18. OPERATING RULE
 
 **SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
 
