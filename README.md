@@ -421,7 +421,7 @@ Video: `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
 - `docs/CCR_TOM_IV_ARCHITEKTURA_NIESKONCZONOSCI_SOURCE.md` records recovered CCR IV architecture source.
 - `docs/CCR_TOM_IV_FULL_SOURCE.md` records the recovered full Tom IV block.
 
-Relevant commits before this README synchronization:
+Relevant commits before the live project archive change:
 
 - `0a023658a92025c349db8a5c4ad424e1cb44a3ea` — created Człowiek Roku source.
 - `cc81afe104250cfeebe98090730b74632e66a042` — routed `/ksiazki.html` to `BooksPageSeparate`.
@@ -432,10 +432,35 @@ Relevant commits before this README synchronization:
 - `15c6afc482f2825b04a3e3bffa36b13ff12194e4` — expanded the books section.
 - `4300184e228e47431c0d79d1ea23a7df2696d5c9` — updated books styling/source-text presentation.
 - `278bfc380d3dbc9d9b329501a3fab44edb17e563` — created CCR Tom IV full-source record.
+- `963a199eca7e5be31851780752a5c836148941b4` — replaced the generic Projekty page with a live GitHub-backed project archive.
 
 ---
 
-# 11. SOURCE GAPS — DO NOT INVENT
+# 11. LIVE PROJECT ARCHIVE — IMPLEMENTED
+
+`/projekty.html` now reads public repositories directly from the GitHub Search API for `mojealterego`, excluding forks and sorting by last update.
+
+The page presents actual repository data:
+
+- repository name;
+- repository description when GitHub provides one;
+- primary language when available;
+- star count;
+- fork count;
+- last update date;
+- direct link to the GitHub repository.
+
+The page also reports the current number of returned repositories and identifies GitHub API as the source. This replaces the previous generic placeholder cards with a live source-backed archive.
+
+Implementation file: `src/main.jsx`.
+
+Implementation commit: `963a199eca7e5be31851780752a5c836148941b4`.
+
+This is intentionally dynamic: the archive reflects the current public GitHub state rather than a manually frozen list.
+
+---
+
+# 12. SOURCE GAPS — DO NOT INVENT
 
 - Full `Oczami Alienatorki` PDF body beyond explicitly recovered owner-supplied fragments: `MISSING / RECOVERY REQUIRED`.
 - Gemini Notebook `Architektura Nieskończoności` fragment after section 5: `SOURCE FRAGMENT / INCOMPLETE`.
@@ -445,7 +470,7 @@ Relevant commits before this README synchronization:
 
 ---
 
-# 12. OPERATING RULE
+# 13. OPERATING RULE
 
 **SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
 
