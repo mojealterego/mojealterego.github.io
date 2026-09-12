@@ -310,6 +310,27 @@ No skipping stages.
 
 ---
 
+# 21. ACCESSIBILITY HARDENING — IMPLEMENTED
+
+`src/main.jsx` was hardened without altering owner-supplied content:
+
+- Added a keyboard-visible skip link targeting the main content container.
+- Added explicit dialog labels for the global menu and search overlay.
+- Added `aria-controls` and button semantics to the header controls.
+- Added `autoFocus` to overlay close controls so keyboard users enter a predictable interaction surface.
+- Added `aria-live="polite"` to search results so result changes are announced without forcing focus.
+- Added explicit `type="button"` to interactive buttons.
+- Added mutual exclusion when opening Menu/Search so the two global overlays cannot remain logically open together.
+- Added reset behavior for the search query when the overlay is reopened.
+
+Implementation commit:
+
+`aadaa36f10e9a23a2e5b48dc95af70a3e98e05c3`
+
+Important limitation: true automated keyboard/focus verification is still pending because the repository currently exposes no successful build/test status and the local environment has not completed a reproducible build.
+
+---
+
 # SOURCE GAPS
 
 - Full `Oczami Alienatorki` PDF body beyond recovered fragments: `MISSING / RECOVERY REQUIRED`.
