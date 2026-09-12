@@ -421,7 +421,9 @@ Video: `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
 - `docs/CCR_TOM_IV_ARCHITEKTURA_NIESKONCZONOSCI_SOURCE.md` records recovered CCR IV architecture source.
 - `docs/CCR_TOM_IV_FULL_SOURCE.md` records the recovered full Tom IV block.
 - `/projekty.html` is a live GitHub-backed archive of public `mojealterego` repositories.
-- The global site menu now exposes all declared primary/secondary routes instead of hiding several sections in a footer-only menu.
+- The global site menu and homepage World Index expose all declared routes.
+- Unknown paths are handled by an explicit MojeAlterego 404 page instead of crashing the main router.
+- Menu links close the overlay when a route is selected.
 
 Relevant commits:
 
@@ -437,6 +439,7 @@ Relevant commits:
 - `963a199eca7e5be31851780752a5c836148941b4` — replaced the generic Projekty page with a live GitHub-backed project archive.
 - `bc761f86fac1cb0276bd81dfefddd6540cc4a28a` — recorded the live project archive implementation.
 - `2c199b68108565698e7bd98dd6d97b4b41a4f399` — completed global navigation across all declared site routes.
+- `217a00c43a3db8480dff18076fb65f45904c8cc8` — hardened route handling and menu behavior.
 
 ---
 
@@ -470,11 +473,29 @@ No route that exists in the site inventory is intentionally hidden behind a sepa
 
 Implementation file: `src/main.jsx`.
 
-Implementation commit: `2c199b68108565698e7bd98dd6d97b4b41a4f399`.
+---
+
+# 13. ROUTING HARDENING — IMPLEMENTED
+
+The main router now explicitly handles unknown paths.
+
+Previously, an unrecognized path fell through to `DataPage` with no page descriptor, which could cause a runtime error when the page attempted to read missing metadata.
+
+Current behavior:
+
+- recognized special pages route to their dedicated components;
+- recognized data pages render normally;
+- unknown paths render a dedicated `404 · MOJEALTEREGO` page with a return link to `/`;
+- menu navigation closes the overlay after selecting a route;
+- the menu close control now has an explicit accessible label.
+
+Implementation file: `src/main.jsx`.
+
+Implementation commit: `217a00c43a3db8480dff18076fb65f45904c8cc8`.
 
 ---
 
-# 13. SOURCE GAPS — DO NOT INVENT
+# 14. SOURCE GAPS — DO NOT INVENT
 
 - Full `Oczami Alienatorki` PDF body beyond explicitly recovered owner-supplied fragments: `MISSING / RECOVERY REQUIRED`.
 - Gemini Notebook `Architektura Nieskończoności` fragment after section 5: `SOURCE FRAGMENT / INCOMPLETE`.
@@ -484,7 +505,7 @@ Implementation commit: `2c199b68108565698e7bd98dd6d97b4b41a4f399`.
 
 ---
 
-# 14. OPERATING RULE
+# 15. OPERATING RULE
 
 **SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
 
