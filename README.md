@@ -577,7 +577,7 @@ Every reusable World Component should eventually expose:
 - capabilities;
 - accessibility requirements.
 
-This follows the useful architecture found in Budibase component schemas and GrapesJS component models, while remaining specific to MojeAlterego. Budibase explicitly models settings, data-binding context and child capability in component schemas. citeturn0search1turn0search4
+This follows the useful architecture found in Budibase component schemas and GrapesJS component models, while remaining specific to MojeAlterego. Budibase explicitly models settings, data-binding context and child capability in component schemas.
 
 ## Runtime direction
 
@@ -602,7 +602,7 @@ src/world/
 
 ## External-source rule
 
-GitHub, documents and future APIs should enter the system through resource adapters and normalization, rather than directly mutating visual pages. Budibase similarly separates application/runtime concerns from data and services, while its deployed apps use a client library and component library. citeturn0search0
+GitHub, documents and future APIs should enter the system through resource adapters and normalization, rather than directly mutating visual pages. Budibase similarly separates application/runtime concerns from data and services, while its deployed apps use a client library and component library.
 
 ---
 
@@ -662,7 +662,26 @@ Implementation commit: `e4e722d4d5eefa2137ff552df4bd320964efe215`.
 
 ---
 
-# 18. OPERATING RULE
+# 18. VISUAL SYSTEM — SEARCH + PROJECT DETAIL — IMPLEMENTED
+
+Added dedicated responsive styling for:
+
+- header search control;
+- full-screen World Search command interface;
+- indexed search results;
+- project-detail metadata/facts;
+- project archive cards as accessible buttons;
+- mobile project-detail layout;
+- mobile search result layout;
+- reduced-motion compatibility through the existing motion policy.
+
+Implementation file: `src/styles.css`.
+
+Implementation commit: `deacf956a9d5eb0e7ff4d14300bcaecfa9fd5940`.
+
+---
+
+# 19. OPERATING RULE
 
 **SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
 
