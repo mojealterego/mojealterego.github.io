@@ -505,7 +505,145 @@ Implementation commit: `217a00c43a3db8480dff18076fb65f45904c8cc8`.
 
 ---
 
-# 15. OPERATING RULE
+# 15. WORLD ENGINE RESEARCH — ARCHITECTURE LOCKED FOR IMPLEMENTATION
+
+The current research phase has now established the architectural direction from Webstudio, Budibase, GrapesJS, OpenChakra and PagePlug. These projects are reference material only; their visual templates are not to be copied.
+
+## Core principles
+
+1. **Entity ≠ Page.** Pages are views over world entities and collections.
+2. **Resource → Data → Binding → Component → View** is the canonical data/rendering flow.
+3. Components require formal schemas rather than undocumented props.
+4. Components expose capabilities, state and bindings as first-class concepts.
+5. Collections use reusable templates instead of duplicated page markup.
+6. Commands are centralized so UI, future agents and automation can operate the same world runtime.
+7. External data sources are resources, not hard-coded page content.
+8. Owner-supplied content remains authoritative and immutable; World Engine data may reference it but must not replace it.
+
+## World Engine modules
+
+`ENTITY ENGINE`
+
+`RELATION ENGINE`
+
+`RESOURCE ENGINE`
+
+`BINDING ENGINE`
+
+`COMPONENT ENGINE`
+
+`VIEW ENGINE`
+
+`COMMAND ENGINE`
+
+`SEARCH ENGINE`
+
+`SYNC / AUTOMATION ENGINE`
+
+Cross-cutting layers:
+
+`SCHEMA · STATE · DESIGN TOKENS · ACCESSIBILITY · STORAGE · OBSERVABILITY`
+
+## Target flow
+
+```text
+EXTERNAL SOURCES
+      ↓
+WORLD RESOURCES
+      ↓
+ENTITIES + RELATIONS + STATE
+      ↓
+BINDINGS
+      ↓
+COMPONENT SCHEMAS
+      ↓
+VIEW TEMPLATES
+      ↓
+WORLD RUNTIME
+```
+
+## Component contract
+
+Every reusable World Component should eventually expose:
+
+- identity;
+- accepted data types;
+- bindings/context;
+- children policy;
+- settings/schema;
+- visual variants;
+- state;
+- events/actions;
+- capabilities;
+- accessibility requirements.
+
+This follows the useful architecture found in Budibase component schemas and GrapesJS component models, while remaining specific to MojeAlterego. Budibase explicitly models settings, data-binding context and child capability in component schemas. citeturn0search1turn0search4
+
+## Runtime direction
+
+The current React + Vite application remains the renderer during migration. A full framework rewrite is not required before the World Engine layer exists.
+
+The intended future structure is:
+
+```text
+src/world/
+  entities/
+  relations/
+  resources/
+  bindings/
+  components/
+  views/
+  commands/
+  search/
+  sync/
+  schema/
+  runtime/
+```
+
+## External-source rule
+
+GitHub, documents and future APIs should enter the system through resource adapters and normalization, rather than directly mutating visual pages. Budibase similarly separates application/runtime concerns from data and services, while its deployed apps use a client library and component library. citeturn0search0
+
+---
+
+# 16. COMPLETION ROADMAP — ACTIVE
+
+The website is now being completed in the following order:
+
+1. **Core runtime hardening** — shared routing, navigation, responsive behavior, accessibility and error states.
+2. **Project archive/detail system** — live GitHub collection plus reusable project-detail view.
+3. **Global search foundation** — one search model across declared routes and verified entities.
+4. **Visual content systems** — photography, film and publication views using verified source material only.
+5. **Books and source-heavy pages** — continue expanding only from canonical owner material.
+6. **Contact and conversion surfaces** — complete contact paths without inventing unavailable claims.
+7. **SEO/performance/accessibility pass** — metadata, structured navigation, loading states, reduced motion and responsive verification.
+8. **World Engine extraction** — move repeated data/rendering responsibilities behind the new world layer without breaking existing URLs.
+
+## Current implementation boundary
+
+The following can be completed without waiting for missing owner source material:
+
+- shared runtime and routing;
+- GitHub project archive and detail views;
+- search infrastructure;
+- loading/error/empty states;
+- accessibility hardening;
+- responsive behavior;
+- reusable component/view infrastructure;
+- metadata and technical SEO;
+- performance improvements;
+- verified links and navigation.
+
+The following remain source-gated:
+
+- unrecovered literary passages;
+- unrecovered Cieszyn Noir body;
+- binary galleries whose committed state has not been verified;
+- any new biographical or artistic claims not present in canonical sources.
+
+---
+
+# 17. OPERATING RULE
 
 **SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
 
