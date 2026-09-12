@@ -411,7 +411,7 @@ Video: `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
 
 ---
 
-# 10. IMPLEMENTATION INVENTORY — CURRENT BOOK WORK
+# 10. IMPLEMENTATION INVENTORY — CURRENT WORK
 
 - `src/main.jsx` routes `/ksiazki.html` to `BooksPageSeparate`.
 - `src/BooksPageSeparate.jsx` contains separate entries for Człowiek Roku, Oczami Alienatorki, CCR I, CCR II, CCR III, CCR IV, Światło, które zostało, Baśń o Pornlandii, Cieszyn Noir, Ontologia Liczby i Geometrii and Druga połowa.
@@ -420,25 +420,29 @@ Video: `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
 - `docs/CCR_TOM_IV_RECOVERY.md` records CCR IV recovery.
 - `docs/CCR_TOM_IV_ARCHITEKTURA_NIESKONCZONOSCI_SOURCE.md` records recovered CCR IV architecture source.
 - `docs/CCR_TOM_IV_FULL_SOURCE.md` records the recovered full Tom IV block.
+- `/projekty.html` is a live GitHub-backed archive of public `mojealterego` repositories.
+- The global site menu now exposes all declared primary/secondary routes instead of hiding several sections in a footer-only menu.
 
-Relevant commits before the live project archive change:
+Relevant commits:
 
 - `0a023658a92025c349db8a5c4ad424e1cb44a3ea` — created Człowiek Roku source.
 - `cc81afe104250cfeebe98090730b74632e66a042` — routed `/ksiazki.html` to `BooksPageSeparate`.
 - `0dc6d86f4a40e4751868cb4b9345f83c2376aede` — added supplied Oczami Alienatorki material.
 - `dfc2c10166f86ab55fb972080d211e7543526f0b` — created CCR Tom IV recovery record.
-- `386f680492e9360188e7364e1d0f589bd1601329` — created CCR Tom IV architecture source record.
+- `386f680492e9360188e7364e1d0f589bd1601329` — created CCR IV architecture source record.
 - `61deb730d740826f3f555cc9de8a4cd10f815111` — added CCR Tom IV section to the books page.
 - `15c6afc482f2825b04a3e3bffa36b13ff12194e4` — expanded the books section.
 - `4300184e228e47431c0d79d1ea23a7df2696d5c9` — updated books styling/source-text presentation.
 - `278bfc380d3dbc9d9b329501a3fab44edb17e563` — created CCR Tom IV full-source record.
 - `963a199eca7e5be31851780752a5c836148941b4` — replaced the generic Projekty page with a live GitHub-backed project archive.
+- `bc761f86fac1cb0276bd81dfefddd6540cc4a28a` — recorded the live project archive implementation.
+- `2c199b68108565698e7bd98dd6d97b4b41a4f399` — completed global navigation across all declared site routes.
 
 ---
 
 # 11. LIVE PROJECT ARCHIVE — IMPLEMENTED
 
-`/projekty.html` now reads public repositories directly from the GitHub Search API for `mojealterego`, excluding forks and sorting by last update.
+`/projekty.html` reads public repositories directly from the GitHub Search API for `mojealterego`, excluding forks and sorting by last update.
 
 The page presents actual repository data:
 
@@ -454,13 +458,23 @@ The page also reports the current number of returned repositories and identifies
 
 Implementation file: `src/main.jsx`.
 
-Implementation commit: `963a199eca7e5be31851780752a5c836148941b4`.
+---
 
-This is intentionally dynamic: the archive reflects the current public GitHub state rather than a manually frozen list.
+# 12. GLOBAL NAVIGATION — IMPLEMENTED
+
+The global menu and homepage World Index now use one canonical `nav` array containing all declared routes:
+
+`O MNIE → RELATIONSHIP → FOTOGRAFIA → KSIĄŻKI → FILM → TELEDYSKI → MASAŻE → APLIKACJE → AGENCI → PROJEKTY → PUBLIKACJE → NAGRODY → KONTAKT → WARSZTATY`
+
+No route that exists in the site inventory is intentionally hidden behind a separate footer-only menu.
+
+Implementation file: `src/main.jsx`.
+
+Implementation commit: `2c199b68108565698e7bd98dd6d97b4b41a4f399`.
 
 ---
 
-# 12. SOURCE GAPS — DO NOT INVENT
+# 13. SOURCE GAPS — DO NOT INVENT
 
 - Full `Oczami Alienatorki` PDF body beyond explicitly recovered owner-supplied fragments: `MISSING / RECOVERY REQUIRED`.
 - Gemini Notebook `Architektura Nieskończoności` fragment after section 5: `SOURCE FRAGMENT / INCOMPLETE`.
@@ -470,7 +484,7 @@ This is intentionally dynamic: the archive reflects the current public GitHub st
 
 ---
 
-# 13. OPERATING RULE
+# 14. OPERATING RULE
 
 **SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
 
