@@ -271,424 +271,49 @@ Cover text:
 
 `JUŻ WKRÓTCE`
 
-`POZNAJ KOLEJNY WYMIAR RZECZYWISTOŚCI`
-
-`WIEDZA · ŚWIADOMOŚĆ · PRZYSZŁOŚĆ`
-
----
-
-# 8. CCR TOM IV — RECOVERED SOURCE / ARCHITEKTURA NIESKOŃCZONOŚCI
-
-Canonical recovery files:
-
-- `docs/CCR_TOM_IV_RECOVERY.md`
-- `docs/CCR_TOM_IV_ARCHITEKTURA_NIESKONCZONOSCI_SOURCE.md`
-- `docs/CCR_TOM_IV_FULL_SOURCE.md`
-
-## RECOVERED PROGRAMMABLE-MATTER SOURCE
-
-The recovered `TOM IV: PROGRAMOWALNA MATERIA I ENERGIA` source contains the following exact structure:
-
-`TOM IV: PROGRAMOWALNA MATERIA I ENERGIA`
-
-`Wstęp: Koniec Ery Wydobycia`
-
-`ROZDZIAŁ 1: MANIPULACJA SILNYM ODDZIAŁYWANIEM (STN-FORCE)`
-
-`ROZDZIAŁ 2: EDYCJA STAŁEJ STRUKTURY SUBTELNEJ (ALPHA-TUNING)`
-
-`ROZDZIAŁ 3: FUZJA TOPOLOGICZNA: GWIAZDA W PUDEŁKU`
-
-`ROZDZIAŁ 4: ENERGIA PUNKTU ZEROWEGO (ZPE-EXTRACTION)`
-
-`ROZDZIAŁ 5: NANOTECHNOLOGIA PROGRAMOWALNA (SMART-DUST)`
-
-`ROZDZIAŁ 6: INŻYNIERIA GRAWITACYJNA I KONTROLA METRYKI`
-
-`ROZDZIAŁ 7: NAPĘDY WARP I MANIPULACJA PRZESTRZENIĄ (ALCUBIERRE-TND)`
-
-`ROZDZIAŁ 8: KOMUNIKACJA NIELOKALNA (QUANTUM-ETHER)`
-
-`ROZDZIAŁ 9: TERRAFORMOWANIE PLANETARNE (GLOBAL-CODE)`
-
-`ROZDZIAŁ 10: EPILOG TOMU IV – WSZECHŚWIAT JAKO PLAC BUDOWY`
-
-Recovered source also explicitly includes:
-
-- `TND definiuje materię jako stan skupienia informacji.`
-- `Operator Transmutacji (T-Op)` and the supplied lead→gold expression.
-- `Alpha-Tuning` and the supplied fictional TND material model.
-- `Pułapka Magnetyczna Möbiusa` / `butelki Kleina`.
-- `Energia Punktu Zero` / supplied `P_out` equation.
-- `Nanotechnologia Programowalna (Smart-Dust)` and `Cząstka(t) = f(Code_Stream)`.
-- `Grawitacja jako Efekt Zagęszczenia Informacji` and the supplied information-density equation.
-- `Napędy Warp i Manipulacja Przestrzenią (Alcubierre-TND)` and supplied `v_eff` expression.
-- `Komunikacja Nielokalna (Quantum-Ether)` and the supplied `Write(Address_A, Data) -> Read(Address_B, Data)` notation.
-- `Terraformowanie Planetarne (Global-Code)`.
-- The supplied epilogue states that Tom V concerns economy and logistics.
-
-This section records the recovered source as speculative/fictional CCR material. It is not to be silently reframed as established real-world science.
-
-## ARCHITEKTURA NIESKOŃCZONOŚCI — RECOVERED FRAGMENT
-
-The Gemini Notebook source contains a fragment beginning with the 33-year cycle and the `Kod 18 Świadomości`, followed by sections on:
-
-`3. Biofotonika, czyli człowiek jako nadajnik światła`
-
-`4. Fotografia to nie obraz, to portal (Przypadek aparatu Zenit)`
-
-`5. Paradoks Devil Mind – dlaczego trauma jest nieoptymalizowalna?`
-
-The recovered Gemini Notebook fragment is incomplete and ends mid-sentence. It must remain marked `SOURCE FRAGMENT / INCOMPLETE`; no continuation may be invented.
-
-Additional recovered CCR source establishes:
-
-- `Oś 2345: Neo-Paris – Barokowy Cyberpunk i Synestezja Olfaktoryczna`
-- `Oś 2777: Devil Mind – Cyfrowa Dekonstrukcja i Glitch Art`
-- `Oś Nieskończoność (∞): Światło, Które Trwa`
-- recurring `Cykl 33 lat (1679, 1983, 2016, 2025...)`
-- apparatus as artifact and weapon
-- `Zuzia (Cel / Światło)`
-- `Ewa i Weronika`
-- transmedia / publishing / ending concepts
-- Unreal Engine implementation material centred on `CCR: Zamknięty Obiektyw`, Cieszyn as Anchor, light as memory carrier, and the 33-year cycle.
-
----
-
-# 9. POZOSTAŁE KSIĄŻKI
-
-## ŚWIATŁO, KTÓRE ZOSTAŁO
-
-Empik: `https://www.empik.com/swiatlo-ktore-zostalo-mikulski-andrzej,p1688662252,ebooki-i-mp3-p`
-
-## BAŚŃ O PORNLANDII
-
-Empik: `https://www.empik.com/basn-o-pornlandii-mikulski-andrzej,p1687292490,ebooki-i-mp3-p`
-
-Trailers:
-
-- `https://youtu.be/8neIWOmUKAc?feature=shared`
-- `https://youtu.be/U4wPXJFPpag?feature=shared`
-
-## CIESZYN NOIR
-
-Canonical source PDFs exist in Library, including `Cieszyn_Noir_FINAL(1).pdf`, `Cieszyn Noir(1).pdf`, `Cieszyn_Noir_FINAL(3).pdf` and related versions.
-
-Recovered exact source fragments include:
-
-`BÓG UMARŁ W CIESZYNIE`
-
-`System: Dane usunięte. Przyczyna: Brak miłości. Kod błędu: SAMOTNOŚĆ.`
-
-Full source must be recovered from the canonical PDF when required; no missing passages are to be invented.
-
-## ONTOLOGIA LICZBY I GEOMETRII
-
-`Ontologia Liczby i Geometrii`
-
-`TRYLOGIA`
-
-Implementation intent: immersive gallery. Do not invent conventional marketing description.
-
-Related project assets:
-
-- `docs/ONTOLOGIA_GALLERY.md`
-- podcast `Liczby_rzeźbią_fizyczną_strukturę_wszechświata(1).m4a`
-
-Binary gallery assets require verification before claiming they are committed.
-
-## DRUGA POŁOWA
-
-Owner-supplied description begins with Plato's split soul and includes:
-
-`Życie nie jest zepsute, życie ma tylko gorzko-słodki smak. Ale z żadnego z tych smaków nigdy bym nie zrezygnował`
-
-CTA:
-
-`Zamów swój egzemplarz teraz i odkryj historię której nie znałeś !`
-
-Video: `https://youtu.be/TUJcvkroHjs?si=GZ__VPI1doyOhStu`
-
----
-
-# 10. IMPLEMENTATION INVENTORY — CURRENT WORK
-
-- `src/main.jsx` routes `/ksiazki.html` to `BooksPageSeparate`.
-- `src/BooksPageSeparate.jsx` contains separate entries for Człowiek Roku, Oczami Alienatorki, CCR I, CCR II, CCR III, CCR IV, Światło, które zostało, Baśń o Pornlandii, Cieszyn Noir, Ontologia Liczby i Geometrii and Druga połowa.
-- `src/books.css` contains the dedicated books-page layout, responsive rules, source-text styling, index and book-entry structures.
-- `docs/CZLOWIEK_ROKU_SOURCE.md` is the canonical Człowiek Roku source.
-- `docs/CCR_TOM_IV_RECOVERY.md` records CCR IV recovery.
-- `docs/CCR_TOM_IV_ARCHITEKTURA_NIESKONCZONOSCI_SOURCE.md` records recovered CCR IV architecture source.
-- `docs/CCR_TOM_IV_FULL_SOURCE.md` records the recovered full Tom IV block.
-- `/projekty.html` is a live GitHub-backed archive of public `mojealterego` repositories.
-- The global site menu and homepage World Index expose all declared routes.
-- Unknown paths are handled by an explicit MojeAlterego 404 page instead of crashing the main router.
-- Menu links close the overlay when a route is selected.
-
-Relevant commits:
-
-- `0a023658a92025c349db8a5c4ad424e1cb44a3ea` — created Człowiek Roku source.
-- `cc81afe104250cfeebe98090730b74632e66a042` — routed `/ksiazki.html` to `BooksPageSeparate`.
-- `0dc6d86f4a40e4751868cb4b9345f83c2376aede` — added supplied Oczami Alienatorki material.
-- `dfc2c10166f86ab55fb972080d211e7543526f0b` — created CCR Tom IV recovery record.
-- `386f680492e9360188e7364e1d0f589bd1601329` — created CCR IV architecture source record.
-- `61deb730d740826f3f555cc9de8a4cd10f815111` — added CCR Tom IV section to the books page.
-- `15c6afc482f2825b04a3e3bffa36b13ff12194e4` — expanded the books section.
-- `4300184e228e47431c0d79d1ea23a7df2696d5c9` — updated books styling/source-text presentation.
-- `278bfc380d3dbc9d9b329501a3fab44edb17e563` — created CCR Tom IV full-source record.
-- `963a199eca7e5be31851780752a5c836148941b4` — replaced the generic Projekty page with a live GitHub-backed project archive.
-- `bc761f86fac1cb0276bd81dfefddd6540cc4a28a` — recorded the live project archive implementation.
-- `2c199b68108565698e7bd98dd6d97b4b41a4f399` — completed global navigation across all declared site routes.
-- `217a00c43a3db8480dff18076fb65f45904c8cc8` — hardened route handling and menu behavior.
-
----
-
-# 11. LIVE PROJECT ARCHIVE — IMPLEMENTED
-
-`/projekty.html` reads public repositories directly from the GitHub Search API for `mojealterego`, excluding forks and sorting by last update.
-
-The page presents actual repository data:
-
-- repository name;
-- repository description when GitHub provides one;
-- primary language when available;
-- star count;
-- fork count;
-- last update date;
-- direct link to the GitHub repository.
-
-The page also reports the current number of returned repositories and identifies GitHub API as the source. This replaces the previous generic placeholder cards with a live source-backed archive.
-
-Implementation file: `src/main.jsx`.
-
----
-
-# 12. GLOBAL NAVIGATION — IMPLEMENTED
-
-The global menu and homepage World Index now use one canonical `nav` array containing all declared routes:
-
-`O MNIE → RELATIONSHIP → FOTOGRAFIA → KSIĄŻKI → FILM → TELEDYSKI → MASAŻE → APLIKACJE → AGENCI → PROJEKTY → PUBLIKACJE → NAGRODY → KONTAKT → WARSZTATY`
-
-No route that exists in the site inventory is intentionally hidden behind a separate footer-only menu.
-
-Implementation file: `src/main.jsx`.
-
----
-
-# 13. ROUTING HARDENING — IMPLEMENTED
-
-The main router now explicitly handles unknown paths.
-
-Previously, an unrecognized path fell through to `DataPage` with no page descriptor, which could cause a runtime error when the page attempted to read missing metadata.
-
-Current behavior:
-
-- recognized special pages route to their dedicated components;
-- recognized data pages render normally;
-- unknown paths render a dedicated `404 · MOJEALTEREGO` page with a return link to `/`;
-- menu navigation closes the overlay after selecting a route;
-- the menu close control now has an explicit accessible label.
-
-Implementation file: `src/main.jsx`.
-
-Implementation commit: `217a00c43a3db8480dff18076fb65f45904c8cc8`.
-
----
-
-# 14. SOURCE GAPS — DO NOT INVENT
-
-- Full `Oczami Alienatorki` PDF body beyond explicitly recovered owner-supplied fragments: `MISSING / RECOVERY REQUIRED`.
-- Gemini Notebook `Architektura Nieskończoności` fragment after section 5: `SOURCE FRAGMENT / INCOMPLETE`.
-- Full Cieszyn Noir source body: recover from canonical PDF when implementation requires it.
-- Ontologia binary gallery assets: verify repository state before claiming they are committed.
-- Any content not explicitly present in this README or a canonical source file must be recovered before implementation.
-
----
-
-# 15. WORLD ENGINE RESEARCH — ARCHITECTURE LOCKED FOR IMPLEMENTATION
-
-The current research phase has now established the architectural direction from Webstudio, Budibase, GrapesJS, OpenChakra and PagePlug. These projects are reference material only; their visual templates are not to be copied.
-
-## Core principles
-
-1. **Entity ≠ Page.** Pages are views over world entities and collections.
-2. **Resource → Data → Binding → Component → View** is the canonical data/rendering flow.
-3. Components require formal schemas rather than undocumented props.
-4. Components expose capabilities, state and bindings as first-class concepts.
-5. Collections use reusable templates instead of duplicated page markup.
-6. Commands are centralized so UI, future agents and automation can operate the same world runtime.
-7. External data sources are resources, not hard-coded page content.
-8. Owner-supplied content remains authoritative and immutable; World Engine data may reference it but must not replace it.
-
-## World Engine modules
-
-`ENTITY ENGINE`
-
-`RELATION ENGINE`
-
-`RESOURCE ENGINE`
-
-`BINDING ENGINE`
-
-`COMPONENT ENGINE`
-
-`VIEW ENGINE`
-
-`COMMAND ENGINE`
-
-`SEARCH ENGINE`
-
-`SYNC / AUTOMATION ENGINE`
-
-Cross-cutting layers:
-
-`SCHEMA · STATE · DESIGN TOKENS · ACCESSIBILITY · STORAGE · OBSERVABILITY`
-
-## Target flow
-
-```text
-EXTERNAL SOURCES
-      ↓
-WORLD RESOURCES
-      ↓
-ENTITIES + RELATIONS + STATE
-      ↓
-BINDINGS
-      ↓
-COMPONENT SCHEMAS
-      ↓
-VIEW TEMPLATES
-      ↓
-WORLD RUNTIME
-```
-
-## Component contract
-
-Every reusable World Component should eventually expose:
-
-- identity;
-- accepted data types;
-- bindings/context;
-- children policy;
-- settings/schema;
-- visual variants;
-- state;
-- events/actions;
-- capabilities;
-- accessibility requirements.
-
-This follows the useful architecture found in Budibase component schemas and GrapesJS component models, while remaining specific to MojeAlterego. Budibase explicitly models settings, data-binding context and child capability in component schemas.
-
-## Runtime direction
-
-The current React + Vite application remains the renderer during migration. A full framework rewrite is not required before the World Engine layer exists.
-
-The intended future structure is:
-
-```text
-src/world/
-  entities/
-  relations/
-  resources/
-  bindings/
-  components/
-  views/
-  commands/
-  search/
-  sync/
-  schema/
-  runtime/
-```
-
-## External-source rule
-
-GitHub, documents and future APIs should enter the system through resource adapters and normalization, rather than directly mutating visual pages. Budibase similarly separates application/runtime concerns from data and services, while its deployed apps use a client library and component library.
-
----
-
-# 16. COMPLETION ROADMAP — ACTIVE
-
-The website is now being completed in the following order:
-
-1. **Core runtime hardening** — shared routing, navigation, responsive behavior, accessibility and error states.
-2. **Project archive/detail system** — live GitHub collection plus reusable project-detail view.
-3. **Global search foundation** — one search model across declared routes and verified entities.
-4. **Visual content systems** — photography, film and publication views using verified source material only.
-5. **Books and source-heavy pages** — continue expanding only from canonical owner material.
-6. **Contact and conversion surfaces** — complete contact paths without inventing unavailable claims.
-7. **SEO/performance/accessibility pass** — metadata, structured navigation, loading states, reduced motion and responsive verification.
-8. **World Engine extraction** — move repeated data/rendering responsibilities behind the new world layer without breaking existing URLs.
-
-## Current implementation boundary
-
-The following can be completed without waiting for missing owner source material:
-
-- shared runtime and routing;
-- GitHub project archive and detail views;
-- search infrastructure;
-- loading/error/empty states;
-- accessibility hardening;
-- responsive behavior;
-- reusable component/view infrastructure;
-- metadata and technical SEO;
-- performance improvements;
-- verified links and navigation.
-
-The following remain source-gated:
-
-- unrecovered literary passages;
-- unrecovered Cieszyn Noir body;
-- binary galleries whose committed state has not been verified;
-- any new biographical or artistic claims not present in canonical sources.
-
----
-
-# 17. PROJECT DETAIL + WORLD SEARCH — IMPLEMENTED
-
-The Projects section now has two levels without duplicating project pages:
-
-- `/projekty.html` — live collection of repositories;
-- `/projekty.html?repo=<repository-name>` — reusable project detail view.
-
-Project detail is generated from live public GitHub metadata and does not invent a project description. It exposes verified repository facts such as language, stars, forks, open issues, creation/update dates, default branch, license identifier and repository size when available. The external GitHub link remains available.
-
-The homepage/header now exposes a `SZUKAJ` command interface. The search layer currently indexes the canonical route map and verified book titles already declared in the source ledger. It is intentionally narrow rather than pretending to search content that has not yet been indexed.
-
-The homepage hero light now also responds to pointer movement on capable devices while retaining the existing animation and reduced-motion behavior.
-
-Implementation file: `src/main.jsx`.
-
-Implementation commit: `e4e722d4d5eefa2137ff552df4bd320964efe215`.
-
 ---
 
 # 18. VISUAL SYSTEM — SEARCH + PROJECT DETAIL — IMPLEMENTED
 
-Added dedicated responsive styling for:
+The site now has a reusable global search overlay and reusable GitHub project detail layer. The project archive remains data-driven from the public GitHub account and project cards open internal detail views before the external repository link.
 
-- header search control;
-- full-screen World Search command interface;
-- indexed search results;
-- project-detail metadata/facts;
-- project archive cards as accessible buttons;
-- mobile project-detail layout;
-- mobile search result layout;
-- reduced-motion compatibility through the existing motion policy.
+Implementation commits:
 
-Implementation file: `src/styles.css`.
-
-Implementation commit: `deacf956a9d5eb0e7ff4d14300bcaecfa9fd5940`.
+- `e4e722d4d5eefa2137ff552df4bd320964efe215` — navigation/search/project-detail implementation in `src/main.jsx`.
+- `deacf956a9d5eb0e7ff4d14300bcaecfa9fd5940` — visual system and responsive styles in `src/styles.css`.
+- `b7dd7edb740c60acc09244c88426bdd16ffa993b` — previous implementation ledger update.
 
 ---
 
-# 19. OPERATING RULE
+# 19. NEXT PRODUCTION STAGE — ROUTE HARDENING / SEO / ACCESSIBILITY
 
-**SOURCE FIRST → EXACT TEXT → IMPLEMENTATION → VERIFICATION → README UPDATE → NEXT ELEMENT.**
+Audit completed before implementation: the current `src/` tree contains dedicated `BooksPageSeparate.jsx`, `RelationshipPage.jsx`, `routes.jsx`, `main.jsx`, `styles.css` and `books.css`. The next production pass is therefore focused on technical hardening rather than another visual redesign.
 
-Every repository modification must be immediately recorded in `README.md` before another repository modification begins.
+Scope for the next implementation unit:
 
-No silent rewriting.
-No invented content.
-No summaries where the owner requested full text.
-No conflation of separate books.
-No completion claim without a confirmed Git commit and verification.
+1. Establish route-level metadata from the verified route/content model.
+2. Add canonical URLs and social preview metadata without inventing page copy.
+3. Harden global navigation semantics: skip link, `aria-expanded`, focus return and keyboard escape behavior.
+4. Add reusable reduced-motion and focus-visible safeguards to interactive overlays.
+5. Preserve source-gated pages and mark incomplete content rather than fabricating it.
+6. Record the implementation commit here immediately after the code change.
+
+Verification constraint: repository Actions currently expose no passing status that can be used as build evidence. Until an actual build/test result is available, do not claim production verification.
+
+---
+
+# 20. OPERATING RULE
+
+**SOURCE → AUDIT → DESIGN → IMPLEMENT → README → COMMIT → VERIFY.**
+
+No skipping stages.
+
+---
+
+# SOURCE GAPS
+
+- Full `Oczami Alienatorki` PDF body beyond recovered fragments: `MISSING / RECOVERY REQUIRED`.
+- Gemini Notebook `Architektura Nieskończoności` fragment after section 5: `SOURCE FRAGMENT / INCOMPLETE`.
+- Full Cieszyn Noir body must be recovered from canonical PDF before publication as full text.
+- Ontologia binary gallery assets require verification.
+- Any content not explicitly present in the README or canonical source file must be recovered before implementation.
