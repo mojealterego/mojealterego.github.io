@@ -4,7 +4,7 @@
 
 > Obserwuję. Tworzę. Eksperymentuję.
 
-![MOJEALTEREGO](../assets/svg/profile-banner.svg)
+![MOJEALTEREGO](https://raw.githubusercontent.com/mojealterego/mojealterego.github.io/main/github-kit/assets/svg/profile-banner.svg)
 
 ## KIM JESTEM
 
@@ -18,11 +18,23 @@ MojeAlterego to ekosystem pracy obejmujący AI, autonomiczne agenty, MCP, aplika
 
 ## WYBRANE PROJEKTY
 
-[MINI-MOBILE-7](../../mini-mobile-7) · [JARVIS-2.0](../../JARVIS-2.0) · [wda-photo-agent](../../wda-photo-agent) · [OmniMAS-Advanced](../../OmniMAS-Advanced) · [Knowledge-projects](../../Knowledge-projects) · [CCR-WORLD](../../CCR-WORLD)
+[MINI-MOBILE-7](https://github.com/mojealterego/mini-mobile-7) · [JARVIS-2.0](https://github.com/mojealterego/JARVIS-2.0) · [wda-photo-agent](https://github.com/mojealterego/wda-photo-agent) · [OmniMAS-Advanced](https://github.com/mojealterego/OmniMAS-Advanced) · [Knowledge-projects](https://github.com/mojealterego/Knowledge-projects) · [CCR-WORLD](https://github.com/mojealterego/CCR-WORLD)
 
 ## TECHNOLOGIA
 
 Python · Kotlin · Android · Linux · Docker · Open5GS · IMS · eBPF · PostgreSQL · React · OpenAI · ElevenLabs · MCP · GitHub Actions
+
+## TWORZĘ W DWÓCH WARSTWACH
+
+**HUMAN**
+
+Fotografia · film · literatura · relacje · obserwacja rzeczywistości
+
+**MACHINE**
+
+AI · agenci · MCP · aplikacje · sieci · automatyzacja · eksperymenty
+
+**POMIĘDZY NIMI POWSTAJE MOJEALTEREGO.**
 
 ## LICZBY
 
