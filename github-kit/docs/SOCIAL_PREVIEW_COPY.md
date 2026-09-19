@@ -1,0 +1,25 @@
+# SOCIAL PREVIEW COPY
+
+## MINI-MOBILE-7
+PRIVATE LTE/5G RESEARCH NETWORK
+Open5GS · IMS · eBPF · Linux
+
+## JARVIS-2.0
+PERSONAL AI / AGENTIC SYSTEM
+Agents · Automation · Memory · Multimodal
+
+## TITAN EXTRACTOR
+AI DOCUMENT INTELLIGENCE
+Android · Kotlin · OCR · Local AI
+
+## CIESZYN NOIR
+PHOTOGRAPHY · BOOK · DOCUMENTARY
+People · Places · History
+
+## WDA PHOTO AGENT
+AI FOR PHOTOGRAPHIC WORK
+Vision · Analysis · Creative Direction
+
+## OMNIMAS ADVANCED
+MULTI-AGENT ORCHESTRATION
+Coordination · Tools · Memory · Execution
